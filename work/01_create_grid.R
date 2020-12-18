@@ -1,12 +1,20 @@
 source("work/00_functions.R")
 library(Hmisc)
 
+########################################################################################
+# Written by: Anne Driscoll
+# Creates a grid covering the US which we will use to predict. 
+# Gets adapted physiographic boundaries
+# Calculates the EPA PM2.5 numbers at the grid cell level for use in predictions.
+########################################################################################
+
 ###############################################################
 # Read in data
 ###############################################################
 
 raster = raster("data/pop/gpw_v4_population_count_rev11_2005_2pt5_min.tif")
 physio = readOGR("data/physio_shp", "physio", stringsAsFactors=F)
+
 
 ###############################################################
 # Create simple county file
@@ -179,30 +187,32 @@ saveRDS(data, "data/clean/gridded_pm_data.RDS")
 # Create adjacency matrix
 ###############################################################
 
-touching = gTouches(data_ll, byid=T)
-adjacency = apply(touching, 1, which)
-saveRDS(adjacency, "data/clean/grid_adjacency.RDS")
-
-adjacency2 = adjacency
-for (i in 1:length(adjacency)) {
-    cur = adjacency[[i]]
-    added = unique(unlist(adjacency[cur]))
+if ("grid_adjacency.RDS" %in% list.files("data/clean")) {
+    touching = gTouches(data_ll, byid=T)
+    adjacency = apply(touching, 1, which)
+    saveRDS(adjacency, "data/clean/grid_adjacency.RDS")
     
-    cur = c(cur, added)
-    cur = cur[cur != i & !(cur %in% adjacency[[i]])]
-    names(cur) = str_pad(cur, 4, "left", "0")
-    adjacency2[[i]] = cur
-}
-saveRDS(adjacency2, "data/clean/grid_adjacency2.RDS")
-
-adjacency3 = adjacency
-for (i in 1:length(adjacency)) {
-    cur = adjacency2[[i]]
-    added = unique(unlist(adjacency[cur]))
+    adjacency2 = adjacency
+    for (i in 1:length(adjacency)) {
+        cur = adjacency[[i]]
+        added = unique(unlist(adjacency[cur]))
+        
+        cur = c(cur, added)
+        cur = cur[cur != i & !(cur %in% adjacency[[i]])]
+        names(cur) = str_pad(cur, 4, "left", "0")
+        adjacency2[[i]] = cur
+    }
+    saveRDS(adjacency2, "data/clean/grid_adjacency2.RDS")
     
-    cur = c(cur, added)
-    cur = cur[cur != i & !(cur %in% adjacency[[i]]) & !(cur %in% adjacency2[[i]])]
-    names(cur) = str_pad(cur, 4, "left", "0")
-    adjacency3[[i]] = cur
+    adjacency3 = adjacency
+    for (i in 1:length(adjacency)) {
+        cur = adjacency2[[i]]
+        added = unique(unlist(adjacency[cur]))
+        
+        cur = c(cur, added)
+        cur = cur[cur != i & !(cur %in% adjacency[[i]]) & !(cur %in% adjacency2[[i]])]
+        names(cur) = str_pad(cur, 4, "left", "0")
+        adjacency3[[i]] = cur
+    }
+    saveRDS(adjacency3, "data/clean/grid_adjacency3.RDS")
 }
-saveRDS(adjacency3, "data/clean/grid_adjacency3.RDS")

@@ -1,5 +1,9 @@
 source("work/00_functions.R")
 
+########################################################################################
+# Written by: Anne Driscoll
+# Combine the various co-variates that are needed for modelling and combine
+########################################################################################
 
 ###############################################################
 # read in geo data

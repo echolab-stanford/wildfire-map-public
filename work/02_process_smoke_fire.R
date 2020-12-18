@@ -2,6 +2,13 @@ source("work/00_functions.R")
 library(Hmisc)
 library(BAMMtools)
 
+########################################################################################
+# Written by: Anne Driscoll
+# Gets clusters from the fire points to try to identify large fires (eg Camp Fire)
+# Combines smoke plume data with fire to get a crude estimate of which fire the smoke 
+#   plume originated from
+########################################################################################
+
 ###############################################################
 # Functions
 ###############################################################
@@ -35,6 +42,7 @@ fire = read_rds("data/fire/hms_fires.RDS")
 fire = fire[names(fire) < paste0(max(as.numeric(years))+1,"0101")]
 data_ll = readRDS("data/clean/national_grid.RDS")
 
+# width is the number fire points are buffered to merge into fire clusters
 width = 2.9/111 #km/number of km at eq (to get in lat lon units)
 #2.9 because it's a 4km grid cell, to reach diagonal need sqrt(2^2+2^2)
 
@@ -102,11 +110,13 @@ for (i in 1:length(years)) {
         if (k %% 5 == 0) {setTxtProgressBar(prog, k)}
     }
     
+    # rbind the list of results to get one massive data frame
     w = sapply(year_fire_sp, function(x){"SpatialPolygonsDataFrame" %in%  class(x)})
     year_fire = year_fire_sp[w] #remove the ones that were empty or broken
     year_fire_df = rbindlist(lapply(year_fire, function(x){x@data}), fill=T)
     year_fire = unlist(lapply(year_fire, function(x){x@polygons}))
     
+    # convert to a SpatialPolygonsDataFrame
     row.names(year_fire_df) = year_fire_df$ID
     year_fire = SpatialPolygonsDataFrame(SpatialPolygons(year_fire), year_fire_df)
     crs(year_fire) = crs(data_ll)
@@ -244,6 +254,7 @@ num$category = 0
 num[!is.na(num$f_area), ]$category = km$cluster
 num$category[num$category==0] = NA
 
+# good plot to investigate how plumes have been grouped 
 #sub = sample.int(nrow(num), 1000)
 #plot_ly(x=log(num$f_area[sub]+1), y=log(num$area[sub]+1), z=num$fire_dist[sub], 
 #        type="scatter3d", mode="markers", color=as.factor(num$category[sub]), 

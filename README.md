@@ -6,6 +6,14 @@ Repo supporting "The changing risk and burden of wildfire in the United States"
 
 The estimates generated in the paper can be found in the folder `clean/results_all.RDS`. This file is a dataframe, with an estimate for each year, for each grid cell. The column `preds` is the prediction for the cell overall, and `preds_0` is the prediction when the smoke value is artificially set to 0. The grid cells are only identified by id, and can be merged with a shapefile for any spatial work. The grid shapefile can be found at `clean/national_grid.RDS`.  
 
+There are several settings that can be changed in the `work/00_functions.R`. 
+
+# Packages needed
+
+A custom package used in the lab that includes several plotting and scraping functions is used throughout, and can be downloaded at the github `burkelab/census.tools`. 
+
+Additionally, some of the scraping requires RSelenium, along with the dev version of chrome.
+
 
 # Data
 

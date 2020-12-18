@@ -1,6 +1,12 @@
 source("work/00_functions.R")
 library(RSelenium)
 
+########################################################################################
+# Written by: Anne Driscoll
+# Downloads airport data
+########################################################################################
+
+# a function that moves the downloaded data from the Downloads folder and names
 unzip_rename = function(name) {
     x = file.info(list.files("~/Downloads", full.names=T))
     x = rownames(x[x$mtime ==  max(x$mtime),])

@@ -45,8 +45,11 @@ rmse = function(obs, pred) {
     sqrt(mean((pred-obs)^2))
 }
 sum_na = function(x, ...) if (all(is.na(x))) NaN else sum(x, na.rm = TRUE)
-mean_na = function(x, ...) if (all(is.na(x))) NaN else mean(x, na.rm = TRUE)
 max_na = function(x, ...) if (all(is.na(x))) NaN else max(x, na.rm = TRUE)
+min_na = function(x, ...) if (all(is.na(x))) NaN else min(x, na.rm = TRUE)
+
+# function that takes input data with inconsistent years available and interpolates 
+#   between them using a linear model
 lm_interpolate = function(data, column, id="id", interp_years=2006:2018) {
     if (any(names(data) == "id") & id != "id") {
         names(data)[names(data) == "id"] = "old_id"
@@ -80,6 +83,9 @@ lm_interpolate = function(data, column, id="id", interp_years=2006:2018) {
     
     return(data)
 }
+
+# function that takes input data with inconsistent years available and interpolates 
+#   linearly between them
 interpolate = function(data, column, id="id", interp_years=2006:2018) {
   
   if (any(names(data) == "id") & id != "id") {
@@ -108,6 +114,7 @@ interpolate = function(data, column, id="id", interp_years=2006:2018) {
   
   return(pad)
 }
+
 mean_interpolate = function(data, column, id="id", interp_years=2006:2018) {
     if (any(names(data) == "id") & id != "id") {
         names(data)[names(data) == "id"] = "old_id"
@@ -185,7 +192,7 @@ get_fire_count = function(fire, dates_fire=names(fire), geo, geo_id="id") {
   length(fire_dists) = length(length(years)*length(months))
   
   
-  #loop through days and find distances for each #868 is failing, why
+  #loop through days and find distances for each
   i=1
   prog = txtProgressBar(min=0, max=length(years)*length(months), initial=0, 
                         char="-", style=3)
@@ -215,6 +222,7 @@ get_fire_count = function(fire, dates_fire=names(fire), geo, geo_id="id") {
 
   return(fire_dists)
 }
+
 get_smoke_plumes = function(smoke, geo, geo_id) {
   
   start = Sys.time()
@@ -323,8 +331,6 @@ gdal_polygonizeR <- function(x, outshape=NULL, gdalformat = 'ESRI Shapefile',
     }
     return(NULL)
 }
-
-
 
 
 get_kfold_preds = function(df, df0, call, weights=T, k=10) {
