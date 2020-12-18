@@ -1,0 +1,371 @@
+library(data.table)
+library(sf)
+library(sp)
+library(rgeos)
+library(rgdal)
+library(geosphere)
+library(ncdf4)
+
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(splines)
+
+library(readr)
+library(data.table)
+library(raster)
+library(gdata) #to read xls
+library(velox)
+library(openxlsx) # to read xlsx
+
+library(census.tools)
+
+
+library(signal) #for interpolation
+library(imputeTS) #for na_kalman
+
+
+##################################################################
+# Settings
+##################################################################
+
+buffer = 10 #km
+crs_using = "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0" #"+init=epsg:4238" #
+km = 100 #raster cell size in km across
+years = 2006:2018
+plant_radius = c(-20, -10, 20, 40)
+max_dist = 10
+
+
+##################################################################
+# Functions
+##################################################################
+
+rmse = function(obs, pred) {
+    sqrt(mean((pred-obs)^2))
+}
+sum_na = function(x, ...) if (all(is.na(x))) NaN else sum(x, na.rm = TRUE)
+mean_na = function(x, ...) if (all(is.na(x))) NaN else mean(x, na.rm = TRUE)
+max_na = function(x, ...) if (all(is.na(x))) NaN else max(x, na.rm = TRUE)
+lm_interpolate = function(data, column, id="id", interp_years=2006:2018) {
+    if (any(names(data) == "id") & id != "id") {
+        names(data)[names(data) == "id"] = "old_id"
+    }
+    names(data)[names(data) == id] = "id"
+    names(data)[names(data) == column] = "target"
+    data$year = as.numeric(data$year)
+    
+    pad = expand.grid(id=unique(data$id), year=interp_years)
+    pad = merge(pad, unique(data[, c("id", "year")]), by=c("id", "year"), all=T)
+    data = merge(data, pad, by=c("id", "year"), all=T)
+    data = data[order(data$year),]
+    
+    for (i in unique(data$id)) {
+        cur = data[data$id == i, ]
+        years = sort(cur[is.na(cur$target), ]$year)
+        if (sum(!is.na(cur$target)) == 1) {
+            pred = max(cur$target, na.rm=T)
+        } else if (sum(!is.na(cur$target)) == 0) {
+            next
+        } else {
+            m = lm(target ~ year, data=cur)
+            pred = predict(m, data.frame(year=years))
+            pred[pred < 0] = min(cur$target, na.rm=T)
+        }
+        data[data$id == i & data$year %in% years, "target"] = pred
+    }
+    
+    names(data)[names(data) == "target"] = column
+    names(data)[names(data) == "id"] = id
+    
+    return(data)
+}
+interpolate = function(data, column, id="id", interp_years=2006:2018) {
+  
+  if (any(names(data) == "id") & id != "id") {
+    names(data)[names(data) == "id"] = "old_id"
+  }
+  names(data)[names(data) == id] = "id"
+  names(data)[names(data) == column] = "target"
+  
+  pad = expand.grid(id=unique(data$id), year=interp_years, target=NA)
+  data = data[order(data$year),]
+
+  #loop over years you don't have
+  for (i in unique(data$id)) {
+      cur = data[data$id == i, ]
+      cur = cur[complete.cases(cur), ]
+      if (nrow(cur) == 1) {
+          interp = cur$target
+      }  else if (nrow(cur) == 0) {interp=NA} else {
+          interp = interp1(cur$year, cur$target, interp_years, method="linear", extrap=T)
+      }
+      pad[pad$id == i, ]$target = interp
+  }
+  
+  #combine all data
+  names(pad) = c(id, "year", column)
+  
+  return(pad)
+}
+mean_interpolate = function(data, column, id="id", interp_years=2006:2018) {
+    if (any(names(data) == "id") & id != "id") {
+        names(data)[names(data) == "id"] = "old_id"
+    }
+    names(data)[names(data) == id] = "id"
+    names(data)[names(data) == column] = "target"
+    
+    means = data %>% dplyr::group_by(id) %>% 
+        dplyr::summarize(mean = mean(target, na.rm=T))
+    
+    pad = expand.grid(id=unique(data$id), year=interp_years)
+    data = merge(data, pad, by=c("id", "year"), all=T)
+    empty = data[is.na(data$target), ]
+    empty = merge(empty, means, by="id", all.x=T)
+    data[is.na(data$target), ] = empty[, c("id", "year", "mean")]
+    
+    names(data) = c("id", "year", column)
+    
+    return(data)
+}
+
+kalman_mean_interpolate =  function(data, column, id="id", interp_years=2006:2018) {
+    if (any(names(data) == "id") & id != "id") {
+        names(data)[names(data) == "id"] = "old_id"
+    }
+    names(data)[names(data) == id] = "id"
+    names(data)[names(data) == column] = "target"
+    data$year = as.numeric(data$year)
+    
+    pad = expand.grid(id=unique(data$id), year=interp_years)
+    pad = merge(pad, unique(data[, c("id", "year")]), by=c("id", "year"), all=T)
+    data = merge(data, pad, by=c("id", "year"), all=T)
+    data = data[order(data$year),]
+    
+    #get ids for  kalman interp
+    ids_kalman = data %>% group_by(id) %>% 
+        dplyr::summarize(n=sum(!is.na(target)), u=length(unique(target[!is.na(target)]))) %>% 
+        dplyr::filter(n>=3 & u>1)
+    ids_kalman = ids_kalman$id
+    
+    #fill in the ones that can with kalman
+    data[data$id %in% ids_kalman, ] = data %>% 
+        dplyr::filter(id %in% ids_kalman) %>% 
+        group_by(id) %>% 
+        mutate(target = na_kalman(target, type="level"))
+    data$target[data$target<0] = 0
+    
+    #get ids for mean
+    ids_mean = data %>% group_by(id) %>% 
+        dplyr::summarize(n=sum(!is.na(target)), u=length(unique(target[!is.na(target)]))) %>% 
+        dplyr::filter(n>0 & (n<3 | u<=1))
+    ids_mean = ids_mean$id
+    
+    #fill in the ones with  mean
+    data[data$id %in% ids_mean, ] = mean_interpolate(data[data$id %in% ids_mean, ], "target")
+    
+    names(data)[names(data) == "target"] = column
+    names(data)[names(data) == "id"] = id
+    
+    return(data)
+}
+
+get_fire_count = function(fire, dates_fire=names(fire), geo, geo_id="id") {
+  
+  #create fire_dists to store the distances for each day in
+  fire_dists = list()
+  #rename to use id
+  if (any(names(geo) == "id") & geo_id != "id") {
+    names(geo)[names(geo) == "id"] = "old_id"
+  }
+  names(geo)[names(geo) == geo_id] = "id"
+  
+  years = unique(substr(dates_fire, 1, 4))
+  months = unique(substr(dates_fire, 5, 6))
+  length(fire_dists) = length(length(years)*length(months))
+  
+  
+  #loop through days and find distances for each #868 is failing, why
+  i=1
+  prog = txtProgressBar(min=0, max=length(years)*length(months), initial=0, 
+                        char="-", style=3)
+  for (year in years) {
+      for (month in months) {
+          
+          cur = paste0(year, month)
+          cur = which(startsWith(dates_fire, cur))
+          cur = lapply(fire[cur], function(x) {if (!is.null(x)) {as.data.table(st_coordinates(x))}} )
+          cur = lapply(cur, function(x) { if (!is.null(x)) {x[complete.cases(x), ]}  })
+          cur = SpatialPoints(rbindlist(cur[sapply(cur, nrow) > 0]))
+          proj4string(cur) = crs(geo)
+          
+          #find the nearest fire for each id
+          num = over(geo, cur, returnList=T)
+          num = sapply(num, length)
+          
+          fire_dists[[i]] = data.frame(id=geo$id, year=year, month=month, fires=num)
+          names(fire_dists)[[i]] = paste0(year, month)
+          
+          setTxtProgressBar(prog, i)
+          i = i + 1
+      }
+  }
+  
+  fire_dists = rbindlist(fire_dists)
+
+  return(fire_dists)
+}
+get_smoke_plumes = function(smoke, geo, geo_id) {
+  
+  start = Sys.time()
+  
+  #rename to use id
+  if (any(names(geo) == "id") & geo_id != "id") {
+    names(geo)[names(geo) == "id"] = "old_id"
+  }
+  names(geo)[names(geo) == geo_id] = "id"
+  
+  #create a dataframe with a row for each mzip-day
+  overlaps = as.list(rep(NA, length(names(smoke))))
+  geo_df = data.frame(id = as.character(unique(geo$id)), den0=0)
+  
+  if (length(unique(geo$id)) != nrow(geo)) {warning("ID is not unique")}
+  
+  #loop through all the smoke files, where name(smoke) is the day
+  prog = txtProgressBar(min=0, max=length(smoke), initial=0, char="-", style=3)
+  for (i in 1:length(names(smoke))){
+    
+    day = names(smoke)[i] #the string representing the day
+    s = smoke[[day]] #the shapefile
+    temp_df = geo_df #df with row for each mzip
+    
+    if (nrow(s) == 0) {
+      den = 0 
+    } else {
+      
+      s = tryCatch({
+        as_Spatial(s)
+      }, error = function(e) {
+        s = s[!is.na(st_is_valid(s)),]
+        s = st_cast(s, "POLYGON")
+        as_Spatial(s)
+      })
+      crs(s) = crs(geo)
+      den = colSums(gIntersects(geo, s, byid = TRUE))
+    }
+    
+    temp_df[, "den0"] = den
+    
+    temp_df$date = day
+    overlaps[[i]] = temp_df
+    
+    if (i%%10 == 0) {
+      setTxtProgressBar(prog, i)
+    }
+    
+  }
+  
+  #combine all the days into one df and munge
+  data = rbindlist(overlaps)
+  data$smoke_day = ifelse(data$den0 > 0, 1, 0)
+  data$year = as.character(substr(data$date, 1, 4))
+  data = data %>% dplyr::group_by(id, year) %>% 
+    dplyr::summarise(
+      smoke_dayv = var(smoke_day, na.rm = T),
+      smoke_day = sum(smoke_day, na.rm = T),
+      den0v = var(den0, na.rm = T),
+      den0 = sum(den0, na.rm = T)
+    ) 
+  
+  end = Sys.time() - start
+  print(end)
+  
+  #return df with smoke vals for all the geos provided 
+  # for subset of smoke provided
+  return(data)
+}
+
+# SOURCED FROM https://johnbaumgartner.wordpress.com/2012/07/26/getting-rasters-into-shape-from-r/
+gdal_polygonizeR <- function(x, outshape=NULL, gdalformat = 'ESRI Shapefile',
+                             pypath=NULL, readpoly=TRUE, quiet=TRUE) {
+    
+    old_path <- Sys.getenv("PATH")
+    Sys.setenv(PATH = paste(old_path, "/Users/annedriscoll/opt/miniconda3/lib/python3.7/site-packages", sep = ":"))
+    
+    if (isTRUE(readpoly)) require(rgdal)
+    if (is.null(pypath)) {
+        pypath <- Sys.which('gdal_polygonize.py')
+    }
+    if (!file.exists(pypath)) stop("Can't find gdal_polygonize.py on your system.")
+    owd <- getwd()
+    on.exit(setwd(owd))
+    setwd(dirname(pypath))
+    if (!is.null(outshape)) {
+        outshape <- sub('\\.shp$', '', outshape)
+        f.exists <- file.exists(paste(outshape, c('shp', 'shx', 'dbf'), sep='.'))
+        if (any(f.exists))
+            stop(sprintf('File already exists: %s',
+                         toString(paste(outshape, c('shp', 'shx', 'dbf'),
+                                        sep='.')[f.exists])), call.=FALSE)
+    } else outshape <- tempfile()
+    if (is(x, 'Raster')) {
+        require(raster)
+        writeRaster(x, {f <- tempfile(fileext='.tif')})
+        rastpath <- normalizePath(f)
+    } else if (is.character(x)) {
+        rastpath <- normalizePath(x)
+    } else stop('x must be a file path (character string), or a Raster object.')
+    system2('python', args=(sprintf('"%1$s" "%2$s" -f "%3$s" "%4$s.shp"',
+                                    pypath, rastpath, gdalformat, outshape)))
+    if (isTRUE(readpoly)) {
+        shp <- readOGR(dirname(outshape), layer = basename(outshape), verbose=!quiet)
+        return(shp)
+    }
+    return(NULL)
+}
+
+
+
+
+get_kfold_preds = function(df, df0, call, weights=T, k=10) {
+    
+    set.seed(198432980)
+    folds = unique(df[, c("id", "physio_section")])
+    folds$fold = createFolds(as.factor(folds$physio_section), k=k, list=F)
+    df = merge(df, folds[, c('id', 'fold')], by='id')
+    
+    df$preds_kfold = NA
+    df$preds_kfold0 = NA
+    
+    for (i in 1:k) {
+        if (weights) {
+            model = lm(call, df[df$fold != i, ], weights=obs)
+        } else { model = lm(call, df[df$fold != i, ]) }
+        
+        df[df$fold == i, ]$preds_kfold = predict(model, df[df$fold == i, ])
+        df[df$fold == i, ]$preds_kfold0 = predict(model, df0[df$fold == i, ])
+    }
+    
+    return(df)
+}
+
+process_preds = function(df, df0, call, weights=T) {
+    if (weights) {
+        model = lm(call, df, weights=obs)
+    } else {
+        model = lm(call, df)
+    }
+    df$preds = predict(model, df)
+    df$preds0 = predict(model, df0)
+    df$preds[df$preds < 0] = 0
+    df$preds0[df$preds0 < 0] = 0
+    df$diff = df$preds - df$preds0
+    df$perc_diff = df$diff/df$preds
+    df$perc_diff[df$preds == 0] = 0
+    summary(df[, c('pm', 'preds', 'preds0', 'diff', 'perc_diff')])
+    return(df)
+}
+
+detach_all = function() {
+    invisible(lapply(paste0('package:', names(sessionInfo()$otherPkgs)), detach, character.only=TRUE, unload=TRUE))
+}
