@@ -16,25 +16,25 @@ Some of the scraping requires the [dev version](https://www.google.com/chrome/de
 
 Other packages required are:
 
--data.table
--dplyr
--gdata 
--geosphere
--imputeTS
--ncdf4
--openxlsx 
--raster
--readr
--rgdal
--rgeos
--RSelenium
--sf
--signal 
--sp
--splines
--stringr
--tidyr
--velox
+- data.table
+- dplyr
+- gdata 
+- geosphere
+- imputeTS
+- ncdf4
+- openxlsx 
+- raster
+- readr
+- rgdal
+- rgeos
+- RSelenium
+- sf
+- signal 
+- sp
+- splines
+- stringr
+- tidyr
+- velox
 
 Scripts were written in R VERSION.
 
