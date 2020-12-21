@@ -26,10 +26,10 @@ Additionally, some input datasets are not included here in any form because they
 
 ## Not included in repo
 
-boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis.
-improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to downloading the following files [here]( http://vista.cira.colostate.edu/Improve/improve-data/): file1.csv, file2.csv, file3.csv.
-pop: sourced from [SEDAC](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download) and requires [user registration](https://sedac.ciesin.columbia.edu/user-registration) prior to download
-traffic-darte: Can be downloaded [here](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) with Earthdata Login information or new users can [register](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) for access.
+* boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis.
+* improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to downloading the following files [here]( http://vista.cira.colostate.edu/Improve/improve-data/): file1.csv, file2.csv, file3.csv.
+* pop: sourced from [SEDAC](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download) and requires [user registration](https://sedac.ciesin.columbia.edu/user-registration) prior to download
+* traffic-darte: Can be downloaded [here](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) with Earthdata Login information or new users can [register](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) for access.
 
 ## Included in repo
 
