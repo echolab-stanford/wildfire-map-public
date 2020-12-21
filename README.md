@@ -8,7 +8,7 @@ The main estimates generated in the paper are available at `clean/results_all.RD
 
 There are several settings that can be changed in the `work/00_functions.R`. 
 
-# Packages needed
+# R Packages needed
 
 A custom package that includes several plotting and scraping functions is used throughout and can be downloaded [here](https://github.com/burke-lab/census.tools). 
 
