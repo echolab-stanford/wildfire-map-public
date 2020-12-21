@@ -8,6 +8,10 @@ The main estimates generated in the paper are available at `clean/results_all.RD
 
 There are several settings that can be changed in the `work/00_functions.R`. 
 
+# Scripts
+
+Description of script structuring, etc.
+
 # Data
 
 Input data from freely distributed sources are included in the repo in a processed form. Directions for accessing the raw data are included along with the download links provided below. Examples of the processed data format include:
