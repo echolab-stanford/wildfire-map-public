@@ -53,7 +53,7 @@ Additionally, some input datasets are not included here in any form because they
 
 * boundaries/tl_2019_us_state: [state boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) are TIGER line files and can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/STATE/tl_2019_us_state.zip)
 
-+ boundaries/all_national_zips.rds: simplified version of TIGER line files
+    * boundaries/all_national_zips.rds: simplified version of TIGER line files
 
 * boundaries/counties.RDS: simplified version of TIGER line files
 
