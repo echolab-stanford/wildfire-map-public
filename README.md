@@ -36,7 +36,7 @@ Input data from freely distributed sources are included in the repo in a process
 2) the EPA PM2.5 data are included in one big rds file whereas it can only be downloaded on a state-year basis (so the raw data is ±600 separate files)
 3) the smoke polygon data are included in one big rds file, whereas they can only be downloaded on a daily basis (4000+ separate files) 
 
-Additionally, some input datasets are not included here in any form because they require registration prior to access and thus cannot be redistributed. Those files are listed below.
+Additionally, some input datasets are not included here in any form because they require registration prior to access and thus cannot be redistributed. Those files, along with instructions for access, are listed below.
 
 ## Not included in repo
 
