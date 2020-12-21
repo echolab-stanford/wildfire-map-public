@@ -33,28 +33,48 @@ Additionally, some input datasets are not included here in any form because they
 
 ## Included in repo
 
-airport: from https://www.transtats.bts.gov/ONTIME/
-boundaries/GACC: boundaries are from https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries
-boundaries/tl_2019_us_state: state boundaries are TIGER line files https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
-boundaries/all_national_zips.rds: simplified version of TIGER line files
-boundaries/counties.RDS: simplified version of TIGER line files
-boundaries/state_fips_codes.csv: manually created
-census: all public access census and ag census files
-coal: all sourced from https://www.eia.gov/electricity/data/eia860m/
-emissions/abatzoglou_data.csv: Dataset S01 from https://www.pnas.org/content/suppl/2016/10/06/1607171113.DCSupplemental
-emissions/supression_costs.csv: manually annotated from https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
-emissions/USAGDPDEFAISMEI.csv: https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
-EPA_trend: each region downloaded from https://www.epa.gov/air-trends/particulate-matter-pm25-trends
-fire/hms_fires: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html
-fire/prescribed_burn_acres.csv: Manually annotated from Wildland Fire Summaries at https://www.nifc.gov/fireInfo/fireInfo_statistics.html
-natural_gas: field level natural gas estimates, need to be aggregated to county level. https://www.eia.gov/naturalgas/ngqs/#?report=RP7&year1=2005&year2=2019&company=Name
-physio_shp: from https://water.usgs.gov/GIS/dsdl/physio_shp.zip
-pm: sourced from https://www.epa.gov/outdoor-air-quality-data/download-daily-data and slightly processed. Processing file is provided in  `work/supplemental` in case you would like to update the data in the future.
-powerplants/emissions_[YYYY].csv: from the data browser, you need to manually select the year of interest and download from the button above the table https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2009&tab=annual_emissions
-powerplants/overview_[YYYY].csv: same as above https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2006&tab=overview&start=200101&end=201710 
-powerplants/Plant_Y[YYYY].xlsx: https://www.eia.gov/electricity/data/eia860/
+* airport: from https://www.transtats.bts.gov/ONTIME/
+
+* boundaries/GACC: boundaries are from https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries
+
+* boundaries/tl_2019_us_state: state boundaries are TIGER line files https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
+
+* boundaries/all_national_zips.rds: simplified version of TIGER line files
+
+* boundaries/counties.RDS: simplified version of TIGER line files
+
+* boundaries/state_fips_codes.csv: manually created
+
+* census: all public access census and ag census files
+
+* coal: all sourced from https://www.eia.gov/electricity/data/eia860m/
+
+* emissions/abatzoglou_data.csv: Dataset S01 from https://www.pnas.org/content/suppl/2016/10/06/1607171113.DCSupplemental
+
+* emissions/supression_costs.csv: manually annotated from https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
+
+* emissions/USAGDPDEFAISMEI.csv: https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
+
+* EPA_trend: each region downloaded from https://www.epa.gov/air-trends/particulate-matter-pm25-trends
+
+* fire/hms_fires: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html
+
+* fire/prescribed_burn_acres.csv: Manually annotated from Wildland Fire Summaries at https://www.nifc.gov/fireInfo/fireInfo_statistics.html
+
+* natural_gas: field level natural gas estimates, need to be aggregated to county level. https://www.eia.gov/naturalgas/ngqs/#?report=RP7&year1=2005&year2=2019&company=Name
+
+* physio_shp: from https://water.usgs.gov/GIS/dsdl/physio_shp.zip
+
+* pm: sourced from https://www.epa.gov/outdoor-air-quality-data/download-daily-data and slightly processed. Processing file is provided in  `work/supplemental` in case you would like to update the data in the future.
+
+* powerplants/emissions_[YYYY].csv: from the data browser, you need to manually select the year of interest and download from the button above the table https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2009&tab=annual_emissions
+
+* powerplants/overview_[YYYY].csv: same as above https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2006&tab=overview&start=200101&end=201710 
+
+* powerplants/Plant_Y[YYYY].xlsx: https://www.eia.gov/electricity/data/eia860/
 smoke: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html. Processing file is provided in `work/supplemental` in case you would like to update the data in the future.
-WUI: state level estimates of number of homes in the wildland urban interface. Generated using National Land Cover Database and proprietary CoreLogic data including the locations of all homes in the US.
+
+* WUI: state level estimates of number of homes in the wildland urban interface. Generated using National Land Cover Database and proprietary CoreLogic data including the locations of all homes in the US.
 
 ### Necessary starting data folder structure to reproduce
 
