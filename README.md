@@ -4,32 +4,32 @@ Repo supporting "The changing risk and burden of wildfire in the United States"
 
 # Using results
 
-The estimates generated in the paper can be found in the folder `clean/results_all.RDS`. This file is a dataframe, with an estimate for each year, for each grid cell. The column `preds` is the prediction for the cell overall, and `preds_0` is the prediction when the smoke value is artificially set to 0. The grid cells are only identified by id, and can be merged with a shapefile for any spatial work. The grid shapefile can be found at `clean/national_grid.RDS`.  
+The main estimates generated in the paper are available at `clean/results_all.RDS`. This file is a dataframe, with an estimate for each year, for each grid cell. The column `preds` is the prediction for the cell overall, and `preds_0` is the prediction when the smoke input value is artificially set to 0. The data can be merged with the grid shapefile `clean/national_grid.RDS` on the variable `id` in order .  
 
 There are several settings that can be changed in the `work/00_functions.R`. 
 
 # Packages needed
 
-A custom package used in the lab that includes several plotting and scraping functions is used throughout, and can be downloaded at the github `burkelab/census.tools`. 
+A custom package that includes several plotting and scraping functions is used throughout and can be downloaded [here](https://github.com/burke-lab/census.tools). 
 
-Additionally, some of the scraping requires RSelenium, along with the dev version of chrome.
+Additionally, some of the scraping requires the [RSelenium package](https://cran.r-project.org/web/packages/RSelenium/index.html), along with the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.
 
 
 # Data
 
-Several datasets are included in the repo in a processed form, and the raw data can be downloaded at that link provided below. For example:
+Input data from freely distributed sources are included in the repo in a processed form. Directions for accessing the raw data are included along with the download links provided below. Examples of the processed data format include:
 1) the TIGER line files are included in a simplified form (same polygons, just passed through gSimplify so that they're small enough to include in GitHub) 
-2) the EPA PM2.5 data is included in one big rds file, it can only be downloaded on a state-year basis (so the raw data is ±600 separate files)
-3) the smoke polygon data is included in one big rds file, it can only be downloaded on a daily basis (4000+ separate files) 
+2) the EPA PM2.5 data are included in one big rds file whereas it can only be downloaded on a state-year basis (so the raw data is ±600 separate files)
+3) the smoke polygon data are included in one big rds file, whereas they can only be downloaded on a daily basis (4000+ separate files) 
 
-Additionally, some datasets are not included at all, since they require log in to access and cannot be distributed. Those files are listed below.
+Additionally, some input datasets are not included here in any form because they require registration prior to access and thus cannot be redistributed. Those files are listed below.
 
 ## Not included in repo
 
-boundaries/uszips.csv: roprietary data from simplemaps. http://simplemaps.com/data/updates/order/FLA201009-8749-21137/
-improve: Sourced from http://vista.cira.colostate.edu/Improve/improve-data/, requires log in to access
-pop: sourced from https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download, requires log in to download
-traffic-darte: Can be found at https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735, requires log in to download
+boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis.
+improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to downloading the following files [here]( http://vista.cira.colostate.edu/Improve/improve-data/): file1.csv, file2.csv, file3.csv.
+pop: sourced from [SEDAC](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download) and requires [user registration](https://sedac.ciesin.columbia.edu/user-registration) prior to download
+traffic-darte: Can be downloaded [here](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) with Earthdata Login information or new users can [register](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) for access.
 
 ## Included in repo
 
