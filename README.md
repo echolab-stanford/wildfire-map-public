@@ -4,7 +4,7 @@ Repo supporting "The changing risk and burden of wildfire in the United States"
 
 # Using results
 
-The main estimates generated in the paper are available at `clean/results_all.RDS`. This file is a dataframe, with an estimate for each year, for each grid cell. The column `preds` is the prediction for the cell overall, and `preds_0` is the prediction when the smoke input value is artificially set to 0. The data can be merged with the grid shapefile `clean/national_grid.RDS` on the variable `id` in order .  
+The main estimates generated in the paper are available at `clean/results_all.RDS`. This file is a dataframe, with an estimate for each year, for each grid cell. The column `preds` is the prediction for the cell overall, and `preds_0` is the prediction when the smoke input value is artificially set to 0. For spatial coordinates, the data can be merged with the grid shapefile `clean/national_grid.RDS` on the variable `id`.  
 
 There are several settings that can be changed in the `work/00_functions.R`. 
 
