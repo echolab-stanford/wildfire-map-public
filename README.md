@@ -47,7 +47,7 @@ Additionally, some input datasets are not included here in any form because they
 
 ## Included in repo
 
-* airport: from https://www.transtats.bts.gov/ONTIME/
+* airport: Airport data come from [here](https://www.transtats.bts.gov/ONTIME/0) including [airport locations](), [ticketing](), and [on-time status]()
 
 * boundaries/GACC: The [GACC boundaries](https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries) can be downloaded [here](https://opendata.arcgis.com/datasets/7dc5f4a286bd47e0aaafa0ab05302fe9_0.gdb)
 
