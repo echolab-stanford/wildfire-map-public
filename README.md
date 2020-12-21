@@ -8,46 +8,6 @@ The main estimates generated in the paper are available at `clean/results_all.RD
 
 There are several settings that can be changed in the `work/00_functions.R`. 
 
-# R Packages needed
-
-R packages required for replications are:
-
-- data.table
-- dplyr
-- gdata 
-- geosphere
-- imputeTS
-- ncdf4
-- openxlsx 
-- raster
-- readr
-- rgdal
-- rgeos
-- RSelenium
-- sf
-- signal 
-- sp
-- splines
-- stringr
-- tidyr
-- velox
-
-Users can run the following one-off command to install the most recent versions of these packages:
-```
-install.packages(c('data.table','devtools','dplyr','gdata', 'geosphere','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','splines','stringr','tidyr','velox'), dependencies = T)
-```
-
-In addition, a custom package that includes several plotting and scraping functions is used throughout and can be installed by running this: 
-```
-devtools::install_github("burke-lab/census.tools")
-```
-
-Finally, some of the scraping requires the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.
-
-
-All scripts were written in R VERSION. 
-
-
 # Data
 
 Input data from freely distributed sources are included in the repo in a processed form. Directions for accessing the raw data are included along with the download links provided below. Examples of the processed data format include:
@@ -173,3 +133,42 @@ data
  └── WUI
  	 └── [Year]_combined_wui_hh_data.csv (2001, 2004, 2006, 2008, 2011, 2013, 2016)
 ```
+# R Packages needed
+
+R packages required for replications are:
+
+- data.table
+- dplyr
+- gdata 
+- geosphere
+- imputeTS
+- ncdf4
+- openxlsx 
+- raster
+- readr
+- rgdal
+- rgeos
+- RSelenium
+- sf
+- signal 
+- sp
+- splines
+- stringr
+- tidyr
+- velox
+
+Users can run the following one-off command to install the most recent versions of these packages:
+```
+install.packages(c('data.table','devtools','dplyr','gdata', 'geosphere','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','splines','stringr','tidyr','velox'), dependencies = T)
+```
+
+In addition, a custom package that includes several plotting and scraping functions is used throughout and can be installed by running this: 
+```
+devtools::install_github("burke-lab/census.tools")
+```
+
+Finally, some of the scraping requires the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.
+
+
+All scripts were written in R VERSION. 
+
