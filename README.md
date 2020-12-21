@@ -12,8 +12,22 @@ There are several settings that can be changed in the `work/00_functions.R`.
 
 A custom package that includes several plotting and scraping functions is used throughout and can be downloaded [here](https://github.com/burke-lab/census.tools). 
 
-Additionally, some of the scraping requires the [RSelenium package](https://cran.r-project.org/web/packages/RSelenium/index.html), along with the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.
+Some of the scraping requires the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.
 
+Other packages required are:
+
+- RSelenium
+- data.table
+- sf
+- all other functions loaded in R scripts
+
+Scripts were written in R VERSION.
+
+Users can run the following one-off command to install the most recent versions of these packages:
+
+```
+install.packages(c('RSelenium','data.table', 'sf'), dependencies = T)
+```
 
 # Data
 
