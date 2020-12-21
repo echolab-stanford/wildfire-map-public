@@ -10,11 +10,7 @@ There are several settings that can be changed in the `work/00_functions.R`.
 
 # R Packages needed
 
-A custom package that includes several plotting and scraping functions is used throughout and can be downloaded [here](https://github.com/burke-lab/census.tools). 
-
-Some of the scraping requires the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.
-
-Other packages required are:
+R packages required for replications are:
 
 - data.table
 - dplyr
@@ -36,14 +32,20 @@ Other packages required are:
 - tidyr
 - velox
 
-Scripts were written in R VERSION.
-
 Users can run the following one-off command to install the most recent versions of these packages:
-
 ```
 install.packages(c('data.table','dplyr','gdata', 'geosphere','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','splines','stringr','tidyr','velox'), dependencies = T)
 ```
 
+In addition, a custom package that includes several plotting and scraping functions is used throughout and can be installed by running this: 
+```
+devtools::install_github("burke-lab/census.tools")
+```
+
+Finally, some of the scraping requires the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.
+
+
+All scripts were written in R VERSION. 
 
 
 # Data
