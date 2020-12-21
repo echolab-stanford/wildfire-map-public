@@ -16,18 +16,35 @@ Some of the scraping requires the [dev version](https://www.google.com/chrome/de
 
 Other packages required are:
 
-- RSelenium
-- data.table
-- sf
-- all other functions loaded in R scripts
+-data.table
+-dplyr
+-gdata 
+-geosphere
+-imputeTS
+-ncdf4
+-openxlsx 
+-raster
+-readr
+-rgdal
+-rgeos
+-RSelenium
+-sf
+-signal 
+-sp
+-splines
+-stringr
+-tidyr
+-velox
 
 Scripts were written in R VERSION.
 
 Users can run the following one-off command to install the most recent versions of these packages:
 
 ```
-install.packages(c('RSelenium','data.table', 'sf'), dependencies = T)
+install.packages(c('data.table','dplyr','gdata', 'geosphere','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','splines','stringr','tidyr','velox'), dependencies = T)
 ```
+
+
 
 # Data
 
