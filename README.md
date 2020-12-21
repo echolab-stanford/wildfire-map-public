@@ -49,7 +49,7 @@ Additionally, some input datasets are not included here in any form because they
 
 * airport: from https://www.transtats.bts.gov/ONTIME/
 
-* boundaries/GACC: boundaries are from https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries
+* boundaries/GACC: [boundaries](https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries) can be downloaded [here](https://opendata.arcgis.com/datasets/7dc5f4a286bd47e0aaafa0ab05302fe9_0.gdb)
 
 * boundaries/tl_2019_us_state: state boundaries are TIGER line files https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
 
