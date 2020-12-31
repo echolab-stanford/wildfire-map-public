@@ -27,7 +27,9 @@ vignettes/*.pdf
 # knitr and R markdown default cache directories
 /*_cache/
 /cache/
-/data/*
+/data/clean/full_smoke_data/full_smoke_data.dbf
+/data/fire/hms_fires.RDS
+/data/pm/epa_station_level_pm25_data.rds
 
 # Temporary files created by R markdown
 *.utf8.md

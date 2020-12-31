@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact gco:nilReason="missing"/>
+    <dateStamp gco:nilReason="missing"/>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation gco:nilReason="missing"/>
+            <abstract>
+                <gco:CharacterString>Although the primary mission of the GACC is logistical coordination, the Center also has support programs in Predictive Services, Intelligence, and in several Center's Fire Information. Predictive Services consists primarily of professional meteorologists who monitor weather and fuel conditions, conduct briefings, produce fire weather related products, liaison with the National Weather Service, and oversee all aspects of the Remote Automated Weather System (RAWS). The Intelligence Section is primarily responsible for collecting and disseminating wildland fire and prescribed fire activity information, monitoring the status of national firefighting resources, maintaining year-to-date and historical fire occurrence data, and managing the Sit Report and ICS-209 programs. In some GACCs, the Predictive Services and Intelligence sections work as one unit called the Predictive Services Group. The Predictive Services and Intelligence Sections, whether separated or combined, work collaboratively producing Weekly, Monthly, and Seasonal Fire Weather/Fire Danger Outlooks.  Each Coordination Center provides additional support to their respective geographic area's wildland fire community through training, workshops, special projects, and other tasks. Except for dispatch of air tankers and lead planes based outside the dispatch center responsibility the fire is located in, the GACC does not have initial-attack dispatch responsibilities.The United States and Alaska are divided into 11 Geographic Areas for the purpose of incident management and mobilization of resources (people, aircraft, ground equipment). Within each Area, an interagency Geographic Area Coordinating Group (GACG), made up of Fire Directors from each of the Federal and State land management agencies from within the Area, is established. Working collaboratively, the GACG's mission is to provide leadership and support not only for wildland fire emergencies, but to other emergency incidents (i.e. earthquakes, floods, hurricanes, tornadoes, etc), as necessary. Authority for establishment of the GACG is through departmental policy and interagency agreements. Additional agreements are established with cooperators and other organizations in order to facilitate efficient fire management activities within and adjacent to the Area. A cost-effective sharing of resources among public agencies is a key component of the GACG mission and is expected by the public, Congress, and States. All agencies and geographic areas work together under the auspices and direction of the National Interagency Fire Center (NIFC). The Geographic Area Coordination Centers (GACC) is a result of an interagency agreement established by the respective Geographic Area Coordinating Group. The primary mission of the GACC is to serve Federal and State wildland fire agencies through logistical coordination and mobilization of resources (people, aircraft, ground equipment) throughout the geographical area, and with other geographic areas, as necessary. This is generally done through coordinating the movement of resources between the many Dispatch Centers within the geographic area and, as necessary, with the National Interagency Coordination Center (NICC) when resources are unavailable within the Area or when mobilization support is needed in other geographic areas. As you survey each GACC website, it will become obvious they are technical in design and are primarily for use by local and geographic area wildland fire managers and firefighters. For the general public, the GACC website may not meet your needs. If this is the case, please check out the National Fire News website, provided by the National Interagency Fire Center, and the InciWeb website, provided as a guide to large fire incidents throughout the United States.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>National Geographic Area Coordination Center Boundaries (updated 8/16/2019)</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>Contact: Dianna Sampson
+dsampson@blm.gov
+208-387-5196</gco:CharacterString>
+            </credit>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>GACC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Dispatch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundaries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundary_OpenData</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC Open Data</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>GACC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Dispatch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundaries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundary_OpenData</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC Open Data</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>GACC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Dispatch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundaries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundary_OpenData</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC Open Data</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>GACC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Dispatch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundaries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundary_OpenData</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC Open Data</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>GACC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Dispatch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundaries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundary_OpenData</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC Open Data</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>GACC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Dispatch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundaries</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Boundary_OpenData</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NIFC Open Data</gco:CharacterString>
+                    </keyword>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>The National Wildfire Coordinating Group (NWCG) makes no claims, promises, or guarantees about the accuracy, completeness, or adequacy of the content; and expressly disclaims liability for errors and omissions. No warranty of any kind, implied, expressed or statutory is given with respect to the contents.</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <language gco:nilReason="missing"/>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+        </MD_DataIdentification>
+    </identificationInfo>
+</MD_Metadata>
