@@ -69,7 +69,7 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/census: all public access census and ag census files
 
-* data/coal: all sourced from https://www.eia.gov/electricity/data/eia860m/
+* data/coal: Annual data from Form EIA-860-Schedule 3, "Generator Data". Input data originally sourced from [here](https://www.eia.gov/electricity/data/eia860/) and subset to only Coal plants.
 
 * data/emissions/abatzoglou_data.csv: Dataset S01 from https://www.pnas.org/content/suppl/2016/10/06/1607171113.DCSupplemental
 
