@@ -73,9 +73,9 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/emissions/abatzoglou_data.csv: Dataset S01 from [Abatzoglou and Williams 2016](https://www.pnas.org/content/113/42/11770) was downloaded from the supplement [here](https://www.pnas.org/highwire/filestream/623620/field_highwire_adjunct_files/0/pnas.1607171113.sd01.csv)
 
-* data/emissions/supression_costs.csv: manually annotated from https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
+* data/emissions/supression_costs.csv: manually annotated from [reported NIFC numbers](https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf). 
 
-* data/emissions/USAGDPDEFAISMEI.csv: https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
+* data/emissions/USAGDPDEFAISMEI.csv: Data from the [St. Louis Fed Economic Data](https://fred.stlouisfed.org/series/USAGDPDEFAISMEI) downloaded [here](https://fred.stlouisfed.org/graph/fredgraph.csv?bgcolor=%23e1e9f0&chart_type=line&drp=0&fo=open%20sans&graph_bgcolor=%23ffffff&height=450&mode=fred&recession_bars=on&txtcolor=%23444444&ts=12&tts=12&width=1168&nt=0&thu=0&trc=0&show_legend=yes&show_axis_titles=yes&show_tooltip=yes&id=USAGDPDEFAISMEI&scale=left&cosd=1960-01-01&coed=2019-01-01&line_color=%234572a7&link_values=false&line_style=solid&mark_type=none&mw=3&lw=2&ost=-99999&oet=99999&mma=0&fml=a&fq=Annual&fam=avg&fgst=lin&fgsnd=2019-01-01&line_index=1&transformation=lin&vintage_date=2021-01-04&revision_date=2021-01-04&nd=1960-01-01)
 
 * data/EPA_trend: each region downloaded from https://www.epa.gov/air-trends/particulate-matter-pm25-trends
 
