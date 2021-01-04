@@ -37,6 +37,7 @@ Additionally, some input datasets are not included here in any form because they
 ## Not included in repo
 
 * data/boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis (`uszips.csv`).
+* data/boundaries/tl_2019_us_county: [county boundaries](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/) are TIGER line files and are too large for github but can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/tl_2019_us_county.zip)
 * data/improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use files `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
 * data/pop: SEDAC population data requires [registration](https://sedac.ciesin.columbia.edu/user-registration) prior to [downloading](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download). We use the 2.5 minute data for 2005, 2010, 2015, and 2020. Files are of the form: `gpw_v4_population_count_rev11_[Year]_2pt5_min.tif`.
 * data/traffic-darte: DARTE data requires [registration](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) prior to [downloading](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) the files `onroad_[YYYY].tif` for years 2006-2017.
@@ -48,8 +49,6 @@ Additionally, some input datasets are not included here in any form because they
 * data/boundaries/GACC: The [GACC boundaries](https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries) can be downloaded [here](https://opendata.arcgis.com/datasets/7dc5f4a286bd47e0aaafa0ab05302fe9_0.gdb)
 
 * data/boundaries/tl_2019_us_state: [state boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) are TIGER line files and can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/STATE/tl_2019_us_state.zip)
-
-* data/boundaries/tl_2019_us_county: [county boundaries](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/) are TIGER line files and can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/tl_2019_us_county.zip)
 
 * data/boundaries/all_national_zips.rds: simplified version of TIGER line files
 
