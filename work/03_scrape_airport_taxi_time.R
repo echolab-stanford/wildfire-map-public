@@ -4,13 +4,15 @@ source("work/00_functions.R")
 ########################################################################################
 # Written by: Anne Driscoll
 # Downloads airport data
+
+#Note: script requires installation of Development version of Google Chrome. See Readme.
 ########################################################################################
 
 months = c("January", "February", "March", "April", "May", "June", "July", "August", 
            "September", "October", "November", "December")
 url = "https://www.transtats.bts.gov/Tables.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Performance%20Data&DB_Short_Name=On-Time"
 
-rD = rsDriver(geckover="0.23.0")
+rD = rsDriver(geckover="latest")
 remDr = rD[["client"]]
 remDr$navigate(url)
 t = max(abs(rnorm(1, mean=3.5, sd=1.5)), 2)
