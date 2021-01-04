@@ -71,7 +71,7 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/coal: Annual data on coal generation. Data come from Form EIA-860-Schedule 3, "Generator Data" originally sourced from [here](https://www.eia.gov/electricity/data/eia860/). The files included in the repo are these annual files (`3_1_Generator[YEAR]`) subset to only Coal plants with the files renamed.
 
-* data/emissions/abatzoglou_data.csv: Dataset S01 from https://www.pnas.org/content/suppl/2016/10/06/1607171113.DCSupplemental
+* data/emissions/abatzoglou_data.csv: Dataset S01 from [Abatzoglou and Williams 2016](https://www.pnas.org/content/113/42/11770) was downloaded from the supplement [here](https://www.pnas.org/highwire/filestream/623620/field_highwire_adjunct_files/0/pnas.1607171113.sd01.csv)
 
 * data/emissions/supression_costs.csv: manually annotated from https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
 
