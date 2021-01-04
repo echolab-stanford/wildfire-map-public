@@ -163,10 +163,13 @@ data
 
 R packages required for replications are:
 
+- BAMMtools
 - data.table
 - dplyr
 - gdata 
 - geosphere
+- hutils
+- Hmisc
 - imputeTS
 - ncdf4
 - openxlsx 
