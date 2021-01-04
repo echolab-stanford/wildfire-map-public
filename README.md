@@ -185,7 +185,7 @@ R packages required for replications are:
 
 Users can run the following one-off command to install the most recent versions of these packages:
 ```
-install.packages(c('BAMMtools','data.table','devtools','dplyr','gdata', 'geosphere','Hmisc','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','stringr','tidyr','velox'), dependencies = T)
+install.packages(c('BAMMtools','data.table','devtools','dplyr','gdata', 'geosphere',`hutils`,'Hmisc','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','stringr','tidyr','velox'), dependencies = T)
 ```
 
 Finally, some of the scraping requires the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.

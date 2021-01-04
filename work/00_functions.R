@@ -5,25 +5,21 @@ library(rgeos)
 library(rgdal)
 library(geosphere)
 library(ncdf4)
-
 library(dplyr)
 library(tidyr)
 library(stringr)
 library(splines)
-
 library(readr)
 library(data.table)
 library(raster)
 library(gdata) #to read xls
 #library(velox)
 library(openxlsx) # to read xlsx
-
-
 library(signal) #for interpolation
 library(imputeTS) #for na_kalman
-
 library(Hmisc)
 library(BAMMtools)
+library(hutils)
 
 ##################################################################
 # Settings
