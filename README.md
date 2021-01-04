@@ -43,7 +43,7 @@ Additionally, some input datasets are not included here in any form because they
 * data/traffic-darte: DARTE data requires [registration](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) prior to [downloading](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) the files `onroad_[YYYY].tif` for years 2006-2017.
 
 
-* data/pm: Files are too large for Github. Sourced from https://www.epa.gov/outdoor-air-quality-data/download-daily-data and slightly processed. Processing file is provided in  `work/supplemental` in case you would like to update the data in the future. Processed file can be downloaded [here](https://www.dropbox.com/s/z5tl3te2ge3hhvp/epa_station_level_pm25_data.rds?dl=0).
+* data/pm: Files are too large for Github. Sourced from the [EPA download portal](https://www.epa.gov/outdoor-air-quality-data/download-daily-data) and slightly processed. Processing file is provided in  `work/supplemental/create_simplified_epa_data.R` in case you would like to update the data in the future. Processed file used in the paper can be downloaded [here](https://www.dropbox.com/s/z5tl3te2ge3hhvp/epa_station_level_pm25_data.rds?dl=0).
 
 
 
