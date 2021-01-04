@@ -163,7 +163,7 @@ R packages required for replications are:
 
 Users can run the following one-off command to install the most recent versions of these packages:
 ```
-install.packages(c('data.table','devtools','dplyr','gdata', 'geosphere','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','splines','stringr','tidyr','velox'), dependencies = T)
+install.packages(c('data.table','devtools','dplyr','gdata', 'geosphere','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','stringr','tidyr','velox'), dependencies = T)
 ```
 
 In addition, a custom package that includes several plotting and scraping functions is used throughout and can be installed by running this: 
