@@ -82,7 +82,8 @@ Additionally, some input datasets are not included here in any form because they
 * data/powerplants/overview_[YYYY].csv: same as above https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2006&tab=overview&start=200101&end=201710 
 
 * data/powerplants/Plant_Y[YYYY].xlsx: https://www.eia.gov/electricity/data/eia860/
-smoke: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html. Processing file is provided in `work/supplemental` in case you would like to update the data in the future.
+
+* data/smoke: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html. Processing file is provided in `work/supplemental` in case you would like to update the data in the future.
 
 * data/WUI: state level estimates of number of homes in the wildland urban interface. Generated using National Land Cover Database and proprietary CoreLogic data including the locations of all homes in the US.
 
