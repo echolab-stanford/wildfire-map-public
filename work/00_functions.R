@@ -15,7 +15,7 @@ library(readr)
 library(data.table)
 library(raster)
 library(gdata) #to read xls
-library(velox)
+#library(velox)
 library(openxlsx) # to read xlsx
 
 library(census.tools)
@@ -24,6 +24,8 @@ library(census.tools)
 library(signal) #for interpolation
 library(imputeTS) #for na_kalman
 
+library(Hmisc)
+library(BAMMtools)
 
 ##################################################################
 # Settings
