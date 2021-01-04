@@ -49,6 +49,8 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/boundaries/tl_2019_us_state: [state boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) are TIGER line files and can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/STATE/tl_2019_us_state.zip)
 
+* data/boundaries/tl_2019_us_county: [county boundaries](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/) are TIGER line files and can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/tl_2019_us_county.zip)
+
 * data/boundaries/all_national_zips.rds: simplified version of TIGER line files
 
 * data/boundaries/counties.RDS: simplified version of TIGER line files
@@ -98,6 +100,7 @@ data
  ├── boundaries
  │   ├── GACC
  │   │	 └── National_GACC_Current_20200226.shp (and associated dbf, prj) 
+ │	 ├── tl_2019_us_county
  │	 ├── tl_2010_us_state
  │	 ├── all_national_zips.rds
  │	 ├── counties.RDS
