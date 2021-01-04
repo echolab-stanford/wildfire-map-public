@@ -6,27 +6,6 @@ source("work/00_functions.R")
 # Downloads airport data
 ########################################################################################
 
-# a function that moves the downloaded data from the Downloads folder and names
-unzip_rename = function(name) {
-    x = file.info(list.files("~/Downloads", full.names=T))
-    x = rownames(x[x$mtime ==  max(x$mtime),])
-    unzip(x, exdir="./data/airport")
-    
-    Sys.sleep(abs(rnorm(1, mean=.2, sd=0.1)))
-    
-    y = file.info(list.files("./data/airport", full.names=T))
-    y = rownames(y[y$mtime ==  max(y$mtime),])
-    file.rename(from=y, to=paste0("./data/airport/",  name, ".csv"))
-    
-    y = read.csv(paste0("./data/airport/",  name, ".csv"))
-    saveRDS(y, paste0("./data/airport/",  name, ".RDS"))
-    
-    file.remove(paste0("./data/airport/",  name, ".csv"))
-    file.remove(x)
-    
-    return(T)
-}
-
 months = c("January", "February", "March", "April", "May", "June", "July", "August", 
            "September", "October", "November", "December")
 url = "https://www.transtats.bts.gov/Tables.asp?DB_ID=120&DB_Name=Airline%20On-Time%20Performance%20Data&DB_Short_Name=On-Time"

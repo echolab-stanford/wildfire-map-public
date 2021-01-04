@@ -13,7 +13,7 @@ library(readr)
 library(data.table)
 library(raster)
 library(gdata) #to read xls
-#library(velox)
+library(velox)
 library(openxlsx) # to read xlsx
 library(signal) #for interpolation
 library(imputeTS) #for na_kalman
@@ -494,3 +494,27 @@ panel_set = function(data, name, subtitles=NULL, n=1, w=NULL, save_path=NULL, fo
     
     arrange_panels(plots, n, save_path, name, font)
 }
+
+
+
+# a function that moves the downloaded data from the Downloads folder and names
+unzip_rename = function(name) {
+  x = file.info(list.files("~/Downloads", full.names=T))
+  x = rownames(x[x$mtime ==  max(x$mtime),])
+  unzip(x, exdir="./data/airport")
+  
+  Sys.sleep(abs(rnorm(1, mean=.2, sd=0.1)))
+  
+  y = file.info(list.files("./data/airport", full.names=T))
+  y = rownames(y[y$mtime ==  max(y$mtime),])
+  file.rename(from=y, to=paste0("./data/airport/",  name, ".csv"))
+  
+  y = read.csv(paste0("./data/airport/",  name, ".csv"))
+  saveRDS(y, paste0("./data/airport/",  name, ".RDS"))
+  
+  file.remove(paste0("./data/airport/",  name, ".csv"))
+  file.remove(x)
+  
+  return(T)
+}
+
