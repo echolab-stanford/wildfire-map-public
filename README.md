@@ -37,8 +37,8 @@ Additionally, some input datasets are not included here in any form because they
 ## Not included in repo
 
 * boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis (filename.csv).
-* improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). 
-* pop: SEDAC population data requires [registration](https://sedac.ciesin.columbia.edu/user-registration) prior to [downloading](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download). We use files `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
+* improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use files `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
+* pop: SEDAC population data requires [registration](https://sedac.ciesin.columbia.edu/user-registration) prior to [downloading](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download). We use the 2.5 minute data for 2005.
 * traffic-darte: DARTE data requires [registration](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) prior to [downloading](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) the files `onroad_[YYYY].tif` for years 2006-2017.
 
 ## Included in repo
