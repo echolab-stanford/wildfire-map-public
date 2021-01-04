@@ -196,3 +196,4 @@ Finally, some of the scraping requires the [dev version](https://www.google.com/
 
 All scripts were written in R version 3.6.1 (2019-07-05) -- "Action of the Toes".
 
+(Note: The velox package is not compatible with R versions 4.0.0 or later.)
