@@ -38,6 +38,9 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis (`uszips.csv`).
 * data/boundaries/tl_2019_us_county: [county boundaries](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/) are TIGER line files and are too large for github but can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/tl_2019_us_county.zip)
+
+* data/fire/hms_fires.RDS: File too big for Github but can be downloaded [here](https://www.dropbox.com/s/078te5uy3w39qye/hms_fires.RDS?dl=0). Adapted from data downloaded (individually by day) from [here](https://www.ospo.noaa.gov/Products/land/hms.html).
+
 * data/improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use files `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
 
 * data/pm: File is too large for Github but can be downloaded [here](https://www.dropbox.com/s/z5tl3te2ge3hhvp/epa_station_level_pm25_data.rds?dl=0). Raw data come from the [EPA download portal](https://www.epa.gov/outdoor-air-quality-data/download-daily-data) and are slightly processed to create the file linked above using the script  `work/supplemental/create_simplified_epa_data.R` in case you would like to update the data in the future. 
@@ -75,8 +78,6 @@ Additionally, some input datasets are not included here in any form because they
 * data/emissions/USAGDPDEFAISMEI.csv: https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
 
 * data/EPA_trend: each region downloaded from https://www.epa.gov/air-trends/particulate-matter-pm25-trends
-
-* data/fire/hms_fires: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html
 
 * data/fire/prescribed_burn_acres.csv: Manually annotated from Wildland Fire Summaries at https://www.nifc.gov/fireInfo/fireInfo_statistics.html
 
