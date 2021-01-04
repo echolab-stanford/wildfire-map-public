@@ -36,55 +36,55 @@ Additionally, some input datasets are not included here in any form because they
 
 ## Not included in repo
 
-* boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis (filename.csv).
-* improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use files `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
-* pop: SEDAC population data requires [registration](https://sedac.ciesin.columbia.edu/user-registration) prior to [downloading](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download). We use the 2.5 minute data for 2005, 2010, 2015, and 2020. Files are of the form: `gpw_v4_population_count_rev11_[Year]_2pt5_min.tif`.
-* traffic-darte: DARTE data requires [registration](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) prior to [downloading](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) the files `onroad_[YYYY].tif` for years 2006-2017.
+* data/boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis (filename.csv).
+* data/improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use files `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
+* data/pop: SEDAC population data requires [registration](https://sedac.ciesin.columbia.edu/user-registration) prior to [downloading](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download). We use the 2.5 minute data for 2005, 2010, 2015, and 2020. Files are of the form: `gpw_v4_population_count_rev11_[Year]_2pt5_min.tif`.
+* data/traffic-darte: DARTE data requires [registration](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) prior to [downloading](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) the files `onroad_[YYYY].tif` for years 2006-2017.
 
 ## Included in repo
 
-* airport: Airport data come from [here](https://www.transtats.bts.gov/ONTIME/) including airport locations, quarterly ticketing, and monthly on-time status.
+* data/airport: Airport data come from [here](https://www.transtats.bts.gov/ONTIME/) including airport locations, quarterly ticketing, and monthly on-time status.
 
-* boundaries/GACC: The [GACC boundaries](https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries) can be downloaded [here](https://opendata.arcgis.com/datasets/7dc5f4a286bd47e0aaafa0ab05302fe9_0.gdb)
+* data/boundaries/GACC: The [GACC boundaries](https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries) can be downloaded [here](https://opendata.arcgis.com/datasets/7dc5f4a286bd47e0aaafa0ab05302fe9_0.gdb)
 
-* boundaries/tl_2019_us_state: [state boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) are TIGER line files and can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/STATE/tl_2019_us_state.zip)
+* data/boundaries/tl_2019_us_state: [state boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) are TIGER line files and can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/STATE/tl_2019_us_state.zip)
 
-* boundaries/all_national_zips.rds: simplified version of TIGER line files
+* data/boundaries/all_national_zips.rds: simplified version of TIGER line files
 
-* boundaries/counties.RDS: simplified version of TIGER line files
+* data/boundaries/counties.RDS: simplified version of TIGER line files
 
-* boundaries/state_fips_codes.csv: manually created
+* data/boundaries/state_fips_codes.csv: manually created
 
-* census: all public access census and ag census files
+* data/census: all public access census and ag census files
 
-* coal: all sourced from https://www.eia.gov/electricity/data/eia860m/
+* data/coal: all sourced from https://www.eia.gov/electricity/data/eia860m/
 
-* emissions/abatzoglou_data.csv: Dataset S01 from https://www.pnas.org/content/suppl/2016/10/06/1607171113.DCSupplemental
+* data/emissions/abatzoglou_data.csv: Dataset S01 from https://www.pnas.org/content/suppl/2016/10/06/1607171113.DCSupplemental
 
-* emissions/supression_costs.csv: manually annotated from https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
+* data/emissions/supression_costs.csv: manually annotated from https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
 
-* emissions/USAGDPDEFAISMEI.csv: https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
+* data/emissions/USAGDPDEFAISMEI.csv: https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
 
-* EPA_trend: each region downloaded from https://www.epa.gov/air-trends/particulate-matter-pm25-trends
+* data/EPA_trend: each region downloaded from https://www.epa.gov/air-trends/particulate-matter-pm25-trends
 
-* fire/hms_fires: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html
+* data/fire/hms_fires: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html
 
-* fire/prescribed_burn_acres.csv: Manually annotated from Wildland Fire Summaries at https://www.nifc.gov/fireInfo/fireInfo_statistics.html
+* data/fire/prescribed_burn_acres.csv: Manually annotated from Wildland Fire Summaries at https://www.nifc.gov/fireInfo/fireInfo_statistics.html
 
-* natural_gas: field level natural gas estimates, need to be aggregated to county level. https://www.eia.gov/naturalgas/ngqs/#?report=RP7&year1=2005&year2=2019&company=Name
+* data/natural_gas: field level natural gas estimates, need to be aggregated to county level. https://www.eia.gov/naturalgas/ngqs/#?report=RP7&year1=2005&year2=2019&company=Name
 
-* physio_shp: from https://water.usgs.gov/GIS/dsdl/physio_shp.zip
+* data/physio_shp: from https://water.usgs.gov/GIS/dsdl/physio_shp.zip
 
-* pm: sourced from https://www.epa.gov/outdoor-air-quality-data/download-daily-data and slightly processed. Processing file is provided in  `work/supplemental` in case you would like to update the data in the future.
+* data/pm: sourced from https://www.epa.gov/outdoor-air-quality-data/download-daily-data and slightly processed. Processing file is provided in  `work/supplemental` in case you would like to update the data in the future.
 
-* powerplants/emissions_[YYYY].csv: from the data browser, you need to manually select the year of interest and download from the button above the table https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2009&tab=annual_emissions
+* data/powerplants/emissions_[YYYY].csv: from the data browser, you need to manually select the year of interest and download from the button above the table https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2009&tab=annual_emissions
 
-* powerplants/overview_[YYYY].csv: same as above https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2006&tab=overview&start=200101&end=201710 
+* data/powerplants/overview_[YYYY].csv: same as above https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2006&tab=overview&start=200101&end=201710 
 
-* powerplants/Plant_Y[YYYY].xlsx: https://www.eia.gov/electricity/data/eia860/
+* data/powerplants/Plant_Y[YYYY].xlsx: https://www.eia.gov/electricity/data/eia860/
 smoke: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html. Processing file is provided in `work/supplemental` in case you would like to update the data in the future.
 
-* WUI: state level estimates of number of homes in the wildland urban interface. Generated using National Land Cover Database and proprietary CoreLogic data including the locations of all homes in the US.
+* data/WUI: state level estimates of number of homes in the wildland urban interface. Generated using National Land Cover Database and proprietary CoreLogic data including the locations of all homes in the US.
 
 ### Necessary starting data folder structure to reproduce
 
