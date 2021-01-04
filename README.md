@@ -4,57 +4,74 @@ Repo supporting "The changing risk and burden of wildfire in the United States"
 
 # Using results
 
-The estimates generated in the paper can be found in the folder `clean/results_all.RDS`. This file is a dataframe, with an estimate for each year, for each grid cell. The column `preds` is the prediction for the cell overall, and `preds_0` is the prediction when the smoke value is artificially set to 0. The grid cells are only identified by id, and can be merged with a shapefile for any spatial work. The grid shapefile can be found at `clean/national_grid.RDS`.  
+The main estimates generated in the paper are available at `clean/results_all.RDS`. This file is a dataframe, with an estimate for each year, for each grid cell. The column `preds` is the prediction for the cell overall, and `preds_0` is the prediction when the smoke input value is artificially set to 0. For spatial coordinates, the data can be merged with the grid shapefile `clean/national_grid.RDS` on the variable `id`.  
 
 There are several settings that can be changed in the `work/00_functions.R`. 
 
-# Packages needed
+# Scripts
 
-A custom package used in the lab that includes several plotting and scraping functions is used throughout, and can be downloaded at the github `burkelab/census.tools`. 
-
-Additionally, some of the scraping requires RSelenium, along with the dev version of chrome.
-
+Description of script structuring, etc.
 
 # Data
 
-Several datasets are included in the repo in a processed form, and the raw data can be downloaded at that link provided below. For example:
+Input data from freely distributed sources are included in the repo in a processed form. Directions for accessing the raw data are included along with the download links provided below. Examples of the processed data format include:
 1) the TIGER line files are included in a simplified form (same polygons, just passed through gSimplify so that they're small enough to include in GitHub) 
-2) the EPA PM2.5 data is included in one big rds file, it can only be downloaded on a state-year basis (so the raw data is ±600 separate files)
-3) the smoke polygon data is included in one big rds file, it can only be downloaded on a daily basis (4000+ separate files) 
+2) the EPA PM2.5 data are included in one big rds file whereas it can only be downloaded on a state-year basis (so the raw data is ±600 separate files)
+3) the smoke polygon data are included in one big rds file, whereas they can only be downloaded on a daily basis (4000+ separate files) 
 
-Additionally, some datasets are not included at all, since they require log in to access and cannot be distributed. Those files are listed below.
+Additionally, some input datasets are not included here in any form because they require registration prior to access and thus cannot be redistributed. Those files, along with instructions for access, are listed below.
 
 ## Not included in repo
 
-boundaries/uszips.csv: roprietary data from simplemaps. http://simplemaps.com/data/updates/order/FLA201009-8749-21137/
-improve: Sourced from http://vista.cira.colostate.edu/Improve/improve-data/, requires log in to access
-pop: sourced from https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download, requires log in to download
-traffic-darte: Can be found at https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735, requires log in to download
+* boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis (filename.csv).
+* improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use the following file: filename.csv.
+* pop: SEDAC population data requires [registration](https://sedac.ciesin.columbia.edu/user-registration) prior to [downloading](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download) the file filename.csv.
+* traffic-darte: DARTE data requires [registration](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) prior to [downloading](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) the file filename.csv.
 
 ## Included in repo
 
-airport: from https://www.transtats.bts.gov/ONTIME/
-boundaries/GACC: boundaries are from https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries
-boundaries/tl_2019_us_state: state boundaries are TIGER line files https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html
-boundaries/all_national_zips.rds: simplified version of TIGER line files
-boundaries/counties.RDS: simplified version of TIGER line files
-boundaries/state_fips_codes.csv: manually created
-census: all public access census and ag census files
-coal: all sourced from https://www.eia.gov/electricity/data/eia860m/
-emissions/abatzoglou_data.csv: Dataset S01 from https://www.pnas.org/content/suppl/2016/10/06/1607171113.DCSupplemental
-emissions/supression_costs.csv: manually annotated from https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
-emissions/USAGDPDEFAISMEI.csv: https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
-EPA_trend: each region downloaded from https://www.epa.gov/air-trends/particulate-matter-pm25-trends
-fire/hms_fires: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html
-fire/prescribed_burn_acres.csv: Manually annotated from Wildland Fire Summaries at https://www.nifc.gov/fireInfo/fireInfo_statistics.html
-natural_gas: field level natural gas estimates, need to be aggregated to county level. https://www.eia.gov/naturalgas/ngqs/#?report=RP7&year1=2005&year2=2019&company=Name
-physio_shp: from https://water.usgs.gov/GIS/dsdl/physio_shp.zip
-pm: sourced from https://www.epa.gov/outdoor-air-quality-data/download-daily-data and slightly processed. Processing file is provided in  `work/supplemental` in case you would like to update the data in the future.
-powerplants/emissions_[YYYY].csv: from the data browser, you need to manually select the year of interest and download from the button above the table https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2009&tab=annual_emissions
-powerplants/overview_[YYYY].csv: same as above https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2006&tab=overview&start=200101&end=201710 
-powerplants/Plant_Y[YYYY].xlsx: https://www.eia.gov/electricity/data/eia860/
+* airport: Airport data come from [here](https://www.transtats.bts.gov/ONTIME/) including [airport locations](), [quarterly ticketing](), and [monthly on-time status]()
+
+* boundaries/GACC: The [GACC boundaries](https://hub.arcgis.com/datasets/nifc::national-gacc-boundaries) can be downloaded [here](https://opendata.arcgis.com/datasets/7dc5f4a286bd47e0aaafa0ab05302fe9_0.gdb)
+
+* boundaries/tl_2019_us_state: [state boundaries](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html) are TIGER line files and can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/STATE/tl_2019_us_state.zip)
+
+    * boundaries/all_national_zips.rds: simplified version of TIGER line files
+
+* boundaries/counties.RDS: simplified version of TIGER line files
+
+* boundaries/state_fips_codes.csv: manually created
+
+* census: all public access census and ag census files
+
+* coal: all sourced from https://www.eia.gov/electricity/data/eia860m/
+
+* emissions/abatzoglou_data.csv: Dataset S01 from https://www.pnas.org/content/suppl/2016/10/06/1607171113.DCSupplemental
+
+* emissions/supression_costs.csv: manually annotated from https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
+
+* emissions/USAGDPDEFAISMEI.csv: https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
+
+* EPA_trend: each region downloaded from https://www.epa.gov/air-trends/particulate-matter-pm25-trends
+
+* fire/hms_fires: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html
+
+* fire/prescribed_burn_acres.csv: Manually annotated from Wildland Fire Summaries at https://www.nifc.gov/fireInfo/fireInfo_statistics.html
+
+* natural_gas: field level natural gas estimates, need to be aggregated to county level. https://www.eia.gov/naturalgas/ngqs/#?report=RP7&year1=2005&year2=2019&company=Name
+
+* physio_shp: from https://water.usgs.gov/GIS/dsdl/physio_shp.zip
+
+* pm: sourced from https://www.epa.gov/outdoor-air-quality-data/download-daily-data and slightly processed. Processing file is provided in  `work/supplemental` in case you would like to update the data in the future.
+
+* powerplants/emissions_[YYYY].csv: from the data browser, you need to manually select the year of interest and download from the button above the table https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2009&tab=annual_emissions
+
+* powerplants/overview_[YYYY].csv: same as above https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2006&tab=overview&start=200101&end=201710 
+
+* powerplants/Plant_Y[YYYY].xlsx: https://www.eia.gov/electricity/data/eia860/
 smoke: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html. Processing file is provided in `work/supplemental` in case you would like to update the data in the future.
-WUI: state level estimates of number of homes in the wildland urban interface. Generated using National Land Cover Database and proprietary CoreLogic data including the locations of all homes in the US.
+
+* WUI: state level estimates of number of homes in the wildland urban interface. Generated using National Land Cover Database and proprietary CoreLogic data including the locations of all homes in the US.
 
 ### Necessary starting data folder structure to reproduce
 
@@ -120,3 +137,42 @@ data
  └── WUI
  	 └── [Year]_combined_wui_hh_data.csv (2001, 2004, 2006, 2008, 2011, 2013, 2016)
 ```
+# R Packages needed
+
+R packages required for replications are:
+
+- data.table
+- dplyr
+- gdata 
+- geosphere
+- imputeTS
+- ncdf4
+- openxlsx 
+- raster
+- readr
+- rgdal
+- rgeos
+- RSelenium
+- sf
+- signal 
+- sp
+- splines
+- stringr
+- tidyr
+- velox
+
+Users can run the following one-off command to install the most recent versions of these packages:
+```
+install.packages(c('data.table','devtools','dplyr','gdata', 'geosphere','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','splines','stringr','tidyr','velox'), dependencies = T)
+```
+
+In addition, a custom package that includes several plotting and scraping functions is used throughout and can be installed by running this: 
+```
+devtools::install_github("burke-lab/census.tools")
+```
+
+Finally, some of the scraping requires the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.
+
+
+All scripts were written in R VERSION. 
+
