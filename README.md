@@ -39,11 +39,14 @@ Additionally, some input datasets are not included here in any form because they
 * data/boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis (`uszips.csv`).
 * data/boundaries/tl_2019_us_county: [county boundaries](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/) are TIGER line files and are too large for github but can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/tl_2019_us_county.zip)
 * data/improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use files `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
+
+* data/pm: Files are too large for Github. Raw data come from the [EPA download portal](https://www.epa.gov/outdoor-air-quality-data/download-daily-data) and slightly processed. Processing file is provided in  `work/supplemental/create_simplified_epa_data.R` in case you would like to update the data in the future. Processed file used in the paper can be downloaded [here](https://www.dropbox.com/s/z5tl3te2ge3hhvp/epa_station_level_pm25_data.rds?dl=0).
+
 * data/pop: SEDAC population data requires [registration](https://sedac.ciesin.columbia.edu/user-registration) prior to [downloading](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download). We use the 2.5 minute data for 2005, 2010, 2015, and 2020. Files are of the form: `gpw_v4_population_count_rev11_[Year]_2pt5_min.tif`.
+
 * data/traffic-darte: DARTE data requires [registration](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) prior to [downloading](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) the files `onroad_[YYYY].tif` for years 2006-2017.
 
 
-* data/pm: Files are too large for Github. Sourced from the [EPA download portal](https://www.epa.gov/outdoor-air-quality-data/download-daily-data) and slightly processed. Processing file is provided in  `work/supplemental/create_simplified_epa_data.R` in case you would like to update the data in the future. Processed file used in the paper can be downloaded [here](https://www.dropbox.com/s/z5tl3te2ge3hhvp/epa_station_level_pm25_data.rds?dl=0).
 
 
 
