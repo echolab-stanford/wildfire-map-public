@@ -20,7 +20,7 @@ library(imputeTS) #for na_kalman
 library(Hmisc)
 library(BAMMtools)
 library(hutils)
-
+library(RSelenium)
 ##################################################################
 # Settings
 ##################################################################

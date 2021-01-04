@@ -1,5 +1,5 @@
 source("work/00_functions.R")
-library(RSelenium)
+
 
 ########################################################################################
 # Written by: Anne Driscoll
