@@ -1,26 +1,42 @@
+library(BAMMtools)
+library(caret)
+library(cleangeo)
 library(data.table)
-library(sf)
-library(sp)
+library(dplyr)
+library(gdata) #to read xls
+library(geosphere)
+library(ggplot2)
+library(gridExtra)
+library(Hmisc)
+library(hutils)
+library(imputeTS) #for na_kalman
+library(latticeExtra)
+library(mapproj)
+library(maptools)
+library(ncdf4)
+library(openxlsx) # to read xlsx
+library(plyr)
+library(raster)
+library(RColorBrewer)
+library(readr)
 library(rgeos)
 library(rgdal)
-library(geosphere)
-library(ncdf4)
-library(dplyr)
-library(tidyr)
-library(stringr)
-library(splines)
-library(readr)
-library(data.table)
-library(raster)
-library(gdata) #to read xls
-library(velox)
-library(openxlsx) # to read xlsx
-library(signal) #for interpolation
-library(imputeTS) #for na_kalman
-library(Hmisc)
-library(BAMMtools)
-library(hutils)
 library(RSelenium)
+library(sf)
+library(signal) #for interpolation
+library(sp)
+library(splines)
+library(stringr)
+library(svMisc)
+library(tidyr)
+library(triangle)
+library(truncnorm)
+library(velox)
+library(zoo)
+
+
+
+
 ##################################################################
 # Settings
 ##################################################################

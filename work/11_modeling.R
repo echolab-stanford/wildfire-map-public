@@ -1,9 +1,4 @@
 source("work/00_functions.R")
-library(svMisc)
-library(latticeExtra)
-library(BAMMtools)
-library(ggplot2)
-library(caret)
 
 ########################################################################################
 # Written by: Anne Driscoll

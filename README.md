@@ -163,17 +163,26 @@ data
 R packages required for replications are:
 
 - BAMMtools
+- caret
+- cleangeo
 - data.table
 - dplyr
 - gdata 
 - geosphere
+- ggplot2
+- gridExtra
 - hutils
 - Hmisc
 - imputeTS
+- latticeExtra
+- mapproj
+- maptools
 - ncdf4
 - openxlsx 
+- plyr
 - raster
 - readr
+- RColorBrewer
 - rgdal
 - rgeos
 - RSelenium
@@ -182,12 +191,17 @@ R packages required for replications are:
 - sp
 - splines
 - stringr
+- svMisc
 - tidyr
+- triangle
+- truncnorm
 - velox
+- zoo
+
 
 Users can run the following one-off command to install the most recent versions of these packages:
 ```
-install.packages(c('BAMMtools','data.table','devtools','dplyr','gdata', 'geosphere',`hutils`,'Hmisc','imputeTS','ncdf4','openxlsx', 'raster','readr','rgdal','rgeos','RSelenium','sf','signal', 'sp','stringr','tidyr','velox'), dependencies = T)
+install.packages(c('BAMMtools','caret','cleangeo','data.table','devtools','dplyr','gdata', 'geosphere','ggplot2','gridExtra',`hutils`,'Hmisc','imputeTS','latticeExtra','mapproj','maptools','ncdf4','openxlsx','plyr', 'raster','readr','RColorBrewer','rgdal','rgeos','RSelenium','sf','signal', 'sp','stringr','svMisc','tidyr','triangle','truncnorm','velox','zoo'), dependencies = T)
 ```
 
 Finally, some of the scraping requires the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.

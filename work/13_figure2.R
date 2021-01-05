@@ -1,10 +1,5 @@
 source("work/00_functions.R")
-library(mapproj)
-library(RColorBrewer)
-library(cleangeo)
-library(stringr)
-library(ggplot2)
-library(BAMMtools)
+
 
 ######################################################################################
 # Read in the data

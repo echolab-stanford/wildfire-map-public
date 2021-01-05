@@ -4,9 +4,6 @@ source("00_functions.R")
 # GDP deflator data are from SF FED:  https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
 # written by MB, edited to add WUI and smoke pm by AD on 02/10/2020
 
-library(tidyverse)
-library(zoo)
-library(splines)
 setwd("..")
 
 ######################################################################################

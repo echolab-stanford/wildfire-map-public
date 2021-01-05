@@ -1,5 +1,4 @@
-setwd("..")
-library(maptools)
+source("work/00_functions.R")
 
 data = readRDS("data/clean/epa_full_long_data_spatial_lag.RDS")
 data = unique(data[, c("id", "physio_region", "physio_section")])

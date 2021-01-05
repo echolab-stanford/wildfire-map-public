@@ -1,8 +1,4 @@
 source("work/00_functions.R")
-library(plyr)
-library(Hmisc)
-library(truncnorm)
-library(triangle)
 #mortality cost
 
 ###############################################################

@@ -1,3 +1,6 @@
+source("work/00_functions.R")
+
+
 results_all = readRDS("data/clean/results_all.RDS")
 
 if (!"VanD_comparisons.Rds" %in% list.files("data/clean"))  {

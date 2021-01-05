@@ -1,9 +1,5 @@
-library(Hmisc)
-library(gridExtra)
-library(cleangeo)
-library(stringr)
-library(rgdal)
-library(data.table)
+source("work/00_functions.R")
+
 
 ########  CROSSWALKS + READ IN
 
