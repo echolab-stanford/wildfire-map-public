@@ -92,7 +92,7 @@ tourism = tourism %>% group_by(GeoFIPS, type) %>%
 tourism$GeoFIPS = str_trim(as.character(tourism$GeoFIPS))
 
 # convert from wide to long data
-tourism = melt(tourism, c("GeoFIPS", "type"))
+tourism = reshape2::melt(tourism, c("GeoFIPS", "type"))
 tourism$variable = substr(tourism$variable, 2, 5)
 tourism = merge(tourism, data_ll[, c("id", "fips")], by.x="GeoFIPS", by.y="fips", all.y=T, all.x=F)
 
