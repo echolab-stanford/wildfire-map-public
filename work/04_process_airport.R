@@ -56,7 +56,7 @@ min_taxi = rbindlist(min_taxi[w])
 min_taxi = rbind(min_taxi[, c("YEAR", "MONTH", "ORIGIN", "taxi_out")], 
           min_taxi[, c("YEAR", "MONTH", "DEST", "taxi_in")], use.names=F)
 min_taxi = min_taxi %>% group_by(YEAR, ORIGIN) %>%
-    summarize(taxi = sum(taxi_out, na.rm=T)) #to combine taxi in and taxi out
+    dplyr::summarize(taxi = sum(taxi_out, na.rm=T)) #to combine taxi in and taxi out
 
 
 ###############################################################
