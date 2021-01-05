@@ -66,7 +66,7 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/boundaries/state_fips_codes.csv: manually created
 
-* data/Brey: region specific estimates of smoke source from Brey et al 2018
+* data/Brey: region specific estimates of smoke source from [Brey et al 2018](https://d-nb.info/1162355557/34).
 
 * data/census: all public access census and ag census files
 
