@@ -36,8 +36,6 @@ Additionally, some input datasets are not included here in any form because they
 
 ## Not included in repo
 
-* data/boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis (`uszips.csv`).
-
 * data/boundaries/tl_2019_us_county: [county boundaries](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/) are TIGER line files and are too large for github but can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/tl_2019_us_county.zip)
 
 * data/fire/hms_fires.RDS: File too big for Github but can be downloaded [here](https://www.dropbox.com/s/66lcml7glcb707q/hms_fires.RDS?dl=0). Adapted from data downloaded (individually by day) from [here](https://www.ospo.noaa.gov/Products/land/hms.html).
@@ -111,8 +109,7 @@ data
  │	 ├── tl_2010_us_state
  │	 ├── all_national_zips.rds
  │	 ├── counties.RDS
- │	 ├── state_fips_codes.csv
- │	 └── uszips.csv
+ │	 └── state_fips_codes.csv
  ├── census
  │	 ├── acres_conventional_tillage.csv 
  │	 ├── ACS_17_1YR_S0101.csv
