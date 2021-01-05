@@ -66,6 +66,8 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/boundaries/state_fips_codes.csv: manually created
 
+* data/Brey: region specific estimates of smoke source from Brey et al 2018
+
 * data/census: all public access census and ag census files
 
 * data/coal: Annual data on coal generation. Data come from Form EIA-860-Schedule 3, "Generator Data" originally sourced from [here](https://www.eia.gov/electricity/data/eia860/). The files included in the repo are these annual files (`3_1_Generator[YEAR]`) subset to only Coal plants with the files renamed.
