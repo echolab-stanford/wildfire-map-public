@@ -1,0 +1,49 @@
+﻿state ,code,fips,region
+Alabama,AL,1,SouthEast
+Arizona,AZ,4,SouthWest
+Arkansas,AR,5,SouthernPlains
+California,CA,6,SouthWest
+Colorado,CO,8,RockyMountains
+Connecticut,CT,9,NorthEast
+Delaware,DE,10,MidAtlantic
+Florida,FL,12,SouthEast
+Georgia,GA,13,SouthEast
+Idaho,ID,16,NorthWest
+Illinois,IL,17,MidWest
+Indiana,IN,18,MidWest
+Iowa,IA,19,GreatPlains
+Kansas,KS,20,GreatPlains
+Kentucky,KY,21,SouthEast
+Louisiana,LA,22,SouthernPlains
+Maine,ME,23,NorthEast
+Maryland,MD,24,MidAtlantic
+Massachusetts,MA,25,NorthEast
+Michigan,MI,26,MidWest
+Minnesota,MN,27,MidWest
+Mississippi,MS,28,SouthEast
+Missouri,MO,29,GreatPlains
+Montana,MT,30,RockyMountains
+Nebraska,NE,31,GreatPlains
+Nevada,NV,32,SouthWest
+New Hampshire,NH,33,NorthEast
+New Jersey,NJ,34,NorthEast
+New Mexico,NM,35,RockyMountains
+New York,NY,36,NorthEast
+North Carolina,NC,37,SouthEast
+North Dakota,ND,38,GreatPlains
+Ohio,OH,39,MidWest
+Oklahoma,OK,40,SouthernPlains
+Oregon,OR,41,NorthWest
+Pennsylvania,PA,42,MidAtlantic
+Rhode Island,RI,44,NorthEast
+South Carolina,SC,45,SouthEast
+South Dakota,SD,46,GreatPlains
+Tennessee,TN,47,SouthEast
+Texas,TX,48,SouthernPlains
+Utah,UT,49,RockyMountains
+Vermont,VT,50,NorthEast
+Virginia,VA,51,MidAtlantic
+Washington,WA,53,NorthWest
+West Virginia,WV,54,MidAtlantic
+Wisconsin,WI,55,MidWest
+Wyoming,WY,56,RockyMountains
