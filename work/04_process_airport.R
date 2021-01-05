@@ -99,10 +99,10 @@ names(a) = data_ll$id
 
 for (i in 1:length(a)) {
     cur = a[[i]]
-    flights = num_flight %>% filter(ORIGIN %in% cur$origin) %>%
-        group_by(YEAR) %>% summarize(tickets = sum(tickets))
-    taxi = min_taxi %>% filter(ORIGIN %in% cur$origin) %>%
-        group_by(YEAR) %>% summarize(taxi = sum(taxi))
+    flights = num_flight %>% dplyr::filter(ORIGIN %in% cur$origin) %>%
+        group_by(YEAR) %>% dplyr::summarize(tickets = sum(tickets))
+    taxi = min_taxi %>% dplyr::filter(ORIGIN %in% cur$origin) %>%
+        group_by(YEAR) %>% dplyr::summarize(taxi = sum(taxi))
     cur = merge(flights, taxi, by=c("YEAR"), all=T)
     if (nrow(cur) == 0) {cur = data.frame(year=years, tickets=0, taxi=0)}
     if (nrow(cur) == 1) {cur = data.frame(year=years, tickets=cur$tickets, taxi=cur$taxi)}
