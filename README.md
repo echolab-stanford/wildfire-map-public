@@ -122,7 +122,8 @@ data
  │	 ├── CAINC6N__ALL_STATES_2001_2017.csv
  │	 ├── cattle_number.csv
  │	 ├── county_ag_sales.csv
- │	 └── fertilizer_totals.csv
+ │	 ├── fertilizer_totals.csv
+ │	 └── us_county_average_pm25_income_race.rds
  ├── coal
  │	 ├── existing_gen_units_2006.xls (2006 - 2014)
  │	 └── existing_gen_units_2015.xlsx (2015 - 2018)
