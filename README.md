@@ -170,6 +170,7 @@ R packages required for replications are:
 - gdata 
 - geosphere
 - ggplot2
+- ggpubr
 - gridExtra
 - hutils
 - Hmisc
@@ -201,7 +202,7 @@ R packages required for replications are:
 
 Users can run the following one-off command to install the most recent versions of these packages:
 ```
-install.packages(c('BAMMtools','caret','cleangeo','data.table','devtools','dplyr','gdata', 'geosphere','ggplot2','gridExtra',`hutils`,'Hmisc','imputeTS','latticeExtra','mapproj','maptools','ncdf4','openxlsx','plyr', 'raster','readr','RColorBrewer','rgdal','rgeos','RSelenium','sf','signal', 'sp','stringr','svMisc','tidyr','triangle','truncnorm','velox','zoo'), dependencies = T)
+install.packages(c('BAMMtools','caret','cleangeo','data.table','devtools','dplyr','gdata', 'geosphere','ggplot2','ggpubr','gridExtra',`hutils`,'Hmisc','imputeTS','latticeExtra','mapproj','maptools','ncdf4','openxlsx','plyr', 'raster','readr','RColorBrewer','rgdal','rgeos','RSelenium','sf','signal', 'sp','stringr','svMisc','tidyr','triangle','truncnorm','velox','zoo'), dependencies = T)
 ```
 
 Finally, some of the scraping requires the [dev version](https://www.google.com/chrome/dev/) of Google Chrome.

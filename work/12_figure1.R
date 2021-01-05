@@ -1,4 +1,4 @@
-source("00_functions.R")
+source("work/00_functions.R")
 # data are from national interagency fire center
 #  https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
 # GDP deflator data are from SF FED:  https://fred.stlouisfed.org/series/USAGDPDEFAISMEI

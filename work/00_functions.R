@@ -6,6 +6,7 @@ library(dplyr)
 library(gdata) #to read xls
 library(geosphere)
 library(ggplot2)
+library(ggpubr)
 library(gridExtra)
 library(Hmisc)
 library(hutils)
