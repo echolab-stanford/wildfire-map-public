@@ -40,7 +40,7 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/fire/hms_fires.RDS: File too big for Github but can be downloaded [here](https://www.dropbox.com/s/66lcml7glcb707q/hms_fires.RDS?dl=0). Adapted from data downloaded (individually by day) from [here](https://www.ospo.noaa.gov/Products/land/hms.html).
 
-* data/improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use files `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
+* data/improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use the OCf parameter from the IMPROVE Aerosol daily data set for all sites 1988-2018. Files were downloaded by year groups and the data component of the files were extracted to the create the files referenced in the script: `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
 
 * data/pm: File is too large for Github but can be downloaded [here](https://www.dropbox.com/s/uueqfjixp74fxh7/epa_station_level_pm25_data.rds?dl=0). Raw data come from the [EPA download portal](https://www.epa.gov/outdoor-air-quality-data/download-daily-data) and are slightly processed to create the file linked above using the script  `work/supplemental/create_simplified_epa_data.R` in case you would like to update the data in the future. 
 
