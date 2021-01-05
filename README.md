@@ -30,20 +30,21 @@ Input data from freely distributed sources are included in the repo in a process
 2) the EPA PM2.5 data are included in one big rds file whereas it can only be downloaded on a state-year basis (so the raw data is ±600 separate files)
 3) the smoke polygon data are included in one big rds file, whereas they can only be downloaded on a daily basis (4000+ separate files) 
 
-The last two datasets in that list do fall into the cateogry of "freely distributed sources" but are too large for Github. Those two files can be found at: [XYZZY]
+The last two datasets in that list do fall into the cateogry of "freely distributed sources" but are too large for Github. Those two files can be found at the links below.
 
 Additionally, some input datasets are not included here in any form because they require registration prior to access and thus cannot be redistributed. Those files, along with links for access, are listed below.
 
 ## Not included in repo
 
 * data/boundaries/uszips.csv: proprietary data from simplemaps are available for [purchase](https://simplemaps.com/data/us-zips). The `Pro` version of the zips database is utilized for the analysis (`uszips.csv`).
+
 * data/boundaries/tl_2019_us_county: [county boundaries](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/) are TIGER line files and are too large for github but can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/tl_2019_us_county.zip)
 
-* data/fire/hms_fires.RDS: File too big for Github but can be downloaded [here](https://www.dropbox.com/s/078te5uy3w39qye/hms_fires.RDS?dl=0). Adapted from data downloaded (individually by day) from [here](https://www.ospo.noaa.gov/Products/land/hms.html).
+* data/fire/hms_fires.RDS: File too big for Github but can be downloaded [here](https://www.dropbox.com/s/66lcml7glcb707q/hms_fires.RDS?dl=0). Adapted from data downloaded (individually by day) from [here](https://www.ospo.noaa.gov/Products/land/hms.html).
 
 * data/improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use files `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
 
-* data/pm: File is too large for Github but can be downloaded [here](https://www.dropbox.com/s/z5tl3te2ge3hhvp/epa_station_level_pm25_data.rds?dl=0). Raw data come from the [EPA download portal](https://www.epa.gov/outdoor-air-quality-data/download-daily-data) and are slightly processed to create the file linked above using the script  `work/supplemental/create_simplified_epa_data.R` in case you would like to update the data in the future. 
+* data/pm: File is too large for Github but can be downloaded [here](https://www.dropbox.com/s/uueqfjixp74fxh7/epa_station_level_pm25_data.rds?dl=0). Raw data come from the [EPA download portal](https://www.epa.gov/outdoor-air-quality-data/download-daily-data) and are slightly processed to create the file linked above using the script  `work/supplemental/create_simplified_epa_data.R` in case you would like to update the data in the future. 
 
 * data/pop: SEDAC population data requires [registration](https://sedac.ciesin.columbia.edu/user-registration) prior to [downloading](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download). We use the 2.5 minute data for 2005, 2010, 2015, and 2020. Files are of the form: `gpw_v4_population_count_rev11_[Year]_2pt5_min.tif`.
 
