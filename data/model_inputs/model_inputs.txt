@@ -1,0 +1,1 @@
+Data files processed from raw inputs will be written into this directory and used as model inputs.
