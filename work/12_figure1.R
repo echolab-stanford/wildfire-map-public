@@ -1,25 +1,24 @@
-source("work/00_functions.R")
-# data are from national interagency fire center
-#  https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
-# GDP deflator data are from SF FED:  https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
 # written by MB, edited to add WUI and smoke pm by AD on 02/10/2020
 
-setwd("..")
+source("work/00_functions.R")
 
-######################################################################################
-# Marshall's data
 ######################################################################################
 
 # plot burned area and suppression costs
+  # data are from national interagency fire center
+  #  https://www.nifc.gov/fireInfo/fireInfo_documents/SuppCosts.pdf
 dt <- read_csv('data/emissions/supression_costs.csv')
 dt$burned_area <- (dt$burned_area*0.404686)/1e6  #put in millions
- 
+
 #deflate cost time series
+  # GDP deflator data are from SL FED:  https://fred.stlouisfed.org/series/USAGDPDEFAISMEI
 def <- read_csv('data/emissions/USAGDPDEFAISMEI.csv')
 def$year <- as.numeric(substr(def$DATE,1,4))
 def$deflator <- def$USAGDPDEFAISMEI/def$USAGDPDEFAISMEI[def$year==2015]
 dt <- left_join(dt,def,by="year")
 dt$total_def <- dt$total/dt$deflator/1e9  #deflated billions of dollars
+
+######################################################################################
 
 # trends in PM2.5 from EPA: https://www.epa.gov/air-trends/particulate-matter-pm25-trends
 f <- list.files('data/EPA_trend/')
@@ -33,14 +32,14 @@ for (fl in f) {
 names(epa)[1] <- 'year'
 dt <- left_join(dt,epa[,c('year',"National")])
 
+######################################################################################
+
 # abatzoglou fuel aridity data - we are using the mean across 8 aridity time series, as supplied in their SI data
 fuel <- read_csv('data/emissions/abatzoglou_data.csv',skip=10)
 fuel$mean_aridity <- fuel$`Z MEAN`
 dt <- left_join(dt,fuel[,c("year","mean_aridity")])
 
 
-######################################################################################
-# Anne's  data
 ######################################################################################
 
 #wui data, read in years then combine 
@@ -54,6 +53,8 @@ w6 = read.csv("data/WUI/2004_combined_wui_hh_data.csv") %>% summarise(wui = sum(
 wui  = rbind(w, w1, w2, w3, w4, w5, w6)
 dt = merge(dt,  wui, all.x=T)
 dt$wui = na.approx(dt$wui,na.rm="FALSE")
+
+######################################################################################
 
 #read in the full modeling data with results
 results = readRDS("data/clean/results_all.RDS")
@@ -74,6 +75,8 @@ full_data = full_data %>% group_by(year, epa_region) %>%
               pm_smoke=mean(diff), smoke_days=mean(smoke_day), 
               perc=mean(diff/preds, na.rm=T))
 
+######################################################################################
+
 #load in fire perimeter data
 prescribed = read.csv("data/fire/prescribed_burn_acres.csv") %>% 
     dplyr::filter(region != "AK") 
@@ -81,6 +84,8 @@ prescribed$region[prescribed$region=="SO"] = "NO"  #group two californias to ~ma
 prescribed = prescribed %>%  group_by(year, region) %>%
     dplyr::summarise(acres = sum(acres))
 prescribed$hectares = (prescribed$acres*0.404686)/100000 #acres to mil hectares
+
+######################################################################################
 
 #load in improve data for organic carbon plot
 imp1 = read.csv("data/improve/IMPROVE_1988-2006.txt", na.strings="-999")[, c("Date", "State", "SiteCode", "OCf.Value")]
