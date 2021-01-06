@@ -1,4 +1,5 @@
 # wildfire-map-public
+
 Repo supporting "The changing risk and burden of wildfire in the United States"
 
 
@@ -8,26 +9,28 @@ The main estimates generated in the paper are available at `clean/results_all.RD
 
 There are several settings that can be changed in the `work/00_functions.R`. 
 
+
 # Scripts
 
 Description of script structuring, etc.
+
 
 # Issues, Constraints, Choices
 
 * Lots of file paths are used that are Mac specific
 * Code currently uses the velox package for many raster extract operations, which isn't compatible with R 4.0.0+.
-* RSelenium requires some pretty specific setup, including downloading the dev version of chrome. This is only reqired for downloading the airport data, which is included in the repo and could be updated manually for new years of data.
-
+* RSelenium requires some pretty specific setup, including downloading the dev version of Chrome. This is only reqired for downloading the airport data, which is included in the repo and could be updated manually for new years of data.
 
 ## Niche Issues
 
 * download for the airport data will fail if you have any files in your download folder that fulfill the regex "\_T\_.+zip$"
 
+
 # Data
 
 Input data from freely distributed sources are included in the repo in a processed form. Directions for accessing the raw data are included along with the download links provided below. Examples of the processed data format include:
 1) the TIGER line files are included in a simplified form (same polygons, just passed through gSimplify so that they're small enough to include in a GitHub repo) 
-2) the EPA PM2.5 data are included in one big rds file whereas it can only be downloaded on a state-year basis (so the raw data is ±600 separate files)
+2) the EPA PM2.5 data are provided in one big rds file whereas it can only be downloaded on a state-year basis (so the raw data is ±600 separate files)
 3) the smoke polygon data are included in one big rds file, whereas they can only be downloaded on a daily basis (4000+ separate files) 
 
 The last two datasets in that list do fall into the cateogry of "freely distributed sources" but are too large for Github. Those two files can be found at the links below.
@@ -47,9 +50,6 @@ Additionally, some input datasets are not included here in any form because they
 * data/pop: SEDAC population data requires [registration](https://sedac.ciesin.columbia.edu/user-registration) prior to [downloading](https://sedac.ciesin.columbia.edu/data/set/gpw-v4-population-density-rev11/data-download). We use the 2.5 minute data for 2005, 2010, 2015, and 2020. Files are of the form: `gpw_v4_population_count_rev11_[Year]_2pt5_min.tif`.
 
 * data/traffic-darte: DARTE data requires [registration](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) prior to [downloading](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) the files `onroad_[YYYY].tif` for years 2006-2017.
-
-
-
 
 
 ## Included in repo
@@ -102,6 +102,7 @@ Additionally, some input datasets are not included here in any form because they
 data
  ├── airport
  │	 ├── airport_locations.csv
+ │	 ├── airport_ids.csv
  │	 ├── Q [Quarter]_[Year]_tickets.csv (for 'Q 1' to 'Q 4' 2006-2018)
  │   └── [Month]_[Year]_ontime.csv (for Jan-Dec 2006-2018)
  ├── boundaries
@@ -124,6 +125,8 @@ data
  │	 ├── county_ag_sales.csv
  │	 ├── fertilizer_totals.csv
  │	 └── us_county_average_pm25_income_race.rds
+ ├── clean
+ │	 └── [Year]_by_county_with_wildfire.csv (for 2008, 2011, 2014, 2017)
  ├── coal
  │	 ├── existing_gen_units_2006.xls (2006 - 2014)
  │	 └── existing_gen_units_2015.xlsx (2015 - 2018)

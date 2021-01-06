@@ -1,0 +1,3615 @@
+"Plants for all sectors,United States,multiple fuel types"
+"https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2014&tab=annual_emissions&start=200101&end=201710&ctype=linechart&ltype=pin&maptype=0&rse=0&pin="
+"Mon Nov 25 2019 17:15:02 GMT-0800 (Pacific Standard Time)"
+"Source: U.S. Energy Information Administration"
+"Plant Name","State","CO2 Emissions (tons)","SO2 Emissions (tons)","NOX Emissions (tons)"
+"1515 S Caron Road","IL",126,0,0
+"491 E 48th Street","MI",14315,0,40
+"500MW CC","NY",1302296,6,74
+"59th Street","NY",289,0,286
+"74th Street","NY",698,62,226
+"A B Brown","IN",3107603,7330,2601
+"A L Pierce","CT",8425,0,4
+"ABC Coke","AL",3828,1,233
+"ABEC Bidart-Old River LLC","CA","--",0,228
+"AC Landfill Energy LLC","NJ","--",0,220
+"ACE Cogeneration Facility","CA",439431,30,163
+"ACI Energy Partners LLC","NJ",36400,0,85
+"AES Alamitos LLC","CA",828739,4,69
+"AES Beaver Valley Partners Beaver Valley","PA",111401,281,225
+"AES Hawaii","HI",1496535,214,967
+"AES Huntington Beach LLC","CA",511471,3,50
+"AES Petersburg","IN",11026114,60103,11836
+"AES Redondo Beach LLC","CA",165471,0,22
+"AES Warrior Run Cogeneration Facility","MD",1253465,1059,498
+"AG Processing Inc","IA",125270,233,246
+"AL Sandersville LLC","GA",5904,0,1
+"AMEA Peaking","AL",16851,0,11
+"ANP Bellingham Energy Project","MA",904730,5,58
+"ANP Blackstone Energy Project","MA",881679,4,56
+"Aberdeen CT","SD",3312,0,10
+"Acadia Energy Center","LA",1765804,9,139
+"Ada Cogeneration LP","MI",109095,0,251
+"Adkins Energy LLC","IL",19890,0,54
+"Adobe San Jose","CA",3343,0,0
+"Adrian","MN",25,0,0
+"Adrian Energy Associates LLC","MI","--",0,203
+"Aera San Ardo Cogen Facility","CA",38581,0,105
+"Afton Generating Station","NM",226207,1,33
+"Agnews Power Plant","CA",7847,0,18
+"AgriReNew","IA","--",0,22
+"Agrilectric Power Partners Ltd","LA",331,4,62
+"Agua Fria","AZ",16728,0,36
+"Agua Mansa Power Plant","CA",12784,0,2
+"Aidlin Geothermal Power Plant","CA",3675,"--","--"
+"Air Products Port Arthur","TX",611789,3,1656
+"Airport Industrial","CO",85,0,2
+"Akron WRF","OH","--",0,216
+"Al Turi","NY","--",0,149
+"Alabama Pine Pulp","AL",34437,3494,935
+"Alabama River Pulp","AL",40928,2780,1035
+"Alakanuk","AK",1629,3,34
+"Alameda","CA",1103,0,3
+"Alamosa","CO",1830,0,6
+"Albany","MO",0,0,0
+"Albany Brewery","GA",76156,727,169
+"Albany Medical Ctr Cogen Plant","NY",27594,0,75
+"Albemarle Hospital Unit","NC",65,0,1
+"Albemarle Prime Power Park","NC",119,0,2
+"Alden Bailey Power Plant","OR",165,0,0
+"Alexandria","MN",7,0,0
+"Algona","IA",172,0,4
+"Algonquin Power Sanger LLC","CA",59864,0,140
+"Algonquin Windsor Locks","CT",73864,7,7
+"Aliso Water Management Agency","CA",1,0,0
+"Allegany Cogen","NY",43082,0,91
+"Allegheny Energy Units 3 4 & 5","PA",1514868,7,103
+"Allen","TN",4235263,8853,1783
+"Allen S King","MN",2851521,1459,1316
+"Allendale Biomass","SC","--",26,25
+"Allenwood","PA","--",0,286
+"Alliance Refinery","LA",24583,0,35
+"Alliant Energy Neenah","WI",30966,0,10
+"Alliant SBD 8501 Aegon LI","IA",13,0,0
+"Alliant SBD 8602 Marion Sub","IA",25,0,0
+"Alliant SBD 9106 Rockwell CR","IA",119,0,2
+"Alliant SBD 9107 JBS USA","IA",67,0,1
+"Alliant SBD 9201 Norplex","IA",42,0,1
+"Alliant SBD 9203 Profol","IA",245,0,5
+"Alliant SBD 9205 A Y McDonald","IA",13,0,0
+"Alliant SBD 9206 Donaldson","IA",16,0,0
+"Alliant SBD 9301 Prairie Farms","IA",3,0,0
+"Alliant SBD 9302 Aegon NP","IA",5,0,0
+"Alliant SBD 9403 Aegon DC","IA",12,0,0
+"Alliant SBD 9502 Eaton","IA",264,0,5
+"Alliant SBD 9901 Wells Fargo","IA",3,0,0
+"Alliant SBD0201 Ingredion","IA",92,0,2
+"Alliant SBG 9802 Toyota","IA",4,0,0
+"Alliant Techsystems","MN","--",0,0
+"Alma","WI",80754,431,114
+"Almond Power Plant","CA",124221,1,11
+"Alpena Cement Plant","MI",829929,7531,581
+"Alpha Ridge LFG","MD","--",0,71
+"Alsey","IL",2070,0,3
+"AltaGas Pomona Energy Inc.","CA",55021,0,150
+"AltaGas Ripon Energy Inc.","CA",58547,0,159
+"Altamont","IL",79,0,2
+"Altamont Gas Recovery","CA","--",0,116
+"Altavista Power Station","VA",657,9,181
+"Amalgamated Sugar LLC Nampa","ID",221980,959,644
+"Amalgamated Sugar Twin Falls","ID",225927,941,500
+"Amazon San Bernardino","CA",279,0,0
+"Amedee Geothermal Venture I","CA",40,"--","--"
+"Amelia","VA",1983,3,410
+"Ameresco Butte County","CA","--",0,191
+"Ameresco Chicopee Energy","MA","--",0,605
+"Ameresco Chiquita Canyon","CA","--",0,87
+"Ameresco Dallas LLC","TX","--",0,250
+"Ameresco Delaware Central","DE","--",0,369
+"Ameresco Delaware South","DE","--",0,392
+"Ameresco Forward","CA","--",0,233
+"Ameresco Janesville","WI","--",0,192
+"Ameresco Jefferson City","MO","--",0,265
+"Ameresco Johnson Canyon","CA","--",0,107
+"Ameresco Keller Canyon","CA","--",0,335
+"Ameresco Ox Mountain","CA","--",0,1009
+"Ameresco San Joaquin","CA","--",0,230
+"Ameresco Santa Cruz Energy","CA","--",0,273
+"Ameresco Stafford","VA","--",0,104
+"Ameresco Vasco Road","CA","--",0,333
+"American Crystal Sugar Crookston","MN",168035,484,310
+"American Crystal Sugar Drayton","ND",186357,537,344
+"American Crystal Sugar East Grand Forks","MN",314842,907,581
+"American Crystal Sugar Hillsboro","ND",275722,795,509
+"American Crystal Sugar Moorhead","MN",145533,419,269
+"American Eagle Paper Mills","PA",168349,2456,393
+"American Gypsum Cogeneration","CO",17728,0,47
+"Ames Electric Services Power Plant","IA",311945,599,572
+"Ames GT","IA",154,0,2
+"Amherst College Co Gen","MA",15258,4,41
+"Ampersand Chowchilla Biomass LLC","CA",48,1,16
+"Anadarko Plant","OK",379487,0,61
+"Anaheim GT","CA",28569,0,6
+"Anchorage 1","AK",23005,0,64
+"Anclote","FL",1446264,7,1562
+"Anderson","IN",5309,0,4
+"Anderson Erickson","IA",1,0,0
+"Anderson Power Products Division","MA",1,0,0
+"Anderson Regional Landfill","SC","--",0,174
+"Androscoggin Energy Center","ME",296402,3,39
+"Androscoggin Mill","ME",13899,2857,974
+"Angoon","AK",1339,2,27
+"Angus Anson","SD",20158,0,9
+"Anheuser-Busch Jacksonville","FL",48151,0,129
+"Anheuser-Busch St Louis","MO",175677,2410,471
+"Aniak","AK",1992,4,42
+"Animas","NM",70581,0,166
+"Anita","IA",23,0,0
+"Ansley","NE",5,0,0
+"Anson Abenaki Hydros","ME",212928,83,463
+"Anson County Generation Facility","NC",69683,0,54
+"Antelope Station","TX",96726,0,2239
+"Antelope Valley","ND",6412781,11597,8390
+"Anthony","KS",460,0,11
+"Apache Station","AZ",2722156,4366,5449
+"Apex Generating Station","NV",636408,3,68
+"Apple Data Center - Fuel Cell 1&2","NC","--",0,0
+"Arapahoe Combustion Turbine Project","CO",92956,0,18
+"Arcadia Electric","WI",408,1,8
+"Arcanum","OH",13,0,0
+"Arcanum Peaking","OH",5,0,0
+"ArcelorMittal Burns Harbor","IN",121756,30,1673
+"ArcelorMittal Indiana Harbor West","IN",130787,31,1013
+"ArcelorMittal Warren","OH",35247,1,119
+"Arcelormittal Cleveland Inc","OH",33495,14,28
+"Archbald Power Station","PA",23200,0,15
+"Archer Daniels Midland Cedar Rapids","IA",2242591,2738,1609
+"Archer Daniels Midland Clinton","IA",1776281,428,1346
+"Archer Daniels Midland Columbus","NE",966324,1893,334
+"Archer Daniels Midland Decatur","IL",3878636,9068,2026
+"Archer Daniels Midland Des Moines","IA",130985,257,258
+"Archer Daniels Midland Lincoln","NE",139905,274,276
+"Archer Daniels Midland Mankato","MN",113941,223,225
+"Archer Daniels Midland Peoria","IL",156232,1,16
+"Archer Daniels Midland Southport","NC",1060,0,3
+"Argus Cogen Plant","CA",1316733,162,775
+"Argyle","WI",11,0,0
+"Arizona State University CHP","AZ",29666,0,69
+"Arkalon Ethanol LLC","KS",131617,1,289
+"Arlington Valley Energy Facility","AZ",448939,2,42
+"Armstrong","PA",396221,3,117
+"Arnold","NE",2,0,0
+"Arsenal Hill","LA",25410,6,130
+"Arthur Kill Generating Station","NY",655981,3,456
+"Arthur Von Rosenberg","TX",833546,4,759
+"Arvada","WY",380,0,1
+"Arvah B Hopkins","FL",687650,4,231
+"Asbury","MO",1135259,5732,2941
+"Ascend Performance Materials Texas Inc.","TX",223873,1,414
+"Ascutney","VT",963,2,5
+"Ashdown","AR",422625,4557,2507
+"Asheville","NC",1640738,1162,934
+"Ashland","KS",78,0,2
+"Ashtabula","OH",159816,0,366
+"Aspen Biomass Power Plant","TX","--",7,12
+"Astoria Energy","NY",1371428,19,145
+"Astoria Energy II","NY",1259626,93,3103
+"Astoria Gas Turbines","NY",45640,32,199
+"Astoria Generating Station","NY",744002,198,491
+"Atascosita","TX","--",0,873
+"Athens Generating Plant","NY",1033904,5,98
+"Athens Regional Medical Center","GA",58,0,1
+"Atlantic","IA",55,0,0
+"Attala","MS",1229449,5,98
+"Auburn","NE",158,0,3
+"Auburn LFG Energy Facility","NY","--",0,106
+"Auburndale Peaker Energy Center","FL",8058,0,5
+"Audrain Generating Station","MO",1595,0,0
+"Augusta Electric Plant No 1","KS","--",0,0
+"Augusta Electric Plant No 2","KS",260,0,6
+"Auke Bay","AK",162,0,1
+"Aurora","IL",32632,0,14
+"Aurora Energy LLC Chena","AK",326466,509,739
+"Austin Gas Recovery","TX","--",0,442
+"Avenue A Generator Sets","IL",88,0,2
+"Avon Lake","OH",2008663,31695,3317
+"Avon Park","FL",2625,0,6
+"Axiall Natrium Plant","WV",893671,6718,1863
+"Axiall Plaquemine","LA",1060015,6,3164
+"B Braun Medical","CA",26102,0,72
+"B C Cobb","MI",1978347,8406,2088
+"B L England","NJ",250956,261,484
+"BASF Freeport Works","TX",353857,2,949
+"BC Landfill Energy LLC","NJ","--",0,474
+"BJ Gas Recovery","GA","--",0,125
+"BMW Manufacturing Co","SC","--",0,106
+"BNWRD","IL",1,0,0
+"BP Naperville Cogeneration Facility","IL",32613,0,89
+"Back River Waste Water Treatment","MD","--",0,193
+"Backus Microgrid Project","CT",283,0,6
+"Baconton Power Plant","GA",16309,0,15
+"Badger Creek Limited","CA",116829,1,315
+"Bailly","IN",2202258,1013,1565
+"Baldwin City Plant No 1","KS",27,0,0
+"Baldwin City Plant No 2","KS",72,0,2
+"Baldwin Energy Complex","IL",11615752,4000,4267
+"Bancroft","IA",14,0,0
+"Bannock County LFG to Energy","ID","--",0,59
+"Baptist Medical Center","FL",14199,0,38
+"Barber Creek","WY",208,0,1
+"Barney M Davis","TX",764527,4,166
+"Barre","MA","--",0,88
+"Barre Peaker","CA",16314,0,2
+"Barron","WI",2,0,0
+"Barrow","AK",39899,0,112
+"Barry","AL",7917531,9697,4783
+"Basin Creek Plant","MT",20753,0,483
+"Bassett Medical Center","NY",3,0,0
+"Bastrop Energy Center","TX",1253441,6,333
+"Batavia Power Plant","NY",5465,0,6
+"Batesville Generation Facility","MS",920922,5,224
+"Battle Creek Mill","MI",47416,2,110
+"Bavarian LFGTE","KY","--",0,310
+"Baxter Wilson","MS",31424,1,60
+"Bay County Waste to Energy","FL",50149,26,258
+"Bay Front","WI",56975,58,283
+"Bay View Backup Power Facility","OH",101,0,7
+"Bay View Cogeneration Facility","OH",327,0,28
+"Bayboro","FL",6066,2,30
+"Bayer CropScience Institute Plant","WV",196374,1192,245
+"Bayonne Energy Center","NJ",678153,4,45
+"Bayonne Plant Holding LLC","NJ",330972,2,102
+"Bayou Cogen Plant","TX",1345474,5,324
+"Bayou Cove Peaking Power","LA",109363,1,23
+"Bayswater Peaking Facility LLC","NY",121804,1,14
+"Baytown","TX","--",0,246
+"Baytown Energy Center","TX",1654543,7,156
+"Bayview","VA",2612,5,53
+"Bayville Central Facility","NJ",417,0,106
+"Bayway Refinery","NJ","--",0,0
+"Bear Canyon Power Plant","CA",2351,"--","--"
+"Bear Garden","VA",1203623,6,78
+"Bear Mountain Limited","CA",161230,1,435
+"Bear Valley Power Plant","CA",358,0,8
+"Beatrice","NE",80737,0,11
+"Beaver","OR",115862,1,273
+"Beaver City","NE",21,0,0
+"Beaver Creek Gas Plant","WY",17017,0,47
+"Beaver Island","MI",159,0,3
+"Beecher Gas Recovery","IL","--",0,44
+"Belews Creek","NC",11396748,6380,5548
+"Belle River","MI",7708181,22197,8269
+"Bellefontaine Gas Producers LLC","OH","--",0,536
+"Belleville","KS",188,0,5
+"Bellevue","IA",24,0,0
+"Bellmeade Power Station","VA",130027,38,30
+"Beloit","KS",537,0,14
+"Beluga","AK",687488,4,1801
+"Ben French","SD",9062,2,30
+"Benedum Plant","TX",2386,0,55
+"Benndale","MS",667,0,2
+"Bennett Mountain","ID",40056,0,25
+"Benson City of","MN",45,0,1
+"Benson Power Biomass Plant","MN",2140,28,333
+"Beowawe Power","NV",2850,"--","--"
+"Berkeley County Landfill","SC","--",0,73
+"Berkshire Power","MA",380766,2,46
+"Berlin","MD",120,0,2
+"Berlin 5","VT",2074,4,11
+"Berlin Landfill Gas","WI","--",0,246
+"Bernice Lake","AK",20616,0,58
+"Berry Cogen","CA",220961,1,599
+"Berry Cogen Tanne Hills 18","CA",88385,0,239
+"Berry Placerita Cogen","CA",201892,1,550
+"Bethel","AK",30125,53,621
+"Bethlehem Power Plant","PA",2047647,35,111
+"Bethlehem Renewable Energy LLC","PA","--",0,61
+"Bethpage Power Plant","NY",281298,1,135
+"Bi-County Gas Producers","TN","--",0,152
+"Big Bend","FL",9822926,10121,4457
+"Big Brown","TX",7945326,52128,4601
+"Big Cajun 1","LA",26084,0,45
+"Big Cajun 2","LA",10974912,31091,7721
+"Big Sandy","KY",4176321,29787,3747
+"Big Sandy Peaker Plant","WV",43942,0,56
+"Big Sky Dairy Digester","ID","--",0,224
+"Big Stone","SD",2872767,12560,9532
+"Binghamton Cogen","NY",301,0,2
+"BioTown Ag","IN","--",0,539
+"Biola University","CA",7505,0,173
+"Biomass One LP","OR","--",27,237
+"Biomass to Energy Facility, Kauai","HI",376,1,8
+"Biotech LS 0836","WA",0,0,0
+"Birchwood Power","VA",831431,357,359
+"Bird City","KS",57,0,1
+"Biron Mill","WI",436613,5949,1067
+"Black Dog","MN",1645748,3586,5934
+"Black Hawk Station","TX",961991,68,443
+"Black Mountain Generating Station","AZ",27254,1,20
+"Black Oak Power Producers","MO","--",0,51
+"Blackburn Landfill Co-Generation","NC","--",0,326
+"Blacksand Generating Facility","CA","--",0,61
+"Blewett","NC",1923,4,9
+"Block Island","RI",8695,15,179
+"Bloomfield","IA",50,0,1
+"Blooming Prairie","MN",99,0,2
+"Bloomington Power Plant","UT",67,0,1
+"Blossburg","PA",3258,0,9
+"Blount Street","WI",4433,0,7
+"Blue Earth","MN",36,0,1
+"Blue Lake","MN",24341,0,5
+"Blue Lake Power LLC","CA",205,10,66
+"Blue Mountain Biogas","UT","--",0,336
+"Blue Ridge Generating","KY","--",0,67
+"Blue Ridge Landfill","PA","--",0,597
+"Blue Spruce Energy Center","CO",185637,1,54
+"Blue Valley","MO",78367,906,51
+"Blue Water Renewables Inc","MI","--",0,264
+"Bluebonnet","TX","--",0,53
+"Bluegrass Generating Station","KY",3,0,0
+"Bluffview","NM",137326,1,51
+"Blundell","UT",7234,"--","--"
+"Blythe Energy Inc","CA",651362,3,59
+"Boardman","OR",3089024,6746,3040
+"Boise Cascade International Falls","MN",91970,1625,879
+"Boise Cascade Pulp & Paper Mill","AL",149301,1388,387
+"Bonanza","UT",3365029,1261,6402
+"Bonanza BioEnergy LLC","KS",63353,0,138
+"Boomer Lake Station","OK",849,0,2
+"Borger Plant","TX",20643,9,267
+"Bos Dairy, LLC","IN","--",0,218
+"Bosque County Peaking","TX",1409573,7,231
+"Bostic Delivery No 2","NC",1,0,0
+"Bottle Rock Power","CA",1817,"--","--"
+"Boulder Park","WA",7502,0,174
+"Boulevard","GA",89,0,0
+"Bountiful City","UT",12161,0,36
+"Bowater Newsprint Calhoun Operation","TN",17423,2216,63
+"Bowen","GA",14636361,6536,6403
+"Bowline Point","NY",885867,133,943
+"Bowling Green","OH",55,0,1
+"Bowling Green Generating Station","OH",772,0,0
+"Bowling Green Peaking","OH",497,0,1
+"Boydton Plank Road Cogen Plant","VA",158,0,3
+"Bradley Energy Center","CT",12564,0,289
+"Brady","NV",1371,"--","--"
+"Brame Energy Center","LA",6426391,8190,3203
+"Brandon Shores","MD",4889351,2853,2297
+"Brandon Station","TX",1108,0,3
+"Brandy Branch","FL",1370885,6,108
+"Brandywine Power Facility","MD",425308,2,97
+"Branford","CT",649,1,0
+"Brayton Point","MA",2514744,1320,1485
+"Brea Expansion Plant","CA","--",1,180
+"Breese","IL",248,0,5
+"Bremo Bluff","VA",222512,1,258
+"Brent Run Generating Station","MI","--",0,540
+"Brentwood","NY",23452,0,2
+"Brickyard Energy Partners LLC","IL","--",0,195
+"Bridge Street 1 & 2","CT",595,1,12
+"Bridgeport Energy Project","CT",974865,5,145
+"Bridgeport Fuel Cell Park","CT",51656,0,0
+"Bridgeport Gas Processing Plant","TX",44674,0,1068
+"Bridgeport Station","CT",891828,836,537
+"Bridgewater Dairy Anaerobic Digester","OH","--",0,48
+"Bridgewater Power LP","NH",108,29,33
+"Bristol Myers Squibb Lawrenceville","NJ",37128,2,104
+"Bristol Myers Squibb New Brunswick","NJ",54051,1,148
+"Bristol Myers Squibb Wallingford","CT",21439,0,58
+"Broad Mountain","PA","--",0,102
+"Broad River Energy Center","SC",233881,3,86
+"Broadridge Cogen","CA",7084,0,168
+"Broadway (CA)","CA",42204,0,9
+"Broadway (IN)","IN",5343,0,7
+"Broken Bow","NE",83,0,2
+"Bronx Zoo","NY",15120,0,325
+"Brooklyn","IA",5,0,0
+"Brooklyn City North Plant","IA",5,0,0
+"Brooklyn Navy Yard Cogeneration","NY",1105255,16,81
+"Broshco Fabricated Products","OH",842,0,3
+"Brown Station Road Plant I","MD","--",0,173
+"Brown Station Road Plant II","MD","--",0,444
+"Brownsville Peaking Power","TN",94219,0,57
+"Brunner Island","PA",5623717,8904,10027
+"Brunot Island","PA",26270,0,7
+"Brunswick","NV",18,0,0
+"Brunswick Cellulose","GA",87566,5288,1400
+"Brunswick Landfill Gas","VA",3079,5,567
+"Brush Generation Facility","CO",36365,0,13
+"Bryan (OH)","OH",885,0,3
+"Bryan (TX)","TX",115,0,0
+"Bryan Peaking","OH",119,0,2
+"Bryon Center","MI","--",0,225
+"Buchanan Generation LLC","VA",31836,0,21
+"Buck","NC",1394642,7,100
+"Buckeye Florida LP","FL",108451,6425,2244
+"Bucknell University","PA",27917,0,64
+"Bucksport Generation LLC","ME",315135,1,70
+"Buena Vista Biomass Power","CA",3309,17,74
+"Bull Run","TN",2809101,505,1082
+"Bull Street Plant","SC",20,0,0
+"Bunge North America East LLC","IN",2571,0,6
+"Bunge Oil","IL",14318,0,40
+"Buras","LA",3844,0,10
+"Burgess BioPower","NH",1579,20,183
+"Burlingame","KS",21,0,1
+"Burlington (CO)","CO",3399,6,20
+"Burlington (IA)","IA",1216189,3318,908
+"Burlington (KS)","KS",209,0,4
+"Burlington GT","VT",302,1,2
+"Burney Forest Products","CA",8391,29,43
+"Burwell","NE",20,0,0
+"Bushnell","IL",396,1,8
+"Butler Municipal Power Plant","MO",34,0,1
+"Butler-Warner Generation Plant","NC",17376,49,37
+"Buxton","NC",650,1,13
+"C D McIntosh Jr","FL",1179682,1955,788
+"C P Kelco San Diego Plant","CA",60412,0,164
+"C R Huntley Generating Station","NY",1239355,2896,743
+"C R Wing Cogen Plant","TX",109584,1,139
+"C W Burdick","NE",1514,0,1
+"C&H Sugar Plant","CA","--",0,0
+"CBS Studio Center","CA",4518,0,0
+"CC Perry K","IN",323529,991,446
+"CCCSD Wastewater Treatment Plnt","CA",16289,0,44
+"CCSU Co-Gen-STBY Gen","CT",559,0,13
+"CCSU Fuel Cell Project","CT",4757,0,0
+"CE Leathers","CA",9450,"--","--"
+"CE Turbo LLC","CA",1377,"--","--"
+"CF Industries Yazoo City Complex","MS",105999,0,270
+"CFB Power Plant","TX",525069,0,246
+"CH Resources Beaver Falls","NY",770,0,0
+"CH Resources Syracuse","NY",18750,0,11
+"CID Gas Recovery","IL","--",0,43
+"CII Carbon LLC","LA",144147,3169,464
+"CII Methane Management III LFG Plant","GA","--",0,114
+"CII Methane Management IV, LLC","NC","--",0,131
+"CIP II/AR Bridgewater Holdings - NJCOE","NJ",24383,1,74
+"CITGO Refinery Powerhouse","LA",800978,4,921
+"CNN Center","GA",109,0,2
+"COC Surry LFG, LLC","NC","--",0,85
+"CP Crane Power, LLC","MD",555295,1712,1110
+"CPI USA NC Roxboro","NC",158353,1506,341
+"CPI USA NC Southport","NC",408700,3710,799
+"CSL Behring LLC","IL",12799,0,36
+"CSL Gas Recovery","FL","--",0,58
+"CSU East Bay","CA",4453,0,0
+"CSU Northridge Plant","CA",3900,0,0
+"CSUCI Site Authority","CA",81540,0,188
+"CSUF Trigeneration","CA",17069,0,47
+"CT Resource Rec Authority Facility","CT",313737,24,870
+"Cadillac Renewable Energy","MI",121,66,194
+"Caithness Long Island Energy Center","NY",940666,4,50
+"CalPeak Power Border Peaker Plant","CA",9268,0,1
+"CalPeak Power Enterprise Peaker Plant","CA",9580,0,1
+"CalPeak Power Panoche Peaker Plant","CA",8072,0,1
+"CalPeak Power Vaca Dixon Peaker Plant","CA",7474,0,1
+"Calabasas Gas to Energy Facility","CA","--",1,147
+"Calcasieu","LA",105807,1,80
+"Caledonia","MS",1045435,5,107
+"Calhoun Energy Center","AL",20782,0,11
+"California Institute of Technology","CA",45731,0,106
+"California State University San Bernardi","CA",4342,0,0
+"Calistoga Power Plant","CA",12892,"--","--"
+"Caltech Central","CA",729,0,0
+"Calumet Energy Team LLC","IL",68050,0,42
+"Calvert City","KY",229137,1,71
+"Cambria Cogen","PA",835697,2902,968
+"Cambridge","NE",30,0,1
+"Cambridge CT","MN",20307,0,12
+"Camden Plant Holdings LLC","NJ",192557,1,54
+"Camden Resource Recovery Facility","NJ",142423,42,449
+"Camden South Carolina","SC",154448,742,270
+"Campbell Industrial Park","HI","--",308,247
+"Campbell Village","NE",0,0,0
+"Cana Gas Processing Plant","OK",189,0,4
+"Canaday","NE",1649,0,4
+"Canal","MA",309056,635,263
+"Cane Island","FL",1407225,7,108
+"Cane Run","KY",2550411,7949,4035
+"Cannon Falls Energy Center","MN",14973,2,56
+"Canton North Carolina","NC",909595,8822,1029
+"Canyon Power Plant","CA",52509,0,4
+"Cape Canaveral","FL",2429428,13,175
+"Cape Gas Turbine","ME",2262,4,12
+"Capitol District Energy Center","CT",26169,1,16
+"Carbon","UT",1356530,8383,2967
+"Carbon Limestone","OH","--",1,2012
+"Cardinal","OH",9943542,9669,3675
+"Cardinal Cogen","CA",219634,1,529
+"Cargill B6 Biofactory","ID","--",0,208
+"Cargill Corn Milling Division","IA",453417,1207,495
+"Cargill Corn Wet Milling Plant","TN",290680,2257,4
+"Cargill Dry Creek Biofactory","ID","--",0,405
+"Cargill Salt","MI",61817,232,140
+"Cargill Salt Hersey","MI",5914,0,14
+"Carl Bailey","AR",2278,0,3
+"Carleton College","MN",37,0,1
+"Carlls Corner","NJ",20106,0,213
+"Carlsbad","NM",309,0,1
+"Carlyle","IL",184,0,4
+"Carmi","IL",162,0,3
+"Carr Street Generating Station","NY",45740,0,11
+"Carson Cogeneration","CA",18330,0,6
+"Carson Ice-Gen Project","CA",193530,1,14
+"Carthage","MO",363,0,9
+"Carthage Energy LLC","NY",6220,0,6
+"Carville Energy LLC","LA",1004173,5,280
+"Cascade","IA",8,0,0
+"Cascade Creek","MN",5530,0,4
+"Casey City of","IL",68,0,1
+"Cass County","NE",14685,0,13
+"Castleton Energy Center","NY",111303,1,66
+"Catawba River Pollution Control","NC",84,0,2
+"Caterpillar","IN",19763,2,456
+"Cayuga","IN",4471221,3128,7886
+"Cayuga Operating Company","NY",955088,2581,1334
+"Cedar Bay Generating Company LP","FL",1160115,663,1016
+"Cedar Bayou","TX",797731,4,307
+"Cedar Bayou 4","TX",433665,2,51
+"Cedar Hills","WA",1199,2,247
+"Cedar Station","NJ",2648,1,37
+"Celanese Acetate LLC","VA",893506,6463,268
+"Cellu Tissue","CT",7593,0,175
+"Centennial","AK",164,0,3
+"Centennial Generating Station","MN",39,0,1
+"Center Peaker","CA",10200,0,1
+"Centerville","IA",199,1,1
+"Central District Wastewater Treat Plant","FL","--",0,404
+"Central Energy Facility","SC",2862,0,8
+"Central Energy Plant","FL",178183,1,416
+"Central Energy Plant USU","UT",27238,0,73
+"Central Michigan University","MI",20619,0,57
+"Central Plant","SC",3,0,0
+"Central Utility Plant","TX",29246,2,371
+"Central Utility Plant - Texas A&M","TX",122791,1,255
+"Central Utility Plant Cincinnati","OH",47055,0,96
+"Central Utility Plant at White Oak","MD",61682,1,212
+"Century Generating Facility","CA",816,0,2
+"CenturyLink Regional HQ","NC",27,0,0
+"Ceredo Generating Station","WV",102372,1,22
+"Chaffee Gas Recovery","NY","--",0,612
+"Chalk Cliff Limited","CA",73557,0,198
+"Chalk Point LLC","MD",2873746,3564,3502
+"Chalmette Refining LLC","LA","--",0,20
+"Chambers Cogeneration LP","NJ",1187192,1024,820
+"Chambersburg","PA",41717,0,30
+"Channelview Cogeneration Plant","TX",3198401,17,297
+"Chanute 2","KS",1804,0,4
+"Chanute 3","KS",736,0,15
+"Chappell","NE",6,0,0
+"Charles City","VA",2811,5,483
+"Charles P Keller","NY",959,1,19
+"Charles R Lowman","AL",1957460,4125,3617
+"Charter Dura-Bar","IL",6528,0,151
+"Chatham","MI",50,0,0
+"Chattahoochee Energy Facility","GA",1150592,6,101
+"Chautauqua LFGTE Facility","NY","--",0,520
+"Chehalis Generating Facility","WA",1042273,4,79
+"Cherokee","CO",2985684,2521,4843
+"Cherokee County Cogen","SC",148142,1,33
+"Cherry Street","MA",339,0,7
+"Cherryville City Hall","NC",58,0,1
+"Chesapeake","VA",1459894,9269,1284
+"Chester Generating Station","PA",2810,5,15
+"Chester Operations","PA",512358,12254,194
+"Chesterfield Landfill Gas","VA",1988,4,425
+"Chestnut Ridge Gas Recovery","TN","--",0,415
+"Cheswick Power Plant","PA",2859777,4033,5535
+"Chevron Oil","MS",660586,8,182
+"Cheyenne Prairie Generating Station","WY",22944,0,54
+"Chicago West Side Energy Center","IL",16385,0,46
+"Childrens Hospital","CA",20066,0,56
+"Chillicothe","MO",401,0,2
+"Chino Mines","NM",21423,0,25
+"Choctaw County","MS",1105801,6,109
+"Cholla","AZ",6911930,3453,8116
+"Chouteau","OK",935232,5,98
+"Chowchilla II","CA",25467,0,591
+"Christiana","DE",2281,10,21
+"Chuck Lenzie Generating Station","NV",2329294,12,202
+"Chula Vista Energy Center","CA",807,0,4
+"Church Street Plant","VA",106,0,2
+"Cimarron River","KS",18611,0,38
+"Cinnamon Bay Edgeboro Landfill","NJ",4,0,570
+"City Light & Water","NE",3,0,0
+"City West Diesel Plant","SC",319,1,6
+"City of Palo Alto","CA",14,0,0
+"City of Tulare Water Facility","CA","--",0,0
+"City of West Plains Power Station","MO",18,0,0
+"CityCenter Central Plant Cogen Units","NV",37732,0,96
+"Civic Center","CA",92410,0,209
+"Clairton Works","PA",18413,4,159
+"Clark (NVE)","NV",269691,0,19
+"Clark (SD)","SD",38,0,1
+"Clark University","MA",5550,0,131
+"Clark-Floyd Landfill Gas Generating","IN","--",0,166
+"Claude Vandyke","MI",800,0,2
+"Clay Boswell","MN",7609385,4151,3847
+"Clean Fuel Dane Community Digester","WI","--",0,292
+"Clear Lake Cogeneration Ltd","TX",243540,1,163
+"Clearwater Paper APP CB","AR",164786,1560,718
+"Clearwater Paper IPP Lewiston","ID",53401,3322,1001
+"Clearwater Power Plant","CA",8288,0,19
+"Cleary Flood","MA",85683,27,109
+"Cleveland Cnty Generating Facility","NC",410774,2,111
+"Cleveland Peaking","OH",23,0,0
+"Clewiston Sugar House","FL",4955,77,842
+"Clifton","KS",3453,0,10
+"Clifty Creek","IN",6018443,3385,8284
+"Clinch River","VA",760610,2995,906
+"Clinton","MI",7,0,0
+"Clinton LFGTE Facility","NY","--",0,484
+"Clover","VA",5308544,1890,7673
+"Coachella","CA",1042,0,3
+"Coal Creek","ND",9133552,14355,7242
+"Coalinga 25D Cogen","CA",49293,0,132
+"Coalinga Cogeneration","CA",198382,1,23
+"Coalinga Cogeneration Facility","CA",42485,0,117
+"Coastal Carolina Clean Power","NC","--",44,362
+"Coastal Plains","TX","--",0,429
+"Coca Cola American Canyon","CA",668,0,0
+"Coffeen","IL",5684428,29,1705
+"Coffeyville","KS",9955,0,10
+"Coffin Butte","OR","--",0,517
+"Cogeneration 1","AZ",29569,0,69
+"Cogeneration 2","AZ",23723,0,55
+"Coggon","IA",16,0,0
+"Coit GT","SC",2026,2,9
+"Colbert","AL",3591174,19628,8160
+"Colby","KS",184,0,0
+"Colby City of","KS",43,0,1
+"Colchester 16","VT",188,0,1
+"Cold Canyon 1","CA","--",0,135
+"Coleto Creek","TX",4911240,15370,2968
+"Colfax","MI",374,1,7
+"College of New Jersey","NJ",27977,0,643
+"Collins Pine Project","CA","--",8,70
+"Collinwood","OH",74,0,0
+"Collinwood BioEnergy Facility","OH","--",0,107
+"Colonie LFGTE Facility","NY","--",0,385
+"Colorado Bend Energy Center","TX",706960,4,133
+"Colorado Energy Nations Company","CO",431865,1102,1071
+"Colstrip","MT",14344227,9799,15001
+"Colstrip Energy LP","MT",405606,90,434
+"Columbia (MO)","MO",60702,949,146
+"Columbia (WI)","WI",5165169,7128,3053
+"Columbia Energy Center","MO",4674,0,1
+"Columbia Energy Center (SC)","SC",266437,2,51
+"Columbia Flooring Melbourne","AR","--",2,17
+"Columbus MS","MS",17547,3372,527
+"Colusa Generating Station","CA",944922,4,33
+"Colver Power Project","PA",882291,2568,806
+"Comanche (CO)","CO",8553376,2864,4226
+"Comanche (OK)","OK",244510,1,1193
+"Combustion Turbine Project No 2","CA",1808,0,0
+"Commerce Refuse To Energy","CA",54193,81,104
+"Commonwealth Chesapeake","VA",112718,1,91
+"Concord","WI",37787,1,26
+"Concord Energy","NC","--",1,197
+"Conemaugh","PA",10039517,4477,15504
+"Conesville","OH",7713322,6685,10507
+"Connersville","IN",58,1,2
+"Consumer Operations LLC","WI",853417,9567,3050
+"Consumer Operations LLC","WA","--",0,0
+"Coolidge Generation Station","AZ",112708,1,12
+"Coolwater","CA",159815,1,146
+"Coon Rapids II","IA",17,0,0
+"Cooper","KY",1032918,3923,783
+"Coopersville","MI","--",0,530
+"Cope","SC",2622221,1595,1354
+"Copper","TX",34560,0,77
+"Coralville GT","IA",927,0,3
+"Cordova Energy","IL",23143,0,2
+"Cornelius Delivery No 1","NC",9,0,0
+"Cornell University Central Heat","NY",137627,5,3
+"Corning","IA",25,0,0
+"Corona Energy Partners, Ltd","CA",62416,0,168
+"Coronado","AZ",5546666,824,5853
+"Corpus Christi","TX",173401,1,477
+"Corpus Christi Energy Center","TX",1078000,6,370
+"Corpus Refinery","TX",170544,1,450
+"Cos Cob","CT",4845,9,3
+"Cosmo Specialty Fibers Plant","WA",21620,90,467
+"Coso Energy Developers","CA",8970,"--","--"
+"Coso Finance Partners","CA",12451,"--","--"
+"Coso Power Developers","CA",11816,"--","--"
+"Cosumnes","CA",1432093,8,65
+"Cottonwood Energy Project","TX",1962377,10,246
+"Coughlin Power Station","LA",666307,4,195
+"Countyside Genco LLC","IL","--",1,136
+"Covanta Alexandria/Arlington Energy","VA",139138,12,164
+"Covanta Babylon Inc","NY",97827,4,299
+"Covanta Bristol Energy","CT",80345,5,267
+"Covanta Delano Energy","CA",1,2,164
+"Covanta Delaware Valley","PA",439837,90,2577
+"Covanta Essex Company","NJ",397087,112,446
+"Covanta Fairfax Energy","VA",454185,39,1277
+"Covanta Haverhill","MA",230691,465,750
+"Covanta Hempstead","NY",432062,47,1159
+"Covanta Hennepin Energy","MN",147683,5,557
+"Covanta Indianapolis Energy","IN",248985,478,1416
+"Covanta Lake County Energy","FL",62437,6,72
+"Covanta Marion Inc","OR",69929,3,65
+"Covanta Mendota","CA",612,2,25
+"Covanta Niagara I, LLC","NY",393358,577,208
+"Covanta Plymouth Renewable Energy","PA",162567,19,526
+"Covanta Southeastern Connecticut Company","CT",109314,51,322
+"Covanta Stanislaus Energy","CA",119311,27,355
+"Covanta Tulsa Renewable Energy LLC","OK",136558,248,153
+"Covanta Wallingford Energy","CT",50636,94,277
+"Covanta Warren Energy","NJ",59847,6,140
+"Cove Point LNG Terminal","MD",155827,1,414
+"Covel Gardens Gas Recovery","TX","--",0,939
+"Covington Facility","VA",1000304,15360,1913
+"Cox Waste to Energy","KY","--",8,70
+"Coyote","ND",3031162,11591,10319
+"Coyote Springs","OR",506786,5,138
+"Coyote Springs II","OR",552676,3,1354
+"Craig (AK)","AK",364,1,7
+"Craig (CO)","CO",9058644,3414,12464
+"Craven County Wood Energy LP","NC","--",64,684
+"Crawfordsville Power Plant","IN",36039,605,86
+"Creed Energy Center","CA",6528,0,1
+"Crestwood Dothan","AL",510,1,10
+"Crete","NE",140,0,2
+"Crete Energy Venture LLC","IL",20866,0,5
+"Crisfield","MD",1669,3,34
+"Crisp Plant","GA",1126,4,3
+"Crist","FL",3481476,2794,2174
+"Crockett Cogen Project","CA",818988,4,1927
+"Croda Atlas Point CHP","DE","--",0,188
+"Cross","SC",10986374,5059,3831
+"Cross Oil Refining & Marketing, Inc","AR",19112,0,54
+"Crossroads Energy Center","MS",45553,0,39
+"Crotched Mountain Rehabilitation Center","NH",15,0,0
+"Croydon CT Generating Station","PA",31378,39,126
+"Crystal Mountain","WA",295,1,6
+"Crystal River","FL",11259036,29524,8564
+"Culbertson Generation Station","MT",31539,0,21
+"Cumberland (NJ)","NJ",66157,1,20
+"Cumberland (TN)","TN",13500065,8524,5042
+"Cumberland (WI)","WI",74,0,1
+"Cumberland County PA LFG Recovery","PA","--",0,518
+"Cumberland County Solid Waste Complex","NJ","--",0,392
+"Cunningham","NM",611078,3,739
+"Currant Creek","UT",982567,5,69
+"Curtis","NE",6,0,0
+"Curtis H Stanton Energy Center","FL",771922,4,81
+"Cushing","OK",341,0,6
+"Custer Energy Center","WI",346,0,1
+"Cutrale Citrus Juices USA I","FL",20670,0,57
+"Cutrale Citrus Juices USA II","FL",35906,0,98
+"Cuyamaca Peak Energy Plant","CA",13944,0,1
+"Cymric 31X Cogen","CA",52009,0,140
+"Cymric 36W Cogen","CA",101803,0,273
+"Cymric 6Z Cogen","CA",56310,0,151
+"D B Wilson","KY",2998147,6260,938
+"D G Hunter","LA",171,0,2
+"DADS Gas Recovery","CO","--",0,274
+"DANC LFGTE Facility","NY","--",0,523
+"DFW Gas Recovery","TX","--",0,630
+"DG Whitefield LLC","NH","--",29,51
+"DGS Central Utility Plant","CA",133,0,2
+"DSM Pharmaceuticals","NC",1259,1,14
+"Dafter","MI",435,1,8
+"Dahlberg","GA",220404,26,643
+"Dairyland WTE Plant","WI","--",0,150
+"Dale","KY",22555,126,37
+"Dallman","IL",2448836,1097,1001
+"Dan E Karn","MI",2105432,5764,616
+"Dan River","NC",1436702,7,106
+"Danbury Diesel","WI",17,0,0
+"Danbury Hospital Cogen Plant","CT",16469,0,45
+"Dane County Landfill #2 Rodefeld","WI","--",0,387
+"Dansby","TX",77370,0,54
+"Darby Power, LLC","OH",19732,0,20
+"Darbytown","VA",36200,18,62
+"Darlington County","SC",101642,96,316
+"Darrington","WA","--",8,67
+"Dart Container Corp","PA","--",0,109
+"Dartmouth College Heating Plant","NH",43834,198,79
+"Dartmouth Power Associates LP","MA",75664,2,20
+"Dave Gates Generating Station","MT",256707,2,40
+"Dave Johnston","WY",5662643,6978,6207
+"Davenport Water Pollution Control Plant","IA",33,0,172
+"David City","NE",98,0,2
+"Davidson Gas Producers LLC","NC","--",0,140
+"Dayton (IA)","IA",14,0,0
+"De Pere Energy Center","WI",12147,0,11
+"DeBary","FL",57220,4,48
+"DeCordova Steam Electric Station","TX",23335,1,77
+"DeKalb County Green Energy Facility","GA","--",0,279
+"DeRidder Mill","LA",107217,2251,737
+"Dean","MI",4655,0,1
+"Dean Drive Area Electric Generators","VA",47,0,1
+"Dearborn Industrial Generation","MI",909087,379,294
+"Decatur Energy Center","AL",417363,2,39
+"Decatur-Morgan Co LFG Recovery Project","AL","--",0,131
+"Decker Creek","TX",234874,7,354
+"Decorative Panels Intl","MI",106077,510,297
+"Deepwater","NJ",553,0,1
+"Deer Creek Station","SD",148302,1,13
+"Deer Park Energy Center","TX",3606138,18,223
+"Deercroft I & II LFGTE","IN","--",0,384
+"Deerhaven Generating Station","FL",923870,1035,906
+"Deerhaven Renewable","FL",1001,15,231
+"Deertrack Park Gas Recovery","WI","--",0,566
+"Del Ranch Company","CA",8342,"--","--"
+"Delano","MN",39,0,0
+"Delano Energy Center","CA",15562,0,1
+"Delaware City 10","DE",954,2,0
+"Delaware City Plant","DE",601978,21,140
+"Delaware Generating Station","PA",3964,7,22
+"Dell Power Station","AR",65986,0,11
+"Delray","MI",9571,0,4
+"Delta Energy Center","CA",2054491,10,171
+"Delta Power","AK",74,0,0
+"Demoss Petrie","AZ",4531,0,1
+"Denton Power LLC","TX","--",0,147
+"Des Moines Wastewater Reclamation Fac","IA","--",0,288
+"Des Plaines Gas Recovery","IL","--",0,12
+"Desert Basin","AZ",574034,3,54
+"Desert Peak Power Plant","NV",1923,"--","--"
+"Desert Star Energy Center","NV",597793,3,58
+"Desert View Power","CA",3113,66,183
+"Deshler","NE",0,0,0
+"Detour","MI",386,1,7
+"Detroit Lakes","MN",51,0,0
+"Devon Station","CT",4722,0,6
+"Dickerson","MD",1309464,541,1526
+"Dicks Creek","OH",1682,0,1
+"Diesel Generators","WI",379,1,8
+"Diesel Group 1","VA",751,1,15
+"Dighton Power Plant","MA",373305,2,41
+"Dike City Power Plant","IA",23,0,0
+"Dillard Complex","OR",2775,49,442
+"Dillingham","AK",12994,22,258
+"Dixon/Lee Energy Partners LLC","IL","--",0,466
+"Dodge Park Engine No 1","OH",5,0,0
+"Dogwood Energy Facility","MO",448525,2,65
+"Dolet Hills","LA",3184873,12861,2757
+"Dome Project","CA",59181,0,165
+"Dominguez Plant","CA",28724,0,73
+"Dominion/Lo Mar","VA",100,0,2
+"Domino Sugar Arabi Plant","LA",113896,1,268
+"Domino Sugar Baltimore","MD",101952,7,112
+"Domtar - Woodland Mill","ME",78580,1394,509
+"Domtar Kingsport Mill","TN",12778,1579,390
+"Domtar Paper Co LLC Plymouth NC","NC",30501,3177,980
+"Don A Campbell 1 Geothermal","NV",3958,"--","--"
+"Don Henry","NE",48,0,0
+"Donald Von Raesfeld Power Plant","CA",481153,2,20
+"Dorchester Biomass","SC","--",28,27
+"Doreen","MA",213,0,0
+"Doswell Energy Center","VA",1694321,11,485
+"Double A Digester","ID","--",0,685
+"Double C Generation Limited Partnership","CA",16746,0,45
+"Douglas","AZ",405,1,2
+"Dover","OH",85522,1159,203
+"Dover Peaking","OH",115,0,2
+"Dow St Charles Operations","LA",1268204,6,3003
+"Downtown","VA",58,0,1
+"Doyle Energy Facility","GA",10654,0,7
+"Dresden Energy Facility","OH",1437658,7,140
+"Drews Generating Facility","CA",991,0,3
+"Drexel Operations Center","NC",42,0,1
+"Dry Creek LFG to Energy Project","OR","--",0,286
+"Dry Fork Station","WY",3325460,802,596
+"Dubuque","IA",12283,1,21
+"Duck Creek","IL",2283775,217,966
+"Duluth Paper Mill","MN","--",0,0
+"Dunkirk Generating Plant","NY",438040,863,264
+"Durant","IA",37,0,1
+"Dutch Harbor","AK",31268,53,623
+"Dutchess Cnty Resource Recovery Facility","NY",59623,119,354
+"Dynegy Moss Landing Power Plant","CA",1598266,8,118
+"Dynegy Oakland Power Plant","CA",7748,16,44
+"E B Harris Electric Generating Plant","AL",1864422,10,167
+"E C Gaston","AL",6161913,31337,8595
+"E D Edwards","IL",3877520,7510,2207
+"E F Barrett","NY",923834,105,841
+"E F Oxnard Energy Facility","CA",78774,0,213
+"E J Stoneman Station","WI",493,255,367
+"E W Brown","KY",3131970,1729,3062
+"E.B. Eddy Paper Inc","MI",134589,1122,312
+"EG178 Facility","TX",359647,2,892
+"EKS Landfill","MN","--",0,458
+"ENEL Salt Wells LLC","NV",2721,"--","--"
+"Eagle Point Power Generation","NJ",181928,1,42
+"Eagle Valley (IN)","IN",813782,7220,1148
+"Eagle Valley (MI)","MI","--",0,302
+"Eagle Valley Clean Energy LLC Biomass","CO","--",5,47
+"Earl F Wisdom","IA",17035,70,41
+"Earlville","IA",7,0,0
+"Earthmovers LFGTE","IN","--",0,462
+"East 12th Street","KS",4773,0,10
+"East Bend","KY",2977363,1907,3779
+"East Campus Steam Plant","PA",36216,0,98
+"East Campus Utility Plant","OH",57,0,1
+"East Hampton","NY",6052,11,18
+"East River","NY",1677969,126,703
+"East. Michigan Univ. Heating Plant","MI",14406,0,39
+"Eastern Correctional Institute","MD",91,7,63
+"Eastern Landfill Gas LLC","MD","--",0,107
+"Eastern Maine Medical Center","ME",20195,0,57
+"Eastman Cogeneration Facility","TX",999263,5,292
+"Easton","MD",4444,8,88
+"Easton 2","MD",6037,10,96
+"Eastport","ME",151,0,3
+"Eastside WWTP","NC",9,0,0
+"Ebensburg Power","PA",522939,1739,258
+"Eckert Station","MI",635642,2098,757
+"Eddystone Generating Station","PA",106409,129,101
+"Edenton Generators","NC",118,0,2
+"Edge Moor","DE",540765,4,301
+"Edgecombe Genco LLC","NC",296436,130,744
+"Edgerton","OH",11,0,0
+"Edgewater","WI",3938552,9676,1487
+"Edgewood Energy LLC","NY",101204,1,8
+"Edward L. Addison Generating Plant","GA",312258,2,81
+"Edwardsport","IN",2474641,38,634
+"Effingham County Power Project","GA",564519,3,75
+"Eielson AFB Central Heat & Power Plant","AK",240737,546,549
+"El Cajon","CA",988,0,3
+"El Cajon Energy Center","CA",14973,0,2
+"El Centro","CA",527434,2,102
+"El Dorado Refinery","KS",35071,0,98
+"El Nido Facility","CA",188,1,16
+"El Segundo Energy Center LLC","CA",734288,4,1792
+"El Segundo Power","CA",107925,4,34
+"El Sobrante Gas Recovery","CA","--",0,377
+"Electric Avenue Facility","VA",96,0,2
+"Electrifarm","IA",22256,0,49
+"Elgin Energy Center LLC","IL",40087,0,20
+"Elim","AK",862,2,18
+"Elizabeth River Power Station","VA",27349,19,44
+"Elk Basin Gasoline Plant","WY","--",0,38
+"Elk City Station","NE","--",0,666
+"Elk Hills Cogen","CA",105721,1,298
+"Elk Hills Power LLC","CA",1539792,7,34
+"Elk Mound","WI",7286,0,4
+"Elk River","MN",179300,0,11
+"Elk River City of","MN",77,0,316
+"Elkins Generating Center","AR",320,0,1
+"Elkton","VA",49946,0,111
+"Ellinwood","KS",19,0,0
+"Ellwood","CA",767,0,2
+"Elm Road Generating Station","WI",5957427,397,1804
+"Elm Street Substation Generators","MO",13,0,0
+"Elmer Smith","KY",2443135,5208,6667
+"Elmore Company","CA",9067,"--","--"
+"Elmwood Park Power LLC","NJ",79325,0,37
+"Elroy","WI",16,0,0
+"Elwood Energy LLC","IL",168152,1,55
+"Emerson","NE",14,0,0
+"Emery Station","IA",390739,2,57
+"Emmonak","AK",2430,4,50
+"Emory Decatur Hospital","GA",6,0,0
+"Emory Hillandale Hospital","GA",5,0,0
+"Empire Energy Center","MO",72349,2,62
+"Empire Generating Co LLC","NY",1069183,5,78
+"Emporia Energy Center","KS",171935,1,113
+"Encina","CA",377033,2,31
+"Encina Water Pollution Control","CA",599,0,264
+"Encogen","WA",108436,2,27
+"Enderlin","ND","--",2,34
+"Endicott Station","MI",340806,691,378
+"Enel Cove Fort","UT",4343,"--","--"
+"Energy Center","CA",5299,0,104
+"Energy Center Dover","DE",88745,0,14
+"Energy Shelby County","IL",8916,0,6
+"Engineered Carbons Borger Cogen","TX",5168,6,1626
+"Engineered Carbons Echo Cogeneration","TX",4302,2,609
+"Engle","OH",29,0,1
+"Ennis Power Company LLC","TX",680297,3,207
+"Enoree Phase II Landfill Gas Recovery","SC","--",0,193
+"Enterprise Products Operating","TX",144740,1,371
+"Enterprise Sugar Factory","LA",1135,19,290
+"Equilon Los Angeles Refining","CA",137804,2,646
+"Equus Freeport Power","NY",60423,1,6
+"Ergon Refining Vicksburg","MS",26584,0,73
+"Erickson Station","MI",976411,3290,1115
+"Erie","KS",10,0,0
+"Erie Coke","PA",3559,0,42
+"Erie Energy Center","KS",15,0,0
+"Escalante","NM",1481922,664,2339
+"Escanaba","MI",36862,547,84
+"Escanaba Mill","MI",375970,3883,1390
+"Escondido Energy Center","CA",20681,0,25
+"Essential Power Massachusetts LLC","MA",27755,27,15
+"Essential Power Newington LLC","NH",405985,7,57
+"Essential Power Rock Springs LLC","MD",174399,1,47
+"Essex","MO",23914,0,26
+"Essex Junction 19","VT",751,1,15
+"Estherville","IA",92,0,1
+"Etiwanda Generating Station","CA",145755,1,7
+"Evander Andrews Power Complex","ID",31785,0,10
+"Evergreen BioPower LLC","OR","--",10,36
+"Evergreen Community Power","PA",1550,33,58
+"Evonik Industries AG","IN",5,0,0
+"Exelon Framingham LLC","MA",3129,5,2
+"Exelon L Street","MA",878,1,1
+"Exelon LaPorte Generating Station","TX",56183,0,127
+"Exelon Medway LLC","MA",8933,15,45
+"Exira","IA",2982,0,2
+"Expander Turbine","IN","--",0,0
+"ExxonMobil Baton Rouge Turbine Generator","LA",405367,2,1095
+"ExxonMobil Baytown Refinery","TX",818633,4,2235
+"ExxonMobil Baytown Turbine","TX",1757879,9,4779
+"ExxonMobil Beaumont Refinery","TX",2023261,10,359
+"ExxonMobil Mobile Bay Onshore","AL",54446,0,130
+"ExxonMobil Oil Joliet Refinery","IL","--",20,68
+"ExxonMobil Santa Ynez Facility","CA",219351,1,489
+"F B Culley","IN",1556794,1720,1219
+"FC Landfill Energy","MD","--",0,83
+"Factory","IL",449,1,3
+"Fairbanks","AK",13287,35,72
+"Fairbanks Morse Engine","WI",22,0,0
+"Fairbury","NE",113,0,0
+"Fairfax","MN",5,0,0
+"Fairfield","IL",49,0,1
+"Fairfield University CHP Plant","CT",12836,0,35
+"Fairfield Works","AL",112488,22,48
+"Fairgrounds","MO",671,3,7
+"Fairhaven Power","CA",2253,35,89
+"Fairless Energy Center","PA",2715131,14,175
+"Fairless Hills","PA",2970,67,69
+"Fairmont (MN)","MN",6829,0,161
+"Falling Spring","PA",1121,0,24
+"Falls","PA",2225,4,12
+"Falls City","NE",760,0,18
+"False Island","AK",577,1,11
+"Faribault Energy Park","MN",133062,1,30
+"Farmer City","IL",38,0,1
+"Farmers Branch Renewable Energy Facility","TX","--",0,311
+"Faulkton","SD",92,0,2
+"Fauquier Landfill Gas","VA","--",0,66
+"Fayette Energy Facility","PA",1743187,9,110
+"Fayette Power Project","TX",9662862,729,4778
+"Feather River Energy Center","CA",13785,0,10
+"Fennimore","WI",20,0,0
+"Fergus Control Ctr","MN",17,0,0
+"Fermi","MI",3050,5,17
+"Fernandina Beach Mill","FL",662787,6347,2261
+"Fernandina Plant","FL",21866,184,295
+"Ferndale Generating Station","WA",324436,6,67
+"Field Street","FL",443,1,3
+"Fighting Creek LFGTE Plant","ID","--",0,111
+"Finch Paper","NY",75461,3564,553
+"Finley Buttes Landfill Gas","OR","--",0,423
+"FirstEnergy Ashtabula","OH",249630,3231,415
+"FirstEnergy Bay Shore","OH",1197038,1816,514
+"FirstEnergy Bruce Mansfield","PA",16266579,17948,16840
+"FirstEnergy Eastlake","OH",1246388,19083,1789
+"FirstEnergy Harrison Power Station","WV",12050259,14808,19744
+"FirstEnergy Lake Shore","OH",199760,604,272
+"FirstEnergy Pleasants Power Station","WV",8230970,12462,11747
+"FirstEnergy R E Burger","OH",53,0,1
+"FirstEnergy W H Sammis","OH",12000640,9310,7640
+"FirstEnergy West Lorain","OH",52846,66,178
+"Fishers Island 1","NY",185,0,4
+"Fisk Street","IL",1272,7,16
+"Fitchburg","WI",1746,0,8
+"Fitchburg Gas Recovery","MA","--",0,329
+"Five Oaks Gas Recovery","IL","--",0,310
+"Flambeau River Papers","WI",869,6,7
+"Flint Creek","AR",3718704,7228,4651
+"Flint River Operations","GA",19959,2766,742
+"Flora Site A","IL",32,0,1
+"Flora Site B","IL",22,0,0
+"Florence Mill","SC",257881,3640,492
+"Florida Power Development","FL",685,42,192
+"Florida's Natural Growers","FL",40238,0,110
+"Ford Utilities Center","NM",43950,0,123
+"Fore River Generating Station","MA",1530385,8,93
+"Forest City Light Plant","IA",168,0,3
+"Forked River","NJ",4118,6,7
+"Formosa Plastics","LA",227903,1,560
+"Formosa Utility Venture Ltd","TX",1295917,9,3822
+"Forney Energy Center","TX",3473458,17,975
+"Fort Churchill","NV",108655,1,192
+"Fort Dodge","KS",171888,1,204
+"Fort Greely Power Plant","AK",98,0,2
+"Fort Hill 1, 2, 3 & 4","CT",1048,2,21
+"Fort Lupton","CO",2357,0,7
+"Fort Myers","FL",3483402,47,847
+"Fort St Vrain","CO",1618754,8,349
+"Fort Worth Methane","TX","--",0,46
+"Fortistar North Tonawanda","NY",16920,0,16
+"Foster Wheeler Martinez","CA",411565,2,956
+"Foster Wheeler Mt Carmel Cogen","PA",412047,418,269
+"Fountain Valley Power Facility","CO",213185,1,187
+"Four Corners","NM",8373875,5731,20133
+"Fourche Creek Wastewater","AR",1266,0,103
+"Fox Energy Center","WI",597225,3,51
+"Fox Lake","MN",2103,0,4
+"Fox Metro Water Reclamation District","IL",27,0,1
+"Foxwoods CoGen","CT",123969,1,334
+"Frank E Ratts","IN",637471,7756,658
+"Frank Knutson","CO",1734,0,3
+"Frank M Tait","OH",9941,1,7
+"Franklin (LA)","LA",9,0,0
+"Franklin (NE)","NE",74,0,1
+"Franklin Drive","CT",687,1,2
+"Franklin Heating Station","MN",74889,12,175
+"Franklin Templeton San Mateo","CA",2761,0,0
+"Frederic Diesel","WI",15,0,0
+"Frederick County LFGTE Facility","VA","--",0,150
+"Frederickson","WA",24530,1,66
+"Frederickson Power LP","WA",265660,1,26
+"Fredonia","WA",48402,0,1
+"Freeburg","IL",70,0,1
+"Freedom Power Project","IL",387,0,0
+"Freeport Energy","TX",1600905,8,3958
+"Freeport Energy Center","TX",766858,4,1882
+"Freeport McMoRan","NM",108,0,3
+"Freestone Energy Center","TX",1573490,8,484
+"Fremont Community Digester, LLC","MI","--",0,281
+"Fremont Energy Center","OH",920883,4,93
+"French Island","WI",20809,0,6
+"Fresno Cogen Partners","CA",16694,0,1
+"Frey Farm Landfill","PA","--",0,217
+"Frito Lay Incorporated","CT",20157,0,55
+"Frito-Lay Cogen Plant","CA",26545,0,73
+"Front Range Power Plant","CO",737487,4,219
+"Front Range Project","CO","--",0,440
+"Front Street","MA",1385,2,27
+"Frontera Energy Center","TX",1040571,5,288
+"Fruita","CO",324,0,1
+"Ft. Pierre","SD",38,0,1
+"Fullerton Mill CHP","CA",51904,0,122
+"Fulton (AR)","AR",2813,0,2
+"Fulton (MO)","MO",434,0,1
+"Fulton LFGTE Facility","NY","--",0,148
+"Fuyao Glass Illinois Inc.","IL",100,0,2
+"G E Turner","FL",9983,1,35
+"G G Allen","NC",2311506,1559,3645
+"G W Ivey","FL",12156,2,276
+"G2 Energy Hay Rd","CA","--",0,133
+"G2 Energy Marion LLC","FL","--",0,320
+"G2 Energy Ostrom Road LLC","CA","--",0,279
+"GL Dairy Biogas","WI","--",0,112
+"GLRA Landfill","PA","--",0,188
+"GREC","OK",5377439,11117,4512
+"GRS Arbor Hills","MI","--",1,119
+"GRS C&C","MI","--",0,231
+"GRS CMS","NC","--",0,59
+"GRS Coyote Canyon","CA",11,0,54
+"GRS Fall River","MA","--",0,74
+"GRS Pine Bend","MN","--",0,49
+"GRS Sunset Farms","TX","--",0,243
+"Gadsby","UT",257745,2,110
+"Gadsden","AL",290522,3660,778
+"Galena 2 Geothermal Power Plant","NV",1244,"--","--"
+"Galena 3 Geothermal Power Plant","NV",3563,"--","--"
+"Galena Electric Utility","AK",4664,8,88
+"Galion","OH",23,0,0
+"Galion Generating Station","OH",638,0,0
+"Gallatin (MO)","MO",10,0,0
+"Gallatin (TN)","TN",5773256,17634,4633
+"Gambell","AK",1072,2,22
+"Gans","PA",27495,0,18
+"Garden City","KS",29214,0,18
+"Gardner Energy Center","KS",104,0,0
+"Gary Court 1 & 2","CT",606,1,12
+"Gary Works","IN",203143,250,84
+"Gas Turbine (IA)","IA",953,0,3
+"Gas Utilization Facility","CA","--",0,801
+"Gaston Memorial Hospital","NC",23,0,0
+"Gastonia Prime Power Park","NC",219,0,4
+"Gastonia, Tulip Drive","NC",116,0,2
+"Gateway Gen","VA",56,0,1
+"Gateway Generating Station","CA",1233015,6,79
+"Gavin Power, LLC","OH",14762572,33450,9097
+"Gaviota Oil Plant","CA",12188,0,31
+"Gaylord - Consumers","MI",10675,0,30
+"Gaylord - Wolverine","MI",12885,0,33
+"Gaylord Container Bogalusa","LA",32039,2411,1674
+"Geismar","LA",259525,3,1632
+"Geismar Cogen","LA",193486,1,522
+"GenConn Devon LLC","CT",12691,24,70
+"GenConn Middletown LLC","CT",11379,22,63
+"General Chemical","WY",1170565,6178,2349
+"General Electric Aircraft Engines","MA",76608,0,20
+"General Electric Diesel Engine Plant","PA",12836,22,256
+"General Electric Plastic","AL",357281,2,80
+"General Mills Inc","NY",351,0,1
+"General Mills Operations Lodi","CA",15562,0,42
+"General Mills West Chicago","IL",1161,0,27
+"Genesee Power Station LP","MI",5727,61,206
+"Geneseo","IL",812,0,19
+"Genesis Alkali","WY",1306691,1491,978
+"Geneva","OH","--",0,305
+"Geneva Generation Facility","IL",1006,0,24
+"Genoa","WI",1630171,380,736
+"Genoa Diesel Generating Station","OH",30,0,1
+"Geo East Mesa II","CA",1892,"--","--"
+"Geo East Mesa III","CA",2470,"--","--"
+"George Birdsall","CO",7022,0,16
+"George Johnson","MI",5094,0,14
+"George M Sullivan Generation Plant 2","AK",299763,2,757
+"George Neal North","IA",3461338,5898,3969
+"George Neal South","IA",4298508,6181,3867
+"Georgetown","IN",22191,0,4
+"Georgetown LFGTE","SC","--",0,41
+"Georgia Pacific Center","GA",279,0,6
+"Georgia-Pacific Big Island","VA",11132,112,6
+"Georgia-Pacific Brewton Mill","AL",229784,2397,951
+"Georgia-Pacific Cedar Springs","GA",490920,2660,1513
+"Georgia-Pacific Consr Prods LP-Naheola","AL",452319,3967,1645
+"Georgia-Pacific Corp - Nekoosa Mill","WI",123540,1394,413
+"Georgia-Pacific Crossett LLC","AR",202488,2726,1993
+"Georgia-Pacific Monticello Paper","MS",59707,802,344
+"Georgia-Pacific Palatka Operations","FL",228544,2287,752
+"Georgia-Pacific Port Hudson","LA",776806,4734,752
+"Georgia-Pacific Toledo Mill","OR",124251,1470,558
+"Geothermal 1","CA",12350,"--","--"
+"Geothermal 2","CA",9763,"--","--"
+"Gerald Andrus","MS",37975,0,70
+"Gerald Gentleman","NE",8784548,22211,7399
+"Germantown","WI",9238,4,95
+"Gettysburg Energy & Nutrient Rec Facility","PA","--",1,5
+"Geysers Unit 5-20","CA",120793,"--","--"
+"Ghent","KY",12734426,13473,9727
+"Gianera","CA",137,0,0
+"Gibbons Creek","TX",2704997,643,1855
+"Gibson","IN",17307531,20009,12965
+"Gibson City Energy Center LLC","IL",9295,0,6
+"Gila River Power Block 3","AZ",570,0,1
+"Gila River Power Block 4","AZ",1013757,9,196
+"Gilbert","NJ",45866,2,53
+"Gillette SBMC","MA",26949,0,75
+"Gilliam South","IA",15,0,0
+"Gilroy Peaking Energy Center","CA",18277,0,5
+"Gilroy Power Plant","CA",28939,0,5
+"Girard","KS",137,0,3
+"Glades Pike Generation Plant","PA","--",0,350
+"Gladstone","MI",286,0,2
+"Gleason Generating Facility","TN",5087,0,15
+"Glen Gardner","NJ",788,1,3
+"Glen Lyn","VA",91742,616,201
+"Glenarm","CA",19905,0,4
+"Glencoe","MN",245,0,5
+"Glendale Energy Power Plant","AZ","--",0,237
+"Glendive GT","MT",2486,0,2
+"Glennallen","AK",6753,11,135
+"Glenwood","NY",5423,17,18
+"Glenwood Landing","NY",111221,1,12
+"Goal Line LP","CA",77840,0,180
+"Goddard Steam Plant","MD",121330,1426,122
+"Godwin Drive Plant","VA",30,0,1
+"Gold Creek","AK",17,0,0
+"Goldendale Generating Station","WA",386890,2,31
+"Goodland","KS",966,0,21
+"Goodman Energy Center","KS",21223,0,479
+"Goodyear Beaumont Chemical Plant","TX",560762,24,883
+"Goose Creek Energy Center","IL",81,0,0
+"Goose Haven Energy Center","CA",6726,0,1
+"Gordon","WI",7,0,0
+"Gordon Evans Energy Center","KS",241886,1,463
+"Gordonsville Energy LP","VA",288940,5,83
+"Gorgas","AL",4872059,2042,3825
+"Gould Street","MD",12191,0,16
+"Gowanus Gas Turbines Generating","NY",11428,11,11
+"Gowrie","IA",9,0,0
+"Graettinger","IA",20,0,0
+"Graham","TX",130235,1,225
+"Gramercy Holdings LLC","LA",905835,4,2250
+"Granby LFG","MA","--",0,292
+"Grand Ave Plant","MO",311230,7903,807
+"Grand Blanc Generating Station","MI","--",0,679
+"Grand Haven Diesel Plant","MI",220,0,5
+"Grand Isle Gas Plant / Treating Station","LA",2,0,0
+"Grand Junction","IA",8,0,0
+"Grand Marais","MN",124,0,2
+"Grand River","MI","--",0,259
+"Grand Tower Energy Center LLC","IL",42663,0,31
+"Granite City","MN",367,0,1
+"Granite City Works","IL",20123,10,308
+"Granite Falls 2","MN",12,0,0
+"Granite Falls Walmart","NC",52,0,1
+"Granite Ridge","NH",1372883,7,108
+"Grantsburg Diesel","WI",15,0,0
+"Grapeland Peaker","CA",7953,0,1
+"Graphic Packaging International","CA",117502,1,276
+"Graphic Packaging International Augusta Mill","GA",159852,2923,1095
+"Gravel Neck","VA",42349,29,76
+"Grayling Generating Station","MI",13009,14,197
+"Grays Ferry Cogeneration","PA",644938,6,194
+"Grays Harbor Energy Facility","WA",668017,2,54
+"Grayson","CA",66298,1,24
+"Great Bend - Sunflower","KS",4349,0,6
+"Great Lakes Central Power Plant","IL",44462,3,118
+"Greater Des Moines","IA",40223,0,3
+"Greater Detroit Resource Recovery","MI",317084,38,1425
+"Green Country Energy LLC","OK",1213229,6,266
+"Green Gas-Port Charlotte LLC","FL","--",0,175
+"Green Knight Energy Center","PA","--",0,94
+"Green Machine","MD",4101,0,0
+"Green Power 2","TX",2257407,133,255
+"Green River","KY",1116665,19928,2285
+"Green Valley LFGTE","KY","--",0,182
+"GreenWhey Energy Inc","WI","--",0,150
+"Greene County","AL",2650808,31663,4769
+"Greene Valley Gas Recovery","IL","--",0,96
+"Greenfield","IA",14,0,0
+"Greenland Energy Center","FL",23488,0,6
+"Greenleaf 1 Power Plant","CA",8689,0,7
+"Greenleaf 2 Power Plant","CA",115611,0,5
+"Greenport","NY",11,0,0
+"Greens Bayou","TX",68361,0,53
+"Greenville Electric Generating Station","OH",26704,0,106
+"Greenwood (MI)","MI",166148,0,133
+"Greenwood (MO)","MO",57874,10,75
+"Gregory Power Facility","TX",1528317,8,419
+"Griffith Energy LLC","AZ",945329,4,80
+"Grimes Way","WA",282,0,6
+"Grinnell","IA",6489,5,59
+"Grossmont Hospital","CA",9062,0,25
+"Groton Generating Station","SD",32981,0,29
+"Grundy Center City Light Plant","IA",91,0,2
+"Guadalupe Generating Station","TX",1720250,9,504
+"Gwitchyaa Zhee","AK",3646,6,73
+"H Allen Franklin Combined Cycle","AL",3843302,19,326
+"H L Culbreath Bayside Power Station","FL",2718777,14,337
+"H L Spurlock","KY",8446669,4254,3042
+"H Power","HI",267778,41,634
+"H Wilson Sundt Generating Station","AZ",631749,988,1206
+"H. Gonzales","CA",175,0,0
+"HGST San Jose Standby Generator","CA",370,1,2
+"HL Power","CA",27,20,26
+"HMP&L Station Two Henderson","KY",2297396,5859,992
+"HSCo CHP","CT",37648,0,103
+"HTW Plant 303 COGEN","UT",24555,0,66
+"HVCC Cogen Plant","NY",9695,0,222
+"Haefling","KY",850,0,2
+"Hagood","SC",20791,0,16
+"Haines","AK",157,0,3
+"Hal C Weaver Power Plant","TX",204221,1,455
+"Halifax County Biomass","VA","--",37,33
+"Hallam","NE",4131,1,12
+"Halstad","MN",24,0,0
+"Hamakua Energy Plant","HI",146792,344,111
+"Hamilton (OH)","OH",44535,0,39
+"Hamilton (PA)","PA",1813,3,10
+"Hamilton Peaking","OH",1328,0,2
+"Hamlet Generating Facility","NC",31693,0,27
+"Hammond","GA",1204428,478,1337
+"Hampton Facility","NH",19416,0,54
+"Hana Substation","HI",28,0,1
+"Hancock","MI",5459,0,24
+"Handley","TX",209066,1,33
+"Handsome Lake Energy LLC","PA",75257,0,49
+"Hanford Energy Park Peaker","CA",91940,0,7
+"Hanging Rock Energy Facility","OH",3391194,16,263
+"Harbor","CA",63345,0,10
+"Harbor Cogen","CA",8352,0,20
+"Hardee Power Station","FL",180623,1,211
+"Hardeeville","SC",17,0,0
+"Hardin County LFGTE","KY","--",0,165
+"Hardin County Peaking Facility","TX",99939,1,32
+"Hardin Generator Project","MT",825675,354,326
+"Harding Street","IN",3694379,27084,4018
+"Harford Waste to Energy Facility","MD",4987,8,24
+"Hargis-Hebert Electric Generating","LA",8573,0,7
+"Harlan","IA",3,0,0
+"Harlem River Yard","NY",29227,0,3
+"Harllee Branch","GA",2428077,29524,5055
+"Harquahala Generating Project","AZ",503616,3,35
+"Harrington","TX",5876984,14032,4155
+"Harrisburg Facility","PA",115528,11,101
+"Harrison County Power Project","TX",361834,2,58
+"Harry Allen","NV",1195622,6,65
+"Harry D Mattison Gas Plant","AR",19163,0,16
+"Harry L. Oswald","AR",72559,0,50
+"Hartford Hospital Cogeneration","CT",37028,0,86
+"Hartwell Energy Facility","GA",23732,8,77
+"Hartzog","WY",512,0,1
+"Harvest Power Orlando","FL","--",0,293
+"Hastings","MN",260,0,5
+"Havana","IL",2842474,969,1071
+"Haverhill North Cogeneration Facility","OH",16068,1,1786
+"Hawaii Cogen","HI",71975,161,393
+"Hawaiian Comm & Sugar Puunene Mill","HI",134509,535,561
+"Hawk Road Facility","GA",112854,1,45
+"Hawkeye Energy Greenport LLC","NY",10942,0,1
+"Haworth Water Treatment Plant","NJ",5894,0,138
+"Hawthorn","MO",3397352,1307,1050
+"Hay Road","DE",1988289,27,804
+"Hayden","CO",3186312,2020,5499
+"Haynes","CA",1305965,7,77
+"Hays Energy Project","TX",954399,5,108
+"Hazelton","PA",868,0,1
+"Healy","AK",241091,332,230
+"Heber City","UT",10598,0,279
+"Heber Geothermal","CA",6971,"--","--"
+"Hebron","NE",1109,2,6
+"Helios Plaza CHP Plant","TX",12097,0,34
+"Hell Gate","NY",24659,0,3
+"Henderson","MS",6880,1,85
+"Hendricks Regional Health","IN",28,0,1
+"Hennepin Power Station","IL",1757177,3593,1240
+"Henrico","VA",687,1,162
+"Henrietta Peaker","CA",55586,0,5
+"Henry County","IN",31803,0,23
+"Henry Station","MI",295,0,7
+"Herbert A Wagner","MD",1301695,8718,987
+"Hermiston Generating Plant","OR",947044,5,135
+"Hermiston Power Partnership","OR",1182578,6,162
+"Hibbing","MN",202109,694,460
+"Hidalgo Energy Center","TX",623499,3,1485
+"Hidden Hollow Energy","ID","--",0,263
+"Hidden View Dairy, LLC","IN","--",0,143
+"Higgins","FL",6186,0,19
+"Higgins Generating Station","NV",794976,4,72
+"Higginsville","MO",204,0,1
+"High Acres Gas Recovery","NY","--",0,975
+"High Bridge","MN",397538,2,51
+"High Desert Power Plant","CA",1544434,8,111
+"High Point, Fairfield","NC",2,0,0
+"High Point, POLO","NC",37,0,1
+"High Point, Pump Station Rd","NC",67,0,1
+"High Sierra Cogeneration Plant","CA",20673,0,477
+"High Sierra Limited","CA",16298,0,44
+"High Street Station","MA",540,1,10
+"Highland","IL",182,0,4
+"Hillabee Energy Center","AL",1868337,9,138
+"Hillburn","NY",231,0,1
+"Hillman Power LLC","MI",12413,240,27
+"Hills","MN",3,0,0
+"Hillsboro","ND",36,0,1
+"Hillsborough County Resource Recovery","FL",238984,31,469
+"Hilton Head","SC",3684,13,16
+"Hilton NY Co Gen Plant","NY",7289,0,167
+"Hinds Energy Facility","MS",1055786,5,76
+"Hines Energy Complex","FL",4375344,22,537
+"Hoag Hospital Cogen Plant","CA",17754,0,410
+"Hobbs Generating Station","NM",1099011,24,64
+"Hoffer Plastics","IL",854,0,20
+"Hoffmann LaRoche","NJ",22366,1,64
+"Hofstra University","NY",8528,3,191
+"Hog Bayou Energy Center","AL",188819,1,20
+"Hoge Lumber","OH","--",0,3
+"Hoisington","KS",13,0,0
+"Holcomb","KS",2071298,1401,1562
+"Holden","MO",5302,0,2
+"Holland Energy Facility","IL",126215,1,22
+"Holly","CO",4,0,0
+"Holton","KS",835,0,18
+"Holtsville","NY",37620,114,221
+"Homer City Generating Station","PA",10970451,112361,20064
+"Hometown Bio Energy LLC","MN","--",0,102
+"Honda Torrance","CA",2190,0,0
+"Honea Path","SC",70,0,1
+"Honeywell Farms","NY",6451,1,150
+"Honolulu","HI",1910,5,3
+"Hoonah","AK",3106,5,62
+"Hooper Bay","AK",2035,4,42
+"Hoot Lake","MN",651119,2197,668
+"Hopewell Cogeneration","VA",520868,25,664
+"Hopewell Mill","VA",141668,1853,736
+"Hopewell Power Station","VA",63,12,197
+"Hopkinton","IA",69,0,1
+"Horry Land Fill Gas Site","SC","--",0,136
+"Horseshoe Lake","OK",526405,3,1014
+"Hot Spring Generating Facility","AR",508960,2,35
+"Houma","LA",11953,0,17
+"Houston Chemical Complex Battleground","TX",1013133,5,2481
+"Houston Plant","TX","--",0,29
+"Houweling Nurseries","CA",31976,0,732
+"Howard Bend","MO",32,0,1
+"Howard Down","NJ",40041,0,5
+"Howard F Curren Advncd Wastewater Plant","FL","--",0,31
+"Hudson Avenue","NY",1545,3,2
+"Hugo","OK",2616953,8133,2571
+"Hugoton 2","KS",309,0,7
+"Humboldt Bay","CA",167881,4,3843
+"Humboldt Sawmill Company","CA",251,18,161
+"Hunlock Power Station","PA",351112,2,42
+"Hunlock Unit 4","PA",3789,0,3
+"Hunter","UT",8627866,3573,10519
+"Hunterdon Cogen Facility","NJ",189,0,1
+"Hunterstown","PA",5289,8,27
+"Hunterstown Power Plant","PA",1424693,8,86
+"Huntersville Delivery No 2","NC",4,0,0
+"Huntington","UT",5929142,2248,6226
+"Huntington Resource Recovery Facility","NY",143723,3,429
+"Huron","SD",1376,0,3
+"Hurricane City Power","UT",1473,0,31
+"Hutchinson Energy Center","KS",49619,0,52
+"Hutchinson Plant #1","MN",7501,0,88
+"Hutchinson Plant #2","MN",7797,0,8
+"Hydaburg","AK",49,0,1
+"Hyland LFGTE Facility","NY","--",0,429
+"I 95 Landfill Phase II","VA","--",0,155
+"I 95 Municipal Landfill Phase I","VA","--",0,243
+"IBM Southbury","CT",321,0,0
+"IBM West","MN",16,0,0
+"IDE 2 LLC","ID","--",2,9900
+"IDE 3 LLC","ID","--",1,3149
+"IMEA Flora","IL",39,0,1
+"IRC Generator Facility","AZ",8,0,0
+"ITT Cogen Facility","IL",16,0,0
+"Iatan","MO",8678128,259,2354
+"Imperial Savannah LP","GA",178965,462,245
+"Indeck Corinth Energy Center","NY",380494,1,86
+"Indeck Energy-Alexandria","NH","--",25,32
+"Indeck Jonesboro Energy Center","ME",189,3,196
+"Indeck Olean Energy Center","NY",152166,0,43
+"Indeck Oswego Energy Center","NY",32485,0,37
+"Indeck Silver Springs Energy Center","NY",19484,0,16
+"Indeck West Enfield Energy Center","ME","--",3,205
+"Indeck Yerkes Energy Center","NY",36483,0,45
+"Independence Steam Electric Station","AR",10924161,27242,11160
+"Indian Orchard Plant 1","MA",130861,622,281
+"Indian River Generating Station","DE",965525,683,299
+"Indian River Plant","FL",12634,0,17
+"Indiana Harbor E 5 AC Station","IN",74056,24,793
+"Indiana University of Pennsylvania","PA",17855,1,412
+"Indianola","IA",415,1,3
+"Indiantown Cogeneration LP","FL",730843,946,1012
+"Indigo Energy Facility","CA",37033,0,7
+"Industrial Park","IL",199,0,4
+"Inforum","GA",9,0,0
+"Ingleside Cogeneration","TX",1351691,9,3753
+"Ingredion Incorporated","IL",824025,19139,542
+"Ingredion Stockton","CA",19017,0,52
+"Ingredion Winston Salem","NC",19210,116,292
+"Inland Empire Energy Center","CA",862415,4,39
+"Inland Paperboard Packaging Rome","GA",308744,4561,1785
+"Inner Harbor East Heating","MD",2,0,0
+"Intercession City","FL",188501,1,103
+"Intermountain Power Project","UT",11090343,3964,21424
+"International","AK",1641,0,5
+"International Paper - Orange","TX",126487,2083,653
+"International Paper Co. - New Bern Mill","NC",82544,2100,32
+"International Paper Eastover Facility","SC",268762,3263,182
+"International Paper Franklin Mill","VA",30969,1596,2
+"International Paper Georgetown Mill","SC",202537,5362,1910
+"International Paper Pensacola","FL",88700,2896,1174
+"International Paper Pine Hill Mill","AL",106664,2212,1001
+"International Paper Prattville Mill","AL",258539,4344,1406
+"International Paper Red River Mill","LA",83676,1829,489
+"International Paper Riegelwood Mill","NC",156194,4648,1525
+"International Paper Riverdale Mill","AL",293158,2022,51
+"International Paper Savanna Mill","GA",447029,5689,2215
+"International Paper Texarkana Mill","TX",124395,3366,1419
+"International Paper Valliant OK","OK",243932,3011,1404
+"International Paper Vicksburg Mill","MS",67576,1919,833
+"Interstate","IL",6511,0,5
+"Interstate Paper LLC Riceboro","GA",14064,874,303
+"Inver Hills","MN",5700,6,25
+"Iola","KS",614,0,13
+"Iowa State University","IA",256711,162,315
+"Iredell County LFG Facility","NC","--",0,264
+"Ironwood LLC","PA",1962406,11,265
+"Island Street Peaking Plant","WI",6823,0,5
+"Ivanpah 2","CA",14588,0,34
+"J B Sims","MI",231154,152,252
+"J C McNeil","VT",1935,1,146
+"J C Weadock","MI",1729519,5943,1907
+"J D Kennedy","FL",28707,0,10
+"J E Corette Plant","MT",634614,1470,784
+"J H Campbell","MI",8428316,23370,4293
+"J K Smith","KY",305518,1,110
+"J K Spruce","TX",8698162,1123,3856
+"J Lamar Stall Unit","LA",1261858,6,3144
+"J M Stuart","OH",9636905,9844,6457
+"J R Whiting","MI",1939185,5842,2138
+"J Robert Massengale","TX",87766,0,15
+"J Street","NE",214,0,1
+"J T Deely","TX",5661236,13531,2023
+"JBER Landfill Gas Power Plant","AK",1,0,563
+"JCO Oxides Olefins Plant","TX",506227,3,1419
+"JM Shafer Generating Station","CO",310445,2,255
+"Jack County","TX",2379942,12,216
+"Jack Fusco Energy Center","TX",966207,5,122
+"Jack McDonough","GA",6283132,32,458
+"Jack Watson","MS",3923098,64108,7694
+"Jackson (MO)","MO",205,0,4
+"Jackson (OH)","OH",30,0,1
+"Jackson Cntr Peaking","OH",11,0,0
+"Jackson Generating Station","MI",267801,1,135
+"Jackson Square","MO",559,1,3
+"Jamaica Bay Peaking","NY",15925,31,87
+"James De Young","MI",74455,106,67
+"James E. Rogers Energy Complex","NC",5198664,1127,1908
+"James H Miller Jr","AL",18311920,845,7268
+"James River Genco LLC","VA",193167,1762,902
+"James River Power Station","MO",767034,1602,880
+"Jameson Energy Center","KS",1040,0,3
+"Jameson Gas Processing Plant","TX",5822,0,148
+"Jamestown","ND",1638,3,9
+"Janesville","MN",36,0,1
+"Jarvis Street","AK",903,2,18
+"Jasper","SC",1657748,90,116
+"Jay County LFGTE","IN","--",0,206
+"Jefferies","SC","--",0,0
+"Jeffrey Energy Center","KS",12450019,1758,7756
+"Jersey Valley Geothermal Power Plant","NV",2050,"--","--"
+"Jesup Plant","GA",122131,5164,1700
+"Jewett City 1","CT",257,0,5
+"Jim Bridger","WY",14009974,9729,12612
+"John B Rich Memorial Power Station","PA",801485,1271,201
+"John Deere Dubuque Works","IA",70,0,1
+"John E Amos","WV",12448590,5012,4297
+"John H Warden","MI",29407,340,268
+"John L. Featherstone Plant","CA",11291,"--","--"
+"John P Madgett","WI",1497741,2869,1842
+"John S Rainey","SC",1548496,8,247
+"John Sevier","TN",1276590,7,139
+"John Twitty Energy Center","MO",2358494,2740,862
+"John W Turk Jr Power Plant","AR",3879880,1003,696
+"Johnson County","TX",312431,1,90
+"Johnsonburg Mill","PA",363691,1596,268
+"Johnsonville","TN",3044547,15906,2477
+"Johnston LFG Turbine Plant","RI","--",1,171
+"Joliet 29","IL",5517507,9295,2292
+"Joliet 9","IL",1211636,2317,729
+"Jones","TX",827905,4,654
+"Jones Street","NE",1153,2,6
+"Jonesboro City Water & Light Plant","AR",15781,0,12
+"Joppa Steam","IL",7294317,16584,3651
+"Joseph J Seymour Power Project","NY",42922,0,4
+"Juneau","WI",379,1,2
+"Juniata Locomotive Shop","PA",29695,262,66
+"Juniper Networks Sunnyvale","CA",2004,0,0
+"Kahe","HI",2151068,4910,3508
+"Kahoka","MO",9,0,0
+"Kahului","HI",145752,1430,264
+"Kaiser Downey","CA",1735,0,0
+"Kaiser Ontario","CA",712,0,0
+"Kake","AK",2142,4,43
+"Kalaeloa Cogen Plant","HI",891669,2563,2676
+"Kalamazoo River Generating Station","MI",2096,0,1
+"Kalkaska CT #1","MI",11773,0,7
+"Kamin LLC Wrens Plant","GA",2420,0,7
+"Kammer","WV",1056605,13408,2584
+"Kanawha River","WV",1512228,9720,2288
+"Kankakee Gas Recovery","IL","--",0,118
+"Kanoelehua","HI",1271,2,19
+"KapStone Kraft Paper Corp","NC",270661,52,944
+"Kapaia Power Station","HI",74,0,54
+"Kapstone","SC",514320,266,534
+"Kasigluk","AK",1737,3,36
+"Kaukauna Gas Turbine","WI",864,0,2
+"Kaukauna Paper Mill","WI",348363,7362,1231
+"Kaweah Delta District Hospital","CA",18855,0,48
+"Keahole","HI",211396,360,286
+"Kearny","CA",20458,0,55
+"Kellogg's - San Jose","CA",2957,0,0
+"Kemper County","MS",62545,1,21
+"Kendall County Generation Facility","IL",887184,5,142
+"Kendall Square Station","MA",757064,4,71
+"Kenilworth Energy Facility","NJ",101181,0,83
+"Kennecott Power Plant","UT",550485,1332,1215
+"Kennedy International Airport Cogen","NY",348284,9,67
+"Kenneth C Coleman","KY",1101979,838,1952
+"Kennett","MO",1408,0,32
+"Kent County Waste to Energy Facility","MI",82814,15,64
+"Kentucky Mills","KY",52739,2719,713
+"Kenyon Municipal","MN",14,0,0
+"Kern Front Limited","CA",16201,0,44
+"Kern Oil & Refining Co","CA",23040,0,63
+"Kern River Cogeneration","CA",482009,2,1308
+"Kern River Eastridge Cogen","CA",245703,1,663
+"Kettle Butte Digester, LLC","ID","--",0,197
+"Kettle Falls Generating Station","WA",2672,59,528
+"Key City","MN",98,0,0
+"Keystone","PA",10359951,25526,15431
+"Keystone Recovery","PA","--",0,668
+"Kiamichi Energy Facility","OK",1143773,6,356
+"Kiana","AK",1091,2,22
+"Kiefer Landfill","CA","--",1,1017
+"Killen Station","OH",3678151,11881,6451
+"Kimberly Clark-Unit 1,2,3","CT",137885,0,348
+"Kincaid Generation LLC","IL",6520627,2557,1785
+"Kindred School","ND",114,0,2
+"King & Queen","VA",3274,6,749
+"King City Peaking","CA",2947,0,8
+"King City Power Plant","CA",231992,0,1
+"King Cove","AK",63,0,1
+"Kingfisher","OK",52,0,1
+"Kingman Municipal Power and Light Plant","KS",1768,0,41
+"Kings Beach","CA",374,1,7
+"Kingsburg Cogen","CA",38882,0,3
+"Kingston","TN",5189460,1570,1633
+"Kinmundy","IL",2357,0,1
+"Kinsleys Landfill","NJ","--",0,58
+"Kirksville","MO",14,0,0
+"Kishwaukee CHP Plant","IL",529,0,196
+"Kivalina","AK",871,2,18
+"Klamath Cogeneration Plant","OR",874684,4,116
+"Klamath Expansion Project","OR",21316,0,7
+"Kleen Energy Systems Project","CT",1262002,7,75
+"Kline Township Cogen Facility","PA",267103,222,65
+"Knox Lee","TX",122779,1,133
+"Knoxville Industrial","IA",334,1,7
+"Koda Biomass Plant","MN",13305,13,54
+"Kodiak Microgrid","AK",218,0,4
+"Kotlik","AK",1342,3,28
+"Kotzebue","AK",12283,20,241
+"Koyuk","AK",870,2,18
+"Kraft","GA",605565,4670,2256
+"Kyger Creek","OH",5188938,12472,5069
+"Kyocera America Project","CA",5915,0,135
+"Kyrene","AZ",284810,1,35
+"L L Wilkins","MS",157,0,0
+"L V Sutton Combined Cycle","NC",1436238,9,3576
+"L&S Sweetners","PA","--",0,259
+"LCEC Generation LLVC","NM",32731,0,750
+"LNG 1 & 2","CT",534,1,11
+"LRI LFGTE Facility","WA","--",0,446
+"LSP-Cottage Grove LP","MN",73352,0,8
+"LSP-Whitewater LP","WI",302302,2,46
+"LSU Cogen","LA",90603,0,240
+"La Crosse","KS",22,0,0
+"La Cygne","KS",7963810,11466,5430
+"La Farge","WI",2,0,0
+"La Junta","CO",13,0,0
+"La Paloma Generating Plant","CA",2502356,13,125
+"La Plata","MO",374,1,8
+"La Porte","IA",89,0,2
+"LaO Energy Systems","LA",504771,4,1731
+"Labadie","MO",15257755,30022,6066
+"Ladysmith","VA",434088,16,157
+"Lagoon Creek","TN",1026948,8,145
+"Laguna Water Reclamation Facility","CA",115,0,136
+"Lake (WY)","WY",67,0,1
+"Lake Catherine","AR",54324,0,159
+"Lake Charles Plant","LA","--",0,0
+"Lake Charles Polymers","LA",93775,0,870
+"Lake Crystal","MN",36,0,1
+"Lake Gas Recovery","IL","--",0,50
+"Lake Hubbard","TX",179339,2,69
+"Lake Marion","MN",177,0,4
+"Lake Mills","IA",39,0,1
+"Lake Mills Gas Recovery","IA","--",0,354
+"Lake One","CA",4574,0,1
+"Lake Park","IA",26,0,1
+"Lake Preston","SD",1155,2,6
+"Lake Road (MO)","MO",545534,698,966
+"Lake Road Generating Plant","CT",1724840,9,133
+"Lake Side Power Plant","UT",1650935,9,117
+"Lakefield Junction","MN",24193,0,7
+"Lakefield Utilities","MN",10,0,0
+"Lakeside","IL",20,0,0
+"Lakeview Gas Recovery","PA","--",0,443
+"Lamar Power Project","TX",2107783,10,544
+"Lambie Energy Center","CA",6598,0,1
+"Lamoni Municipal Utilities","IA",191,0,4
+"Lancaster County Resource Recovery","PA",183827,31,506
+"Lanchester Generating Station","PA","--",0,378
+"Landis Delivery No 2","NC",5,0,0
+"Lanesboro","MN",5,0,0
+"Lange Gas Turbines","SD",2205,0,1
+"Lansing","IA",1562551,4771,719
+"Lansing BWL REO Town Plant","MI",226697,1,58
+"Lansing Smith","FL",2384055,6279,2325
+"Laramie River Station","WY",9983923,7212,8641
+"Laredo","TX",76569,0,7
+"Larkspur Energy Facility","CA",42210,0,6
+"Larned","KS",105,0,2
+"Larsen Memorial","FL",4986,0,2
+"Las Vegas Generating Station","NV",63,0,6
+"Lauderdale","FL",2102448,177,2250
+"Laurel","NE",2,0,0
+"Laurel Ridge LFGTE","KY","--",0,262
+"Laurens","IA",55,0,1
+"Laverne Diesel Generating Plant","OK",11,0,0
+"Lawrence County Station","IN",18148,0,13
+"Lawrence Energy Center","KS",3872281,1674,2364
+"Lawrenceburg Power, LLC","IN",1270429,7,240
+"Leaf River Cellulose LLC","MS",17072,3317,1157
+"Lebanon Pines 1 & 2","CT",613,1,12
+"Lederle Laboratories","NY",83430,5,196
+"Lee Combined Cycle Plant","NC",2143526,15,4923
+"Lee County Landfill","SC","--",0,273
+"Lee County Solid Waste Energy","FL",236492,68,729
+"Lee Energy Facility","IL",21666,0,8
+"Leland Olds","ND",4028672,1304,5965
+"Lemon Creek","AK",178,0,2
+"Lennon Generating","MI","--",0,333
+"Lenox","IA",41,0,1
+"Leon Creek","TX",36995,0,8
+"Lewis & Clark","MT",361156,948,683
+"Lewis Creek","TX",860465,5,174
+"Lexington","NC",6,0,0
+"Lexington Health Center","NC",2,0,0
+"Liberty Electric Power Plant","PA",1448101,7,141
+"Liberty I & II LFGTE","IN","--",0,611
+"Lieberman","LA",51235,0,44
+"Life Technologies - Pleasanton","CA",3043,0,0
+"Life Technologies Carlsbad","CA",2864,0,0
+"Lightning Dock Geothermal HI-01, LLC","NM",230,"--","--"
+"Lilly Technical Center","IN",10,0,0
+"Lime Creek","IA",359,0,0
+"Limestone","TX",12124558,25276,11060
+"Limon Generating Station","CO",20572,0,6
+"Lincoln","KS",131,0,3
+"Lincoln Combustion","NC",62403,9,79
+"Lincoln Generating Facility","IL",31615,0,12
+"Lincoln Landfill","CA","--",0,432
+"Lincoln Paper & Tissue","ME",1877,28,95
+"Lincolnton High School","NC",57,0,1
+"Linden Cogen Plant","NJ",2291373,14,348
+"Litchfield","MN",259,0,5
+"Little Gypsy","LA",896243,5,2290
+"Live Oak Limited","CA",120801,1,326
+"Livingston Generating Station","MI",2096,0,6
+"Lockheed Martin Sunnyvale","CA",2112,0,0
+"Lockport Energy Associates LP","NY",182214,1,246
+"Lodi","CA",1063,0,3
+"Lodi Energy Center","CA",488753,3,23
+"Logan City","UT",989,0,3
+"Logan Generating Company LP","NJ",871292,680,567
+"Logansport","IN",175782,1690,406
+"Loma Linda University Cogen","CA",62045,0,172
+"Lon Wright","NE",559051,1447,348
+"Lone Star","TX",1235,0,1
+"Lonesome Creek Station","ND",50583,0,5
+"Long Beach Generation LLC","CA",18012,0,4
+"Long Creek Waste Water Plant","NC",227,0,4
+"Longview Fibre","WA",79389,3617,1047
+"Longview Power Plant","WV",3162115,1330,1040
+"Loraine County Project","OH","--",1,1913
+"Lordsburg Generating","NM",13842,0,12
+"Los Angeles Refinery Wilmington","CA",67779,1,455
+"Los Esteros Critical Energy Center","CA",108336,0,4
+"Los Medanos Energy Center","CA",1401698,7,90
+"Lost Hills Cogeneration Plant","CA",39251,0,103
+"Lost Nation","NH",1299,2,7
+"Lost Pines 1 Power Project","TX",1287625,6,198
+"Louis Doc Bonin","LA","--",0,0
+"Louisa","IA",5025805,7968,3968
+"Louisa Generation Facility","VA",126027,5,55
+"Louisiana 1","LA",1363953,32,1468
+"Louisiana Sugar Refining","LA",113344,1,258
+"Louisiana Tech University Power Plant","LA",32011,0,86
+"Low Moor","VA",2212,4,12
+"Lower Mount Bethel Energy","PA",1600859,8,136
+"Loyola University Health Plant","IL",287322,1,732
+"Luke Mill","MD",747181,14604,2133
+"Luna Energy Facility","NM",836012,4,84
+"Luverne","MN",46,0,1
+"Lycoming County","PA","--",0,244
+"Lyons","NE",0,0,0
+"M L Hibbard","MN",70572,196,383
+"M Street Jet","MA",1890,4,4
+"MAS ASB Cogen Plant","GA",6876,0,459
+"MCAGCC Cogen Plant","CA",31761,0,89
+"MCAGCC Cogen Plant 2","CA",3993,0,11
+"MCLB Landfill Gas to Energy","GA","--",0,170
+"MJMEUC Generating Station #1","MO",66032,0,176
+"MM Albany Energy","NY","--",0,341
+"MM Hartford Energy","CT","--",0,145
+"MM Lopez Energy","CA","--",0,574
+"MM Prince William Energy","VA","--",0,602
+"MM San Diego-Miramar","CA","--",0,705
+"MM San Diego-North City","CA","--",0,314
+"MM Taunton Energy","MA","--",0,255
+"MM Tomoka Farms Energy","FL","--",0,311
+"MM West Covina","CA","--",1,87
+"MM Yolo Power","CA","--",0,257
+"MMSD Jones Island Wastewater","WI",29555,0,115
+"MMSD South Shore Wastewater","WI",324,0,344
+"MMWAC Resource Recovery Facility","ME",30981,54,160
+"MNDOT Standby Generation","MN",32,0,1
+"MP Durham LLC","NC","--",0,245
+"MP Wayne LLC","NC","--",0,205
+"MPC Generating","GA",3003,2,4
+"MSC Croswell","MI",57784,244,131
+"MSC Sebewaing","MI",82379,422,184
+"MTSU Power Co-Gen Plant","TN",30872,0,87
+"MU Combined Heat and Power Plant","MO",232287,4856,644
+"MVUT","CA",64,0,0
+"Maalaea","HI",460493,792,2976
+"Mabelvale","AR",411,0,1
+"MacArthur Waste to Energy Facility","NY",65857,9,233
+"Macon","MO",0,0,0
+"Macon Energy Center","MO",58201,0,148
+"Maddox","NM",244565,1,299
+"Madelia","MN",73,0,1
+"Madison","OH",92926,0,34
+"Madison Utilities","NE",45,0,1
+"Magic Valley Generating Station","TX",1434683,7,184
+"Magnet Cove","AR",51871,0,11
+"Magnolia Power Plant","MS",1568166,8,181
+"Magnolia Power Project","CA",646086,3,30
+"Mahoning","OH","--",0,282
+"Maiden Community Center","NC",66,0,1
+"Main Street (MI)","MI",5,0,0
+"Maine Independence Station","ME",433720,2,53
+"Major Oak Power","TX",2574075,5227,1876
+"Malaga Power LLC","CA",140673,1,12
+"Malburg","CA",294897,1,20
+"Malden","MO",22,0,0
+"Mallard Lake Electric","IL","--",0,59
+"Mammoth Pacific I","CA",1481,"--","--"
+"Mammoth Pacific II","CA",1815,"--","--"
+"Manatee","FL",3070270,411,528
+"Manatee County LFGTE","FL","--",0,139
+"Manchester Street","RI",752828,6,216
+"Manchief Electric Generating Station","CO",163039,1,83
+"Mandalay","CA",87851,0,3
+"Mangum","OK",35,0,1
+"Manistique","MI",401,1,8
+"Manitowoc","WI",150627,250,67
+"Mankato Energy Center","MN",148378,1,14
+"Manning","IA",83,0,2
+"Mansfield Mill","LA",230099,1037,878
+"Maple Lake","MN",521,1,3
+"Maquoketa 1","IA",40,0,0
+"Maquoketa 2","IA","--",0,0
+"Marathon Generating Plant","FL",129,0,3
+"March Point Cogeneration","WA",457920,3,1483
+"Marcus Hook Energy LP","PA",1967247,10,248
+"Marcus Hook Refinery Cogen","PA",20680,0,21
+"Marina Landfill Gas","CA","--",0,310
+"Marion","IL",1853330,7849,3185
+"Mariposa Energy Project","CA",57559,0,6
+"Marlboro Mill","SC",5,2311,645
+"Mars Snackfood US","IL",22835,0,63
+"Mars Wrigley Confectionery US, LLC","NJ",41316,0,99
+"Marsh Landing Generating Station","CA",62030,0,3
+"Marsh Run Generation Facility","VA",235868,4,89
+"Marshall (IL)","IL",161,0,3
+"Marshall (MI)","MI",75222,0,1779
+"Marshall (MN)","MN",85,0,0
+"Marshall (MO)","MO",132,0,2
+"Marshall (NC)","NC",8193047,5369,8996
+"Marshall Energy Facility","KY",46248,0,11
+"Marshalltown","IA",9540,2,45
+"Marshfield Utilities Gas Plant","WI",1616,0,1
+"Martin","FL",4354502,662,1282
+"Martin Drake","CO",1264855,3131,1587
+"Martin Lake","TX",14889062,42480,10662
+"Martinez Refining","CA",384426,2,902
+"Martinez Sulfuric Acid Regeneration Plt","CA",21072,0,58
+"Martinsville LFG Generator","VA",46,0,46
+"Mass Inst Tech Cntrl Utilities/Cogen Plt","MA",100213,13,54
+"Massena Energy Facility","NY",922,0,1
+"Masspower","MA",354371,2,95
+"Maxim","CA",1373,0,0
+"Mayo","NC",2890271,3167,1968
+"McCartney","MO",33982,0,38
+"McClain Energy Facility","OK",938404,5,238
+"McClellan (AR)","AR",77429,1,156
+"McClellan (CA)","CA",2549,0,7
+"McClure","CA",3755,3,14
+"McCook","NE",1636,3,9
+"McGinness Hills","NV",8563,"--","--"
+"McGrath","AK",1659,3,35
+"McGrath Peaker","CA",14950,0,2
+"McGregor","IA",8,0,0
+"McIntosh","GA",341520,2057,985
+"McIntosh (AL)","AL",83531,0,32
+"McIntosh Combined Cycle Facility","GA",2743828,15,154
+"McKay Bay Facility","FL",132942,0,382
+"McKee Run","DE",21626,0,37
+"McKinley Paper Co. - Washington Mill","WA",326,4,3
+"McKinney LFG","TX","--",0,260
+"McKittrick Cogen","CA",83096,0,213
+"McKittrick Limited","CA",67627,0,182
+"McLeansboro","IL",10,0,0
+"McManus","GA",11811,168,101
+"McMeekin","SC",1253780,5815,1695
+"McMinnville","TN",544,1,11
+"McPherson 2","KS",7322,1,22
+"McPherson 3","KS",5375,0,7
+"McWilliams","AL",1273409,6,136
+"Mead Coated Board","AL",204556,3593,55
+"Mead Rumford Cogen","ME",16584,16,11
+"Mecklenburg Power Station","VA",517061,337,823
+"Medical Area Total Energy Plant","MA",232293,40,723
+"Medway","ME",167,0,3
+"Melrose","MN",57,0,1
+"Melrose 2","MN",8,0,0
+"Memphis","MO",16,0,0
+"Meramec","MO",5667005,10617,3949
+"Merck Rahway Power Plant","NJ",72030,6,16
+"Mercy Medical Center","NY",11,0,0
+"Meridian","MS",121,0,2
+"Merl Parr","IA",289,0,1
+"Merom","IN",6182868,3008,1854
+"Merrimack","NH",1160898,947,1520
+"Mesquite Creek LFGTE Project","TX","--",0,271
+"Mesquite Generating Station Block 1","AZ",726041,3,1532
+"Mesquite Generating Station Block 2","AZ",1311822,11,173
+"Metcalf Energy Center","CA",949285,5,75
+"Metro Gas Recovery","WI","--",0,325
+"Metro Methane Recovery Facility","IA","--",0,981
+"Metro Wastewater Reclamation District","CO",618,0,196
+"Mexico","MO",1562,7,16
+"Miami Dade County Resource Recovery Fac","FL",368767,636,1047
+"Miami Fort","OH",7432049,25836,5805
+"Miami Wabash","IN",117,0,1
+"Michigan City","IN",2766659,14506,1125
+"Michigan Power LP","MI",514466,2,139
+"Michoud","LA",1162821,6,1735
+"Mickleton Station","NJ",11989,0,177
+"Mid Valley Plant","CA","--",0,183
+"Mid-Georgia Cogeneration Facility","GA",89695,1,33
+"Mid-Set Cogeneration","CA",213272,1,569
+"Middle Station","NJ",2396,3,8
+"Middlebury College","VT",6509,23,40
+"Middlesex Generating Facility","NJ","--",1,62
+"Middletown","CT",171037,155,303
+"Middletown Coke Company, LLC","OH",1428,1,1818
+"Midlothian Energy Facility","TX",2282075,12,217
+"Midulla Generating Station","FL",1021888,5,280
+"Midway Peaking LLC","CA",24050,0,3
+"Midway Sunset Cogen","CA",736299,4,1998
+"Miki Basin","HI",15873,27,323
+"Milagro Cogeneration Plant","NM",186455,1,78
+"Milam Gas Recovery","IL","--",0,231
+"Miles City GT","MT",540,1,3
+"Milford","IA",31,0,1
+"Milford Power LP","MA",206883,1,50
+"Milford Power Project","CT",1216617,6,88
+"Mill Creek (KY)","KY",8661296,25537,10172
+"Mill Creek (SC)","SC",25371,0,18
+"Millcreek Power Generation","UT",40285,0,15
+"Millennium Power","MA",703520,4,68
+"MillerCoors Irwindale Brewery","CA",27238,0,194
+"MillerCoors Shenandoah Brewery","VA","--",0,6
+"Millersville LFG","MD","--",0,332
+"Milliken Plant","CA","--",0,48
+"Milton L Kapp","IA",832863,2743,530
+"Milton R Young","ND",5032869,1878,7447
+"Milwaukee County","WI",127548,388,210
+"Minden","LA",413,0,1
+"Minneapolis City of","KS",227,0,6
+"Minnesota River","MN",365,0,1
+"Mint Farm Generating Station","WA",491806,5,35
+"Mira Loma Peaker","CA",9376,0,1
+"Miramar","CA",4852,0,13
+"Miramar Energy Facility","CA",45448,0,7
+"Mississippi Baptist Medical Center","MS",18217,0,49
+"Missouri Avenue","NJ",2154,4,1
+"Missouri Center for Waste to Energy","MO","--",0,74
+"Missouri River Wastewater Treatment","NE",161,0,259
+"Missouri S&T - Power Plant","MO",6587,151,22
+"Mitchell (GA)","GA",79190,709,269
+"Mitchell (WV)","WV",7749518,4044,3076
+"Moberly","MO",1125,5,13
+"Mobile","NE",25,0,1
+"Mobile Energy Services LLC","AL",108001,62,683
+"Mobile Unit","SD",50,0,1
+"Model City Energy Facility","NY","--",0,573
+"Modern Innovative Energy LLC","NY","--",0,372
+"Moline","IL",927,0,3
+"Mon Valley Works","PA",5259,19,50
+"Mondelez Global LLC","IL",789,0,2
+"Monmouth Landfill Gas to Energy","NJ","--",0,93
+"Monroe (MI)","MI",14895170,5703,7525
+"Monroe Community College Plant","NY",5591,0,128
+"Monroe Generating Station","NC",629,0,1
+"Monroe Livingston Gas Recovery","NY","--",0,118
+"Monroe Middle School","NC",28,0,1
+"Mont Belvieu Cogeneration Unit","TX",158655,1,436
+"Montefieor Medical Center Moses Division","NY",46971,12,527
+"Monterey One Water","CA","--",0,136
+"Montezuma","IA",168,0,3
+"Montgomery County Oaks LFGE Plant","MD","--",0,278
+"Montgomery County Resource Recovery","MD",246104,49,409
+"Monticello","TX",7157441,18541,4627
+"Montpelier","OH",58,0,1
+"Montpelier Electric Generating Station","IN",46715,0,63
+"Montrose","MO",3082604,7805,3103
+"Montville Station","CT",48395,50,59
+"Monument","OH",81,0,2
+"Mooreland","OK",165631,1,220
+"Moose Lake","MN",234,0,4
+"Mora","MN",401,1,8
+"Moreau","MO",197,2,5
+"Moretown","VT","--",0,325
+"Morgan City","LA",4457,0,4
+"Morgan Creek","TX",13155,7,39
+"Morgan Energy Center","AL",1628333,8,128
+"Morganton Station 5","NC",3,0,0
+"Morganton, Parker Road","NC",2,0,0
+"Morgantown Energy Facility","WV",586777,932,1003
+"Morgantown Generating Plant","MD",5758962,2686,1161
+"Morris Cogeneration LLC","IL",386356,2,92
+"Morris Genco LLC","IL","--",0,189
+"Morton Salt Rittman","OH",43307,1181,101
+"Mosaic Co Tampa Facility","FL","--",0,0
+"Mosaic Phosphates Uncle Sam","LA","--",0,0
+"Moselle","MS",405989,2,58
+"Moser Generating Station","PA",6862,12,38
+"Mosinee Mill","WI",149266,1802,648
+"Motiva Enterprises Port Arthur Refinery","TX",995197,10,3047
+"Mount Clinton","VA",195,0,3
+"Mount Tom","MA",6388,8,4
+"Mountain","PA",3684,3,16
+"Mountain Creek","TX",152492,1,53
+"Mountain Home Energy Center","TN",4208,1,98
+"Mountain Lake","MN",91,0,2
+"Mountain View","PA",1495,3,176
+"Mountain Village","AK",1909,3,39
+"Mountaineer","WV",7482644,4000,2739
+"Mountainview Generating Station","CA",2444151,12,111
+"Mt Pleasant","IA",406,1,8
+"Mt Poso Cogeneration","CA",6462,3,70
+"Mt Storm","WV",9240733,3601,3318
+"Mulberry Cogeneration Facility","FL",194608,1,64
+"Multitrade Rabun Gap, LLC","GA","--",27,234
+"Multitrade of Pittsylvania LP","VA","--",70,276
+"Mulvane 2","KS",2,0,0
+"Municipal Power Plant","MI",24,0,1
+"Munster Landfill Gas-to-Energy","IN","--",0,89
+"Murphy-Brown LLC","NC",13,0,0
+"Murray Gill","KS",81606,0,140
+"Murray Turbine","UT",3294,0,9
+"Muscatine Plant #1","IA",1099375,1457,2607
+"Muskingum River","OH",3167839,44974,2426
+"Muskogee","OK",8687414,18632,10165
+"Muskogee Mill","OK",876439,1636,1457
+"Mustang","OK",229414,1,641
+"Mustang Station","TX",880890,5,286
+"Mustang Station Unit 4","TX",79544,0,20
+"Myrtle Beach","SC",2830,6,15
+"Mystic Generating Station","MA",847500,825,239
+"NAEA Lakewood LLC","NJ",332295,3,86
+"NAEA Ocean Peaking Power LLC","NJ",181463,1,51
+"NAFTA Region Olefins Complex Cogen Fac","TX",386990,2,1064
+"NCAH Central Utility Plant","IA",16028,0,45
+"NECCO Co-Generation","MA",10222,0,232
+"NEO Freehold Gen LLC","NJ",6041,0,130
+"NGP Blue Mountain I LLC","NV",6303,"--","--"
+"NIH Cogeneration Facility","MD",94576,0,259
+"NRG Energy San Diego","CA",721,0,17
+"NRG Rockford I","IL",22389,0,9
+"NRG Rockford II Energy Center","IL",22359,0,10
+"NRG Sterlington Power","LA",4011,0,11
+"NSB Anaktuvuk Pass","AK",3087,5,61
+"NSB Atqasuk Utility","AK",2724,5,54
+"NSB Kaktovik Utility","AK",3562,6,70
+"NSB Nuiqsut Utility","AK",4679,1,107
+"NSB Point Hope Utility","AK",4188,7,83
+"NSB Point Lay Utility","AK",2669,4,53
+"NSB Wainwright Utility","AK",5018,8,99
+"NTC/MCRD Energy Facility","CA",101630,1,235
+"NYU Luthern Medical Center","NY",5542,0,143
+"Nacogdoches Power","TX","--",5,93
+"Naknek","AK",15085,24,281
+"Nalco","IL",17106,0,40
+"Nanticoke LFG","NY","--",0,427
+"Nantucket","MA",188,0,1
+"Napoleon","OH",23,0,0
+"Napoleon Biogas","OH",1425,0,70
+"Napoleon Peaking","OH",13,0,0
+"Napoleon Peaking Station","OH",779,0,0
+"Narrows Gas Turbines Generating","NY",25180,14,39
+"Nashua Plant","NH","--",0,103
+"Nassau Energy Corp","NY",192138,9,215
+"Naughton","WY",5158804,5575,5494
+"Navajo","AZ",16559516,5140,16230
+"Naval Hospital Medical Center","CA",22145,0,61
+"Naval Station Energy Facility","CA",180128,1,417
+"Naval Submarine Base Kings Bay","GA",853,1,17
+"Neal Hot Springs Geothermal Project","OR",4826,"--","--"
+"Nearman Creek","KS",1528482,4838,1943
+"Nebo Power Station","UT",161577,1,19
+"Nebraska City","NE",8496955,14637,5107
+"Nebraska City # 1","NE",136,0,3
+"Nebraska City # 2","NE",37,0,1
+"Neenah Paper Munising Mill","MI",129117,663,278
+"Neil Simpson","WY",40085,176,73
+"Neil Simpson Gas Turbine #2","WY",3702,0,1
+"Neil Simpson II","WY",694240,324,445
+"Nelson Dewey Generating Station","WI",1126668,3188,1565
+"Nelson Gardens Landfill Gas to Energy","TX","--",0,233
+"Neptune Gas Processing Plant","LA","--",1,339
+"Nevada","MO",105,0,1
+"Nevada Cogen Assoc#1 GarnetVly","NV",313738,2,724
+"Nevada Cogen Associates 2 Black Mountain","NV",308521,2,713
+"Nevada Solar One","NV",1733,0,4
+"New Bern","NC",1307,2,316
+"New Castle Plant","PA",304765,3593,647
+"New Hampton","IA",317,0,7
+"New Haven Harbor","CT",212605,271,164
+"New Knoxville","OH",2,0,0
+"New Lisbon","WI",15,0,0
+"New Madrid","MO",8002653,15181,18946
+"New Mexico State University","NM",23612,0,65
+"New Milford Gas Recovery","CT","--",0,147
+"New Prague","MN",626,1,14
+"New Roads","LA",98,0,3
+"New Ulm","MN",15816,1,39
+"New York Methodist Hospital","NY",4883,0,112
+"New York University Central Plant","NY",52586,14,163
+"New-Indy Ontario Mill","CA",197985,1,539
+"Newark America Mill","MA",29908,0,70
+"Newark Bay Cogeneration Partnership LP","NJ",189370,1,41
+"Newberry","MI",43,0,1
+"Newgulf Cogen","TX",1659,0,3
+"Newhalen","AK",23,0,0
+"Newington","NH",119190,283,162
+"Newman","TX",1389845,8,1508
+"Newman (PA)","PA",31014,0,72
+"Newton","IL",6672484,14893,2629
+"Nichols","TX",310576,2,330
+"Nikiski Co-Generation","AK",170040,1,407
+"Niland Gas Turbine Plant","CA",41277,0,2
+"Niles","OH",40,0,1
+"Niles Power Plant","OH",662,2,5
+"Nine Mile Point","LA",2454000,12,5450
+"Nine Springs","WI",160,0,0
+"Nippon Dynawave Packaging Longview WA","WA",282630,2804,1423
+"Noatak","AK",1250,3,26
+"Noble Hill Landfill","MO","--",0,191
+"Nodaway","MO",2178,0,1
+"Noorvik","AK",1381,2,28
+"Norden 1-3","CT",173,0,3
+"North","IA",14,0,0
+"North 1st","NY",22404,0,2
+"North Branch (MN)","MN",289,0,6
+"North Brawley Geothermal Plant","CA",3644,"--","--"
+"North Chicago Energy Center","IL",26445,0,74
+"North Denver","NE",321,0,1
+"North Island Energy Facility","CA",154533,1,358
+"North Loop","AZ",1632,0,4
+"North Main Street","CT",601,1,1
+"North Ninth Street","IL",854,0,18
+"North Omaha","NE",3248568,10201,5242
+"North Pole","AK",197804,465,754
+"North Road Peak","SC",161,0,3
+"North Valmy","NV",2876075,6741,3938
+"Northampton Generating Company LP","PA",700984,357,296
+"Northeast (IN)","IN",65,0,0
+"Northeast (MI)","MI",1256,1,4
+"Northeast (MO)","MO",2578,1,27
+"Northeast (WA)","WA",1602,0,4
+"Northeastern","OK",7463684,15389,5904
+"Northeastern Illinois University Cogen","IL",11,0,0
+"Norther Tier Landfill","PA","--",0,149
+"Northern Neck","VA",1578,3,9
+"Northern States Flambeau","WI",1157,0,3
+"Northport","NY",1653126,874,958
+"Northside Generating Station","FL",3516709,2245,1389
+"Northway","AK",923,2,18
+"Northwest Community Hospital","IL",54,0,1
+"Northwest Regional","AZ","--",0,276
+"Norton Powerhouse","MA",26590,0,62
+"Norwich WWTP","CT",75,0,1
+"Notch Cliff","MD",6525,0,18
+"Nottoway Diesel Generating Facility","VA",286,0,6
+"Nove Power Plant","CA","--",0,332
+"Novo BioPower Plant","AZ",387,25,99
+"Nucla","CO",492756,845,694
+"Nueces Bay","TX",649538,3,88
+"Nymans Plant Microgrid","AK",64,0,1
+"O H Hutchings","OH","--",0,0
+"O W Sommers","TX",309910,3,339
+"OBP Cogen","NY",18788,0,51
+"OLS Energy Chino","CA",111277,1,260
+"Oak Bluffs Diesel Generating Facility","MA",211,0,4
+"Oak Grove (TX)","TX",12658302,6717,4304
+"Oak Grove Power Producers","KS","--",0,225
+"Oak Point Cogen","LA",101470,1,279
+"Oak Ridge LFGTE","IN","--",0,276
+"Oakdale Renewable Energy Plant","IA",187,0,4
+"Oakwood Hospital & Medical Center","MI",24,0,0
+"Oberlin (OH)","OH",419,0,9
+"Ocean County Landfill","NJ","--",1,1213
+"Ocean State Power","RI",274289,1,72
+"Ocean State Power II","RI",257608,1,76
+"Oceanside Energy","NY","--",0,37
+"Ocotillo","AZ",49988,0,64
+"Ocracoke","NC",175,0,4
+"Odessa-Ector Power Plant","TX",1836126,9,482
+"Ogden","IA",39,0,1
+"Oildale Energy LLC","CA",132453,1,362
+"Okeelanta Cogeneration","FL",56459,77,210
+"Oklahoma Cogeneration Project","OK",42585,0,99
+"Oklahoma State University","OK",58,0,0
+"Oklaunion","TX",3231276,3180,5730
+"Old Faithful","WY",95,0,2
+"Oleander Power Project LP","FL",41902,0,12
+"Olinda Landfill Gas Recovery Plant","CA","--",0,20
+"Olive View Medical Center","CA",16629,0,45
+"Oliver","MI",43,0,1
+"Olmsted Waste Energy","MN",42485,77,230
+"Omega Hills Gas Recovery","WI","--",1,208
+"Onalaska Campus Landfill Biogas","WI","--",0,63
+"One Market Plaza","CA",1460,0,34
+"Oneida Herkimer","NY","--",0,278
+"Oneta Energy Center","OK",1182447,6,416
+"Onondaga County Resource Recovery","NY",138669,243,147
+"Onslow Power Producers","NC","--",0,154
+"Ontario LFGTE","NY","--",1,1051
+"Ontelaunee Energy Center","PA",1319000,7,76
+"Opryland USA","TN",24262,0,62
+"Optim Energy Altura Cogen LLC","TX",1899417,10,296
+"Orange Cogeneration Facility","FL",139363,1,71
+"Orange Grove Peaking Facility","CA",23280,0,3
+"Orca","AK",5312,10,112
+"Orchard Park","PA",3986,1,86
+"Ord","NE",225,0,4
+"Oregon State University Energy Center","OR",26133,0,59
+"Orlando Cogen LP","FL",392787,2,169
+"Ormesa I","CA",2102,"--","--"
+"Ormesa IH","CA",893,"--","--"
+"Ormesa II","CA",2207,"--","--"
+"Ormond Beach","CA",132390,1,9
+"Oroville Cogeneration LP","CA",276,0,7
+"Orrtanna","PA",1935,3,11
+"Orrville","OH",354789,16727,867
+"Orrville Peaking","OH",53,0,1
+"Osage (IA)","IA",52,0,1
+"Osage City","KS",47,0,1
+"Osawatomie","KS",9171,0,2
+"Osawatomie City of","KS",5,0,0
+"Osborne","KS",9,0,0
+"Osceola (FL)","FL",30613,0,9
+"Oshkosh Foundation Rosedale Biodigester LLC","WI","--",0,210
+"Osprey Energy Center Power Plant","FL",556666,3,54
+"Osprey Point RES","IN","--",0,196
+"Oswego County Energy Recovery","NY",29912,46,135
+"Oswego Harbor Power","NY",74970,241,108
+"Otay Landfill Gas, LLC","CA","--",1,1038
+"Otay Mesa Generating Project","CA",1395168,7,64
+"Otsego Mill Power Plant","MI",60803,0,14
+"Ottawa","KS",9026,15,182
+"Ottawa County Project","OH","--",0,204
+"Otter Creek Ethanol Poet - Ashton","IA",23976,0,63
+"Ottumwa","IA",2786974,8371,2453
+"Ouachita","LA",1419420,7,160
+"Outagamie County Co-Generation Facility","WI","--",0,302
+"Overall Road Station","MO",18,0,0
+"Owatonna","MN",602,0,2
+"Oxford (NE)","NE",49,0,1
+"Oxnard","CA",273574,1,765
+"Oxnard Paper Mill","CA",121243,1,334
+"Oxnard Wastewater Treatment Plant","CA",765,0,177
+"Oyster Creek Unit VIII","TX",1170224,7,3117
+"P L Bartow","FL",2823638,15,753
+"P Plant","CA",16327,0,45
+"PCA, Filer City Mill","MI",204414,8,342
+"PCS Phosphate","NC","--",0,0
+"PE Berkeley","CA",102675,0,238
+"PInova Inc","GA",10381,42,270
+"POTB Digester","OR","--",0,46
+"PPG Plant C Caustic","LA",4663,0,11
+"PPG Powerhouse A","LA","--",0,0
+"PPG Powerhouse C","LA",1290060,6,3604
+"PPG Riverside","LA","--",0,0
+"PPL Glendon LFGTE Plant","PA","--",0,333
+"PPS Power Plant No 1","KY",3768,0,5
+"PRSI FCC Generator","TX",18158,61,65
+"PS ST-8 Engine No 1","OH",5,0,0
+"PSEG Burlington Generating Station","NJ",69355,16,135
+"PSEG Edison Generating Station","NJ",32441,0,194
+"PSEG Hudson Generating Station","NJ",769348,174,476
+"PSEG Kearny Generating Station","NJ",316795,2,101
+"PSEG National Park Generating Station","NJ",55,0,0
+"PSEG Salem Generating Station","NJ",1012,2,8
+"PWD Northeast WPCP Biogas Cogen Plant","PA",6046,0,640
+"Pacific-Ultrapower Chinese Station","CA",314,3,47
+"Packaging Corp of America","TN",196110,4409,1
+"Packaging of America Tomahawk Mill","WI",263871,6103,880
+"Pacolet Diesel Generation Facility","SC",260,0,5
+"Paddys Run","KY",62226,0,37
+"Painesville","OH",8367,193,20
+"Palaau Power","HI",23692,41,476
+"Palm Beach Renewable Energy Facility 1","FL",276057,116,562
+"Palomar Energy","CA",964097,5,45
+"Panda Sherman Power Station","TX",433531,3,28
+"Panda Temple Power Station","TX",524737,3,33
+"Panduit Tinley Park","IL",229,0,5
+"Panoche Energy Center","CA",363562,2,34
+"Panoche Peaker","CA",3593,0,10
+"Panora","IA",31,0,1
+"Panther Creek Energy Facility","PA",780095,472,454
+"Papillion Creek Wastewater","NE",45,0,121
+"Par Sterile Products","MI",12905,0,36
+"Paradise","KY",12801214,17833,8587
+"Paragould Reciprocating","AR",278,0,7
+"Paragould Turbine","AR",27,0,0
+"Paris (KY)","KY",850,1,17
+"Paris (WI)","WI",16366,0,12
+"Paris Energy Center","TX",231236,1,241
+"Park 500 Philip Morris USA","VA",12200,76,20
+"Parlin Power Plant","NJ",34936,0,18
+"Parnassus Central Utility Plant","CA",54170,0,126
+"Parr GT","SC",4457,4,18
+"Pasadena Cogeneration","TX",1693664,8,309
+"Pasco Cnty Solid Waste Resource Recovery","FL",135426,11,406
+"Pastoria Energy Facility, LLC","CA",1904898,10,103
+"Patua Acquisition Project, LLC","NV",3059,"--","--"
+"Paulding","MS",35,0,0
+"Pawhuska","OK",16,0,0
+"Pawnee","CO",2766801,4997,1533
+"Pawtucket Power Associates","RI",2595,0,4
+"Paxton Creek Cogeneration","PA",587,0,13
+"Payson","UT",44,0,1
+"Pea Ridge","FL",52999,0,146
+"Peak Power 1 Cogen","NY",7092,0,163
+"Pearl Station","IL",132,0,1
+"Pearsall","TX",184479,1,3852
+"Pebbly Beach","CA",21376,36,422
+"Pecan Row Landfill To Electric Facility","GA","--",0,390
+"Pedricktown Cogeneration Company LP","NJ",105568,1,31
+"Pelican","AK",2,0,0
+"Pella Peaking","IA",306,1,6
+"Pender","NE",16,0,0
+"Pendleton County LFGTE","KY","--",0,277
+"Pennsauken Landfill","NJ","--",0,135
+"Pennsbury","PA","--",0,7
+"Peno Creek","MO",32677,0,24
+"Penobscot Energy Recovery","ME",105454,5,419
+"Pensacola Florida Plant","FL",538536,15,3572
+"Peoples Generating Station","MI","--",0,372
+"Perdido","FL","--",0,269
+"Perham Incinerator","MN",13509,21,61
+"Permian Basin","TX",66201,1,127
+"Perryman","MD",101318,4,195
+"Perryville Power Station","LA",1297357,6,150
+"Peru (IL)","IL",162,0,2
+"Peru (IN)","IN",17,0,0
+"Petersburg","AK",564,1,11
+"Pfizer Groton Plant","CT",81216,4,157
+"Pheasant Run Landfill Gas Recovery","WI","--",0,836
+"Phelps Dodge Refining","TX",28626,0,79
+"Philadelphia","MD",17571,30,97
+"Philadelphia Refinery","PA","--",3,194
+"Philip Sporn","WV",1401352,9662,2026
+"Phillips 66 Billings Refinery","MT",15551,0,112
+"Phillips 66 Rodeo Refinery","CA",118905,2,757
+"Piedmont Green Power","GA","--",25,226
+"Pilot Station","AK",1216,2,25
+"Pinckneyville","IL",11170,0,9
+"Pinconning White Feather","MI","--",0,214
+"Pine Bluff Energy Center","AR",580619,3,149
+"Pine Bluff Mill","AR",83299,3509,1545
+"Pine Grove","PA",770,1,87
+"Pine Street","MI",4,0,0
+"Pine Tree Acres","MI","--",0,871
+"Pine Tree Acres WM LFGTE","MI","--",1,1266
+"Pine Tree Landfill Gas to Energy","ME","--",0,189
+"Pinelawn Power LLC","NY",64346,1,6
+"Pinellas County Resource Recovery","FL",320569,162,1049
+"Pinetree Power","NH","--",31,55
+"Pinetree Power Fitchburg","MA",321,31,27
+"Pinetree Power Tamworth","NH","--",42,78
+"Pineville Delivery 2","NC",4,0,0
+"Pioneer Crossing Energy, LLC","PA","--",0,648
+"Pioneer Generating Station","ND",58399,0,6
+"Pioneer Valley Resource Recovery","MA",50630,113,302
+"Piqua Power Plant","OH",478,1,2
+"Pirkey","TX",5251951,2645,3599
+"Pitchess Cogen Station","CA",92892,0,216
+"Pittsburg Power","CA",56100,0,6
+"Pittsfield Generating LP","MA",74627,37,18
+"Pixar - Emeryville","CA",2789,0,0
+"Pixelle Specialty Solutions LLC - Chillicothe Facility","OH",610144,17329,1791
+"Pixelle Specialty Solutions LLC - Spring Grove Facility","PA",609365,6878,1233
+"Placid 12","MI",476,1,9
+"Plains End","CO",8472,0,196
+"Plains End II LLC","CO",30273,0,700
+"Plainview Muncipal Power","NE",13,0,0
+"Plant 31 Paper Mill","LA",91474,3147,1563
+"Plant Four","MI",397,1,2
+"Plant No 1 Freeport","NY",231,0,5
+"Plant No 1 Orange County","CA",2139,0,851
+"Plant No 2 Freeport","NY",27241,0,3
+"Plant No 2 Orange County","CA",1175,0,972
+"Plant X","TX",708451,4,783
+"Plaquemine","LA",981,0,2
+"Plaquemine Cogeneration Plant","LA",2477316,8,396
+"Platte","NE",599573,1317,644
+"Pleasant Hill","IA",7162,0,7
+"Pleasant Prairie","WI",6867927,1189,2194
+"Pleasant Valley (MN)","MN",45699,0,42
+"Pleasant Valley (VA)","VA",313,0,2
+"Pleasants Energy LLC","WV",211519,3,79
+"Ples I","CA",2480,"--","--"
+"Plum Point Energy Station","AR",3471713,2312,1140
+"Plummer Cogen","ID","--",6,55
+"Plymouth State College Cogeneration","NH",2,0,0
+"Poet Biorefining Lake Crystal","MN",72,0,1
+"Point Beach Nuclear Plant","WI",535,1,3
+"Point Comfort Operations","TX",627383,3,1365
+"Polk","FL",1567401,979,386
+"Ponca","OK",659,0,13
+"Ponca City","OK",19106,0,46
+"Ponton Diesel Generating Facility","VA",276,0,6
+"Poplar Bluff Generating Station","MO",432,0,9
+"Port Allen (HI)","HI",122757,209,2153
+"Port Allen (LA)","LA",34514,0,103
+"Port Arthur Texas Refinery","TX",158065,1,430
+"Port Everglades","FL",9219,6,36
+"Port Jefferson","NY",304463,337,160
+"Port Neches Plant","TX",186157,1,514
+"Port Townsend Paper","WA",34774,1097,323
+"Port Washington Generating Station","WI",1094204,6,116
+"Port Wentworth Mill","GA",33912,2320,1538
+"Port Westward","OR",722935,15,56
+"Portable Generator 1","ND",6,0,0
+"Portable Generator 2","ND",2,0,0
+"Portable Generator 3","ND",1,0,0
+"Portage","MI",272,0,2
+"Portland (PA)","PA",256963,2886,389
+"Portside Energy","IN",182242,1,23
+"Portsmouth Genco LLC","VA",147802,458,249
+"Possum Point","VA",1545653,679,375
+"Pouch","NY",23709,0,2
+"Powell Valley","TN",166,0,3
+"Power Generation Station (PGS) 2","CA","--",0,78
+"Power Island","TX",239496,1,658
+"Power Station 4","TX",196088,1,387
+"Powerlane Plant","TX",34676,0,21
+"Powerton","IL",9187914,15166,5256
+"Powertrain Warren General Motors","MI",2274,0,7
+"Prairie Bluff","MS","--",0,125
+"Prairie Creek","IA",846105,2989,1729
+"Prairie Horizon Agri Energy","KS",40993,0,101
+"Prairie State Generating Station","IL",8540900,5167,2546
+"Prairie View I & II LFGTE","IN","--",0,580
+"Prairie View IL","IL","--",0,420
+"Prairies Edge Generating Facility","IN","--",0,175
+"Pratt","KS",2138,0,5
+"Pratt & Whitney","CT",3595,7,1
+"Pratt 2","KS",1513,0,36
+"Presence Saint Mary of Nazareth Hospital","IL",37,0,1
+"Presque Isle","MI",2214733,5719,3410
+"Preston (MN)","MN",63,0,1
+"Pretlow","VA",61,0,1
+"Prima Plant","CA","--",0,536
+"Princeton (IL)","IL",309,0,7
+"Princeton (MN)","MN",205,0,4
+"Princeton University Cogeneration","NJ",44400,0,121
+"Procter & Gamble Cincinnati Plant","OH",177745,1503,450
+"Procter & Gamble Mehoopany Mill","PA",481717,2,310
+"Provo","UT",477,0,10
+"Pueblo","CO",43,0,1
+"Pueblo Airport Generating Station","CO",562533,2,25
+"Puente Hills Energy Recovery","CA","--",3,590
+"Pulliam","WI",1043711,2246,1076
+"Puna","HI",52166,436,100
+"Puna Geothermal Venture I","HI",6678,"--","--"
+"Purdue University","IN",278514,926,303
+"Putnam","FL",365965,2,849
+"Putnam (MI)","MI",410,1,8
+"Pyramid","NM",33112,0,43
+"Q Plant","CA",19432,0,54
+"Quail Run Energy Center","TX",297215,1,60
+"Quantum Auburndale Power LP","FL",372,0,0
+"Quantum Choctaw Power LLC","MS",322720,2,77
+"Quantum Lake Power LP","FL",60532,0,44
+"Quantum Pasco Power LP","FL",78721,0,59
+"Quay County","NM",926,2,5
+"Quindaro","KS",1223264,3343,2774
+"Quinhagak","AK",1225,2,25
+"R D Green","KY",3674493,3628,4081
+"R D Morrow","MS",781037,2005,1753
+"R Gallagher","IN",971631,3197,1502
+"R M Heskett","ND",704799,2121,903
+"R M Schahfer","IN",8223225,7631,6455
+"R S Nelson","LA",5472237,9565,3180
+"R W Miller","TX",117883,3,132
+"RCWMD Badlands Landfill Gas Project","CA","--",0,33
+"RED-Rochester, LLC","NY",788849,8908,1994
+"RPI Fuel Cell LLC","CA",5290,0,0
+"RS Cogen","LA",1455248,8,674
+"Raccoon Creek Energy Center","IL",2319,0,1
+"Radford Army Ammunition Plant","VA",269029,3182,609
+"Raft River Geothermal Power Plant","ID",2073,"--","--"
+"Ralph Green","MO",9561,0,16
+"Rand Whitney CHP Plant","CT",83417,0,227
+"Rantoul","IL",202,0,4
+"Rapids Energy Center","MN",124678,367,437
+"Rariton OMP","NJ",1292,0,30
+"Ratcliffe","MS",466935,3,66
+"Rathdrum","ID",8718,0,5
+"Rathdrum Power LLC","ID",448638,2,59
+"Ravenswood","NY",2531856,270,1375
+"Rawhide","CO",2141577,825,1285
+"Ray D Nixon","CO",1366940,3007,1573
+"Ray Olinger","TX",24313,0,9
+"Rayne","LA",6,0,0
+"ReEnergy Black River","NY",48106,234,251
+"ReEnergy Fort Fairfield","ME","--",49,196
+"ReEnergy Livermore Falls","ME","--",63,82
+"ReEnergy Lyonsdale Biomass","NY","--",33,289
+"ReEnergy Stratton LLC","ME",132,67,118
+"Red Bluff","CA",7415,0,172
+"Red Bud","IL",134,0,3
+"Red Cedar","IA",368,0,1
+"Red Cloud","NE",118,0,2
+"Red Hawk","AZ",1490832,8,139
+"Red Hills Generating Facility","MS",2720538,2614,1762
+"Red Oak Power LLC","NJ",2075105,11,181
+"Red Shield Envir Old Town Facility","ME",18554,517,264
+"Red Wing","MN",96412,17,430
+"Redbud Power Plant","OK",2248641,12,236
+"Redding Power","CA",118699,1,3
+"Redwood Falls","MN",393,0,9
+"Reeves","NM",47098,0,106
+"Regional Waste Systems","ME",74179,15,221
+"Regional Wastewater Control Facility","CA",7104,0,391
+"Reid Gardner","NV",2585200,2275,3332
+"Remington","VA",262609,8,92
+"Renaissance Power Plant","MI",78206,0,32
+"Renewable Energy Services of Ohio","OH","--",0,170
+"Renick Run Pumping Station 03-04","OH",7,0,0
+"Rensselaer City Light Plant","IN",3353,0,77
+"Rensselaer Cogen","NY",22427,0,6
+"Reventure Park","NC","--",0,10
+"Rex Brown","MS",47880,0,177
+"Reynolds","IL",106,0,1
+"Rhinelander Mill","WI",195560,1586,387
+"Rhode Island Hospital","RI",54168,57,55
+"Rhode Island State Energy Center","RI",629457,3,44
+"Rice University","TX",4713,0,13
+"Riceland Foods Cogeneration Plant","AR","--",13,51
+"Richard Burdette Geothermal","NV",3939,"--","--"
+"Richard M Flynn","NY",522916,13,157
+"Richland","OH",67278,0,45
+"Richland Center Renewable Energy LLC","WI",108,0,149
+"Richland County Landfill","SC","--",0,187
+"Richmond","IN",1095,0,1
+"Richmond Energy","VA","--",0,601
+"Richmond Generating Station","PA",11204,14,44
+"Ridgeview","WI","--",0,464
+"Rifle Generating Station","CO",4467,0,9
+"Riley Generating Station","MI",158,0,4
+"Rio Bravo","NM",11962,0,23
+"Rio Bravo Fresno","CA",788,25,100
+"Rio Bravo Jasmin","CA",87911,2,18
+"Rio Bravo Poso","CA",138576,1358,69
+"Rio Bravo Rocklin","CA",475,26,33
+"Rio Grande","NM",572237,2,688
+"Rio Grande Valley Sugar Growers","TX",5945,9,157
+"Rio Nogales Power Project","TX",1092424,6,301
+"Rio Pinar","FL",112,0,1
+"Ripon Generation Station","CA",14581,0,2
+"River Hills","IA",1671,0,5
+"River Road Gen Plant","WA",612296,3,64
+"River Rouge","MI",2167760,8820,3330
+"River Valley","OK",2142500,277,2780
+"Riverbay","NY",68370,22,24
+"Riverbend Landfill","OR","--",0,469
+"Riverside","IA",640464,1966,624
+"Riverside (MD)","MD",21284,1,28
+"Riverside (MN)","MN",404430,2,72
+"Riverside (OK)","OK",192615,1,456
+"Riverside Energy Center","WI",713114,3,52
+"Riverside Energy Resource Center","CA",26911,0,3
+"Riverside Generating LLC","KY",88820,0,45
+"Riverview Energy Center","CA",11327,0,2
+"Riverview Energy Systems","MI","--",0,113
+"Riverwood International Macon Mill","GA",21118,2340,1579
+"Riviera","FL",1739851,9,135
+"Roanoke Valley Energy Facility I","NC",588845,284,798
+"Roanoke Valley Energy Facility II","NC",98217,41,72
+"Robbins Lumber","ME",60,0,1
+"Robert A Reid","KY",265291,5210,501
+"Robert Mueller Energy Center","TX",19653,0,54
+"Robert P Mone Plant","OH",22410,0,8
+"Robeson County LFG to Energy","NC","--",0,137
+"Robins","GA",6422,0,6
+"Rochelle Energy Center","IL","--",0,191
+"Rock Creek Dairy","ID","--",0,380
+"Rock Lake CT","MN",293,1,2
+"Rock Rapids","IA",38,0,1
+"Rock River","WI",8549,5,55
+"Rock-Tenn Mill","AL",145413,109,967
+"RockGen Energy Center","WI",42148,0,11
+"RockTenn Coshocton Mill","OH",37809,115,553
+"Rockford","IA",6,0,0
+"Rockingham County CT Station","NC",150386,2,60
+"Rockport","IN",15832407,49876,17896
+"Rockville 1 & 2","VA",154,0,3
+"Rockwood","CA",1138,0,4
+"Rocky Ford","CO",141,0,3
+"Rocky Mountain Energy Center","CO",991053,5,62
+"Rocky River (SC)","SC",27,0,1
+"Rocky Road Power LLC","IL",37649,0,26
+"Rohr Inc., a Collins Aerospace Company","CA",13965,1,319
+"Rokeby","NE",24336,0,40
+"Roll Delano","CA",2488,0,0
+"Roll Delano 2","CA",2100,0,0
+"Roll Lost Hills","CA",1299,0,0
+"Rolling Hills Generating","OH",16643,0,13
+"Rolls Royce","IN",8845,0,40
+"Roosevelt Biogas 1","WA","--",1,103
+"Roquette America","IA",512359,296,1619
+"Roseburg Forest Products Biomass","CA","--",9,12
+"Roseburg LFG","OR","--",0,129
+"Rosemary Power Station","NC",39459,17,51
+"Roseton Generating Facility","NY",280011,552,280
+"Roseville","CA",559,0,2
+"Roseville Energy Park","CA",219786,1,12
+"Rothschild Biomass Cogen Facility","WI",19723,2,127
+"Rousselot Inc","MA",46412,0,98
+"Rowan","NC",1033053,9,112
+"Rowesville Rd Plant","SC",147,0,0
+"Roxana Resource Recovery","IL","--",0,233
+"Roxboro","NC",12423302,14196,8681
+"Rubart","KS",4967,0,115
+"Rumford Cogeneration","ME",462015,58,1186
+"Rumford Power, Inc","ME",164324,1,32
+"Rupert Cogen Project","ID",47287,0,113
+"Rush Island","MO",7895569,15825,2586
+"Russell City Energy Center","CA",831568,4,64
+"Russell Downtown","KS",247,0,5
+"Russell Energy Center","KS",1243,0,3
+"Rutgers Biomedical and Health Cogen","NJ",55466,0,151
+"Rutland","VT",813,1,4
+"Ryegate Power Station","VT","--",29,116
+"S A Carlson","NY",127256,0,139
+"S O Purdom","FL",522384,3,140
+"S W Bailey","AK",1204,2,24
+"SC 1 Data Center, Phase 2","CA",424,1,8
+"SC Landfill Energy LLC","NJ","--",0,146
+"SCA Cogen 2","CA",359608,2,25
+"SDS Lumber Gorge Energy Division","WA","--",5,41
+"SECCRA Community Landfill","PA","--",0,116
+"SEGS III","CA",4169,0,10
+"SEGS IV","CA",4485,0,11
+"SEGS IX","CA",8482,0,20
+"SEGS V","CA",4159,0,10
+"SEGS VI","CA",4182,0,10
+"SEGS VII","CA",5122,0,12
+"SEGS VIII","CA",9570,0,22
+"SEMASS Resource Recovery","MA",468954,178,2024
+"SF Southeast Cogen Plant","CA","--",0,214
+"SF State University","CA",4714,0,0
+"SIUC","IL",88004,2439,233
+"SJ/SC WPCP","CA",28894,0,1103
+"SMMPA Methane Energy Facility","MN","--",0,98
+"SPA Cogen 3","CA",322529,2,30
+"SPFT - Newberg Cogen","OR",1890,22,76
+"SREC Bath LFGTE","NY","--",0,275
+"SRI International Cogen Project","CA",24867,0,68
+"SRW Cogen LP","TX",1418635,8,195
+"ST-1/1A Engine No 1","OH",3,0,0
+"SUNY Old Westbury College","NY",5062,0,120
+"SX Landfill Energy LLC","NJ","--",0,190
+"Sabetha Power Plant","KS",417,0,8
+"Sabine","TX",2759552,14,2748
+"Sabine Cogen","TX",380556,2,61
+"Sabine River Works","TX",76730,0,179
+"Sagamore Plant Cogeneration","IN",100125,537,245
+"Saguaro","AZ",10133,0,2
+"Saguaro Power","NV",374852,2,918
+"Saint Agnes Medical Center","CA",21457,0,61
+"Saint Marys Hospital Power Plant","MN",52014,0,116
+"Salem Electric Department","VA",42,0,1
+"Salem Energy Systems LLC","NC","--",0,50
+"Salem Harbor","MA",275941,1359,254
+"Salem Street Dept","VA",84,0,2
+"Salem Water Plant","VA",73,0,1
+"Salinas River Cogeneration","CA",193199,1,10
+"Salmon Diesel","ID",45,0,1
+"Salt Lake Energy Systems","UT","--",0,313
+"Salton Sea Power Gen Co - Unit 2","CA",2913,"--","--"
+"Salton Sea Power Gen Co - Unit 3","CA",8530,"--","--"
+"Salton Sea Power Gen Co - Unit 4","CA",7773,"--","--"
+"Salton Sea Power Gen Co Unit 1","CA",1861,"--","--"
+"Salton Sea Power LLC - Unit 5","CA",7976,"--","--"
+"Sam Bertron","TX","--",0,0
+"Sam Rayburn","TX",147363,0,22
+"Sampson County Disposal","NC","--",0,796
+"San Antonio Regional Hospital","CA",8586,0,197
+"San Diego State University","CA",41423,0,99
+"San Emidio","NV",2023,"--","--"
+"San Jacinto County Peaking Facility","TX",214841,1,72
+"San Jacinto Steam Electric Station","TX",610360,3,102
+"San Jose Cogeneration","CA",27966,0,77
+"San Juan","NM",10576798,4508,15025
+"San Miguel","TX",2444729,6227,2132
+"Sand Hill","TX",537893,3,64
+"Sand Valley Power Station","AL","--",0,430
+"Sandow No 4","TX",4722731,19902,1330
+"Sandow No 5","TX",4419962,2050,1264
+"Sandy Creek Energy Station","TX",5802872,2402,1439
+"Sanford","FL",3664248,19,933
+"Santa Clara Cogen","CA",55217,0,119
+"Santa Cruz Energy","CA","--",0,137
+"Santa Maria EPG","CA",2288,0,24
+"Santa Maria LFG Power Plant","CA","--",0,89
+"Santa Rosa Energy Center","FL",190018,1,54
+"Santan","AZ",1144710,5,89
+"Sappi Cloquet Mill","MN",43818,2815,1236
+"Saranac Facility","NY",107362,0,25
+"Sargent","NE",8,0,0
+"Sargent Canyon Cogeneration","CA",198760,1,13
+"Sarpy County","NE",25824,0,13
+"Sauder Power Plant","OH",326,7,64
+"Savannah River Site Biomass Cogen","SC",18146,0,107
+"Savoonga","AK",1303,3,27
+"Sayreville","NJ",2928,3,5
+"Sayreville Cogeneration Facility","NJ",623417,3,393
+"Scammon Bay","AK",1209,2,25
+"Scattergood","CA",658215,10,12
+"Scherer","GA",19484624,4695,12111
+"Schiller","NH",234048,1126,464
+"Scholz","FL",43516,776,141
+"Schuylkill Generating Station","PA",2447,4,14
+"Scrubgrass Generating Plant","PA",700204,1326,539
+"Seadrift Coke LP","TX",399877,1142,1643
+"Second Imperial Geothermal","CA",5950,"--","--"
+"Security","TX","--",0,306
+"Sediver","SC",57,0,1
+"Selawik","AK",1797,3,37
+"Seldovia","AK",306,1,6
+"Selkirk Cogen","NY",570745,3,202
+"Seminole (FL)","FL",7523451,11809,1806
+"Seminole (OK)","OK",630128,3,1054
+"Seminole Mill","FL",112575,1,70
+"Seneca City of","SC",166,0,3
+"Seneca Energy","NY","--",1,1636
+"Seneca Sustainable Energy LLC","OR","--",16,14
+"Sentinel Energy Center, LLC","CA",258543,1,71
+"Settlers Hill Gas Recovery","IL","--",0,88
+"Seven Mile Creek LFG","WI","--",0,89
+"Seville","OH",31,0,1
+"Seward (AK)","AK",83,0,2
+"Seward (PA)","PA",2830313,5927,1281
+"Sewell Creek Energy","GA",81970,0,44
+"Shady Hills Generating Station","FL",356195,2,101
+"Sharon Spring","KS",139,0,4
+"Sharpe","KS",85,0,2
+"Shasta Renewable Resources Plant","CA",240,5,48
+"Shawnee","KY",7093828,27065,11187
+"Shawnee (PA)","PA",679,1,4
+"Shawville","PA",2311595,33508,4937
+"Sheboygan Falls","WI",7655,0,2
+"Sheepskin","WI",198,0,2
+"Shelbina Power #1","MO",16,0,0
+"Shelbina Power #2","MO",47,0,1
+"Shelbina Power #3","MO",21,0,0
+"Shelby Municipal Light Plant","OH",53,0,1
+"Shelby North","OH",17,0,0
+"Shelby South","OH",29,0,1
+"Shelby, NC","NC",18,0,0
+"Shelby, Toms Street","NC",3,0,0
+"Sheldon","NE",1422900,2941,2585
+"Shell Chemical","LA",421828,2,1123
+"Shell Deer Park","TX",772071,5,2350
+"Shell New Energies, Junction City","OR","--",0,17
+"Shenandoah","IA",397,1,8
+"Shepherd Center","GA",28,0,1
+"Sherburne County","MN",13485475,10395,9247
+"Sherman Avenue","NJ",22999,1,14
+"Sherwin Alumina","TX","--",0,0
+"Sherwood H Smith Jr Energy Complex","NC",2982754,21,301
+"Shiras","MI",346136,223,344
+"Shishmaref","AK",1226,2,25
+"Shoemaker","NY",355,0,0
+"Shoreham","NY",1178,2,6
+"Shoreham Energy LLC","NY",9054,0,3
+"Short Mountain","OR","--",0,203
+"Shrewsbury","MA",1366,2,27
+"Shungnak","AK",1136,2,24
+"Shute Creek Facility","WY",237681,6,3012
+"Sibley","MO",1613229,4397,2223
+"Sibley No Two","IA",6,0,0
+"Sibley One","IA",39,0,1
+"Sidney (NE)","NE",1,0,0
+"Sidney (OH)","OH",98,0,2
+"Sidney MT Plant","MT",61191,273,130
+"Sierra Nevada Brewing Co","CA",3072,0,0
+"Sierra Pacific Aberdeen","WA","--",17,68
+"Sierra Pacific Anderson Facility","CA","--",9,77
+"Sierra Pacific Burlington Facility","WA","--",22,86
+"Sierra Pacific Burney Facility","CA","--",19,126
+"Sierra Pacific Lincoln Facility","CA","--",18,72
+"Sierra Pacific Quincy Facility","CA","--",27,106
+"Sierra Pacific Sonora","CA","--",10,86
+"Sierra Power","CA","--",0,3
+"Signal Hill Generating LLC","TX",3780,0,10
+"Signal Hill West Unit","CA","--",0,53
+"Sikeston Power Station","MO",1771603,6034,962
+"Silas Ray","TX",51986,0,47
+"Silver Bay Power","MN",799254,1628,1625
+"Silver Creek","MS",40726,0,11
+"Silver Creek Lift Station","NC",10,0,0
+"Silver Lake","MN",31920,0,0
+"Silverhawk","NV",442942,2,52
+"Sim Gideon","TX",91281,0,139
+"Simonds","MA",6262,0,148
+"Simplot Leasing Don Plant","ID","--",0,0
+"Simplot Phosphates","WY",9167,0,66
+"Sinclair Oil Refinery","WY",25285,1,381
+"Sioux","MO",5289790,1345,5457
+"Sithe Independence Station","NY",2387748,12,245
+"Sixth Street Gas Turbine","MI",52,0,0
+"Skagway","AK",41,0,1
+"Skyline Gas Recovery","TX","--",0,536
+"Sleepy Eye","MN",24,0,0
+"Slocum","MI",301,1,6
+"Sloss Industries Corp","AL",12575,1,235
+"Smarr Energy Center","GA",19801,0,6
+"Smith College Central Heating Plant","MA",19539,0,55
+"Smith Island","MD",139,0,3
+"Smithfield Farmland Corp Bladen","NC",129,0,3
+"Smithfield Packaged Meats Corp.","NC",1058,2,20
+"Smithfield Packaged Meats Corp.","NC",320,1,6
+"Snake River","AK",19798,34,394
+"Snider Industries","TX","--",3,27
+"Snowbird Power Plant","UT",10,0,0
+"Soda Lake Geothermal No I II","NV",1797,"--","--"
+"Solano County Cogen Plant","CA",6247,0,156
+"Soldotna","AK",26648,0,75
+"Solon Diesel","WI",14,0,0
+"Solway CT","MN",24016,0,22
+"Somerset Operating Co LLC","NY",1698612,4370,2691
+"Somerset Plant","ME",143526,3479,1235
+"Sonoco Products Co","SC",48475,265,255
+"Sonoma California Geothermal","CA",8373,"--","--"
+"Sonoma Central Landfill Phase I","CA","--",0,208
+"Sonoma Central Landfill Phase II","CA","--",0,219
+"Sonoma County Fuel Cell","CA",3974,0,0
+"Sooner","OK",5956277,12770,3862
+"South Bay Fuel Cell Plant","CA",3591,0,0
+"South Belridge Cogeneration Facility","CA",204726,1,557
+"South Cairo","NY",68,0,0
+"South Columbus Water Resource Facility","GA","--",0,20
+"South Energy Center","FL",20147,0,55
+"South Fond Du Lac","WI",1254,0,1
+"South Generation","MN",186,0,4
+"South Georgia Medical Center","GA",3,0,0
+"South Hampton","NY",634,1,3
+"South Harper","MO",4185,0,2
+"South Main Street","IL",115,0,2
+"South Meadow","CT",4022,8,19
+"South Oak Creek","WI",4233906,61,1511
+"South Oaks Hospital","NY",4359,0,94
+"South Plant","IA",39,0,1
+"South Point Energy Center","AZ",472112,2,44
+"South Strawberry","IA",1,0,0
+"Southampton Power Station","VA",1548,12,208
+"Southbridge Landfill Gas-to-Energy","MA","--",0,144
+"Southcentral Power Project","AK",365317,2,922
+"Southeast Berrien Generating Facility","MI","--",0,255
+"Southeast Chicago Energy Project","IL",1158,0,5
+"Southeast Kern River Cogen","CA",96503,0,260
+"Southeast Resource Recovery","CA",179165,355,221
+"Southeast Steam Plant","MN",72986,27,82
+"Southern Minnesota Beet Sugar","MN",291810,858,536
+"Southold","NY",428,1,2
+"Southside Water Reclamation Plant","NM",24780,0,791
+"Southwark","PA",3653,6,20
+"Southwestern","OK",259853,1,501
+"Southwestern Bell Telephone","MO",107,0,2
+"Sowega Power","GA",33412,0,26
+"Spadra Landfill Gas to Energy","CA",1,0,15
+"Spalding","NE",1,0,0
+"Spartanburg Water System","SC",25,0,0
+"Spencer","TX",4228,0,2
+"Spencer Gas Turbine","IA",270,1,2
+"Spindle Hill Energy Center","CO",148001,1,47
+"Spirit Mound","SD",1508,3,8
+"Spiritwood Station","ND",71397,1284,1174
+"Spokane Waste to Energy","WA",112627,200,324
+"Spreckels Sugar Company","CA",53370,0,125
+"Spring Creek Energy Center","OK",16425,0,4
+"Spring House","PA",10730,0,273
+"Springdale 1 & 2","PA",33320,0,21
+"Springerville","AZ",10398604,5638,5834
+"Springfield (MN)","MN",73,0,1
+"Springfield Power LLC","NH","--",30,34
+"Springhill Gas Recovery Plant","FL","--",0,323
+"Springs Generating Station","CA",847,0,2
+"Spruance Genco LLC","VA",939549,450,1527
+"Spruce Ridge Gas Recovery","MN","--",0,313
+"St Bonifacius","MN",800,1,4
+"St Clair","MI",5673463,24904,7168
+"St Francis Energy Facility","MO",137740,1,19
+"St Francisville Mill","LA",89901,1223,326
+"St George Red Rock","UT",150,0,3
+"St James","MN",38,0,1
+"St John","KS",20,0,0
+"St Johns River Power Park","FL",6893863,16787,12417
+"St Joseph Landfill Generating Station","MO","--",0,132
+"St Josephs Hospital","FL",3842,0,91
+"St Louis","MI",11,0,0
+"St Marys","OH",1839,0,6
+"St Marys IC","AK",2291,4,47
+"St Nicholas Cogen Project","PA",1011590,1743,229
+"St Paul Cogeneration","MN",30593,34,183
+"St. Charles Power Plant","MN",28,0,1
+"St. Michael","AK",1199,2,25
+"St. Olaf StandBy Generators","MN",93,0,2
+"Standby Generation Plant","FL",1906,0,43
+"Stanton","ND",1358401,2351,1507
+"Stanton Energy Center","FL",4972299,2293,4649
+"Starbucks - Evolution Fresh","CA",1636,0,0
+"Starrett City Cogen Facility","NY",83019,17,207
+"State Auto Insurance","SD",25,0,0
+"State Center","IA",172,0,3
+"State Farm","IL",50,0,1
+"State Farm Insur Support Center Central","TX",135,0,3
+"State Farm Support Center East","GA",96,0,2
+"State Line Combined Cycle","MO",687470,4,99
+"State-Fuel Level Increment","--",9595748,2082,5144
+"State-Fuel Level Increment","--",411281,574,1003
+"State-Fuel Level Increment","--",333,0,0
+"State-Fuel Level Increment","--",14502125,6182,11996
+"State-Fuel Level Increment","--",3397580,15,1985
+"State-Fuel Level Increment","--",153098,2,628
+"State-Fuel Level Increment","--",2381308,6033,5730
+"Statesville Delivery No 3","NC",4,0,0
+"Statesville, Highway 64","NC",2,0,0
+"Station H","MO",2412,0,6
+"Station I","MO",220,0,1
+"Steamboat Hills LP","NV",2115,"--","--"
+"Steamboat II","NV",1953,"--","--"
+"Steamboat III","NV",2002,"--","--"
+"Stebbins","AK",989,2,20
+"Sterling","KS",38,0,1
+"Sterling Power Plant","NY",11084,0,21
+"Sterlington","LA",7414,0,25
+"Stevens Community Medical Center","MN",16,0,0
+"Stevens Point Mill","WI",59869,0,143
+"Stillwater Facility","NV",3626,"--","--"
+"Stillwater Water Treatment Plant","OK",16,0,0
+"Stock Island","FL",3420,0,1
+"Stockton","KS",10,0,0
+"Stockton Biomass","CA",5716,1,65
+"Stoltze CoGen1","MT","--",7,60
+"Stony Brook","MA",121711,123,212
+"Stony Brook Cogen Plant","NY",167622,27,122
+"Story City","IA",43,0,1
+"Stowe Power Production Plant","PA","--",0,45
+"Straits","MI",2255,0,6
+"Streator Energy Partners LLC","IL","--",0,92
+"Streeter Station","IA",19939,74,71
+"Stryker","OH",182,0,1
+"Stryker Creek","TX",115685,0,94
+"Stuart (IA)","IA",6,0,0
+"Stuart (NE)","NE",9,0,0
+"Sturgis City Diesel Plant","MI",85,0,2
+"Substation 20 Plant","SC",34,0,0
+"Suburban Landfill Gas Recovery","OH","--",0,380
+"Suffolk Energy Partners LP","VA","--",0,632
+"Sugar Creek Power","IN",852034,4,75
+"Sullivan (IL)","IL",215,0,4
+"Sumas Power Plant","WA",211111,4,33
+"Summit Lake","IA",4491,0,15
+"Summit Street Power Plant","OH",24048,0,66
+"Sumner","IA",25,0,0
+"Sumpter","MI",30637,0,9
+"Sumpter Energy Associates","MI","--",0,123
+"Sun Peak Generating Station","NV",29745,0,89
+"Sun Trust Plaza","GA",6,0,0
+"Sunbury Generation LP","PA",124795,1317,150
+"Sundance","AZ",30277,0,7
+"Sunnyside Cogen Associates","UT",493668,584,282
+"Sunnyvale City of WPCP","CA",2160,0,160
+"Sunray 2","CA",2749,0,6
+"Sunray 3","CA",1286,0,3
+"Sunrise Power LLC","CA",1072593,5,45
+"Sunshine Gas Producers","CA","--",0,75
+"Superior","MI","--",0,0
+"Superior Landfill Gas Recovery","GA","--",0,564
+"Sutherland","IA",31676,2,58
+"Sutter Energy Center","CA",496382,2,45
+"Suwannee River","FL",363451,3,676
+"Suwannee River Chemical Complex","FL",21132,0,66
+"Sweatt","MS",8335,0,21
+"Sweeny Cogen Facility","TX",1751403,10,260
+"Swift Creek Chemical Complex","FL",2972,16,57
+"Sycamore (IA)","IA",3177,0,10
+"Sycamore (WI)","WI",720,0,2
+"Sycamore Cogeneration","CA",865287,4,2348
+"Sycamore Energy 1","CA","--",0,74
+"Syl Laskin","MN",457465,222,344
+"Sylvarena","MS",95628,1,73
+"Synata Hugoton","KS",16977,0,22
+"Synergy Biogas","NY","--",0,182
+"Syracuse # 2","NE",6,0,0
+"T B Simon Power Plant","MI",365574,288,130
+"T H Wharton","TX",153186,1,60
+"T J Labbe Electric Generating","LA",5397,0,4
+"TECO CHP-1","TX",42233,0,112
+"TES Filer City Station","MI",596912,433,1425
+"THUMS","CA",164966,1,430
+"TNSG North Plant","AK",55770,0,160
+"TNSG South Plant","AK",4375,0,106
+"TS Power Plant","NV",1394921,217,308
+"TVA Southaven Combined Cycle","MS",850922,4,92
+"Taconite Harbor Energy Center","MN",1198210,2430,1141
+"Taft 26C Cogen","CA",102250,1,285
+"Taft Cogeneration Facility","LA",2132890,2,543
+"Tait Electric Generating Station","OH",45370,0,12
+"Tajiguas Plant","CA","--",0,278
+"Talbot County Energy","GA",132254,1,39
+"TalenEnergy Martin Creek LLC Allentown","PA",3971,7,22
+"TalenEnergy Martins Creek","PA",1045687,341,1699
+"TalenEnergy Martins Creek LLC Fishbach","PA",1595,3,9
+"TalenEnergy Martins Creek LLC Harrisburg","PA",2105,4,11
+"TalenEnergy Martins Creek LLC Harwood","PA",1870,3,10
+"TalenEnergy Martins Creek LLC Jenkins","PA",1210,2,7
+"TalenEnergy Martins Creek LLC Lock Haven","PA",209,0,1
+"TalenEnergy Martins Creek LLC West Shore","PA",561,1,3
+"TalenEnergy Martins Creek LLC Williamsport","PA",727,1,4
+"TalenEnergy Montour","PA",6415577,9960,11239
+"Tamarack Energy Partnership","ID","--",10,86
+"Tangier","VA",126,0,3
+"Tanner Street Generation","MA",47198,0,9
+"Tanners Creek","IN",2642925,16411,3358
+"Tasley","VA",2633,1,44
+"Tate & Lyle Decatur Plant Cogen","IL",623253,17782,671
+"Taylor","GA","--",0,586
+"Taylor Farms Salinas","CA",2594,0,0
+"Tazewell Gas Recovery","IL","--",0,218
+"Teche","LA",103027,0,169
+"Tecumseh","NE",226,0,6
+"Tecumseh Energy Center","KS",1431760,4123,881
+"Telogia Power","FL","--",24,212
+"Temple SEGF","PA",382,0,9
+"Tenaska Central Alabama Generating Stn","AL",1766215,10,150
+"Tenaska Frontier Generation Station","TX",961222,5,341
+"Tenaska Gateway Generating Station","TX",1359822,7,365
+"Tenaska Georgia Generation Facility","GA",69628,1,27
+"Tenaska Lindsay Hill Generating Station","AL",1209860,9,97
+"Tenaska Virginia Generating Station","VA",1451700,8,125
+"Tenet Hospital","TX",14,0,0
+"Tennessee Eastman Operations","TN",3730520,16890,2674
+"Terra-Gen Dixie Valley","NV",12831,"--","--"
+"Terry Bundy Generating Station","NE",38801,0,24
+"Tesoro Hawaii","HI",155498,350,611
+"Tesoro Kenai Cogeneration Plant","AK",43904,0,133
+"Tesoro Mandan Cogeneration Plant","ND",73201,5,331
+"Tesoro SLC Cogeneration Plant","UT",109107,1,290
+"Tessman Road","TX","--",0,693
+"Texas City Plant Union Carbide","TX","--",0,0
+"Texas City Power Plant","TX",706876,3,236
+"Texas Petrochemicals","TX",524074,3,1240
+"The Andersons Albion Ethanol LLC","MI",95703,0,229
+"The Methodist Hospital, Gas Turbine","TX",23954,0,66
+"Theodore Cogen Facility","AL",572298,4,37
+"Thermal Energy Development Part LP","CA",1302,6,19
+"Thermal Kem","SC",56,0,1
+"Thermo No 1","UT",2143,"--","--"
+"Thetford","MI",381,0,2
+"Thief River Falls","MN",10,0,0
+"Thiele Kaolin Reedy Creek","GA",4,0,0
+"Thiele Kaolin Sandersville","GA",41,0,1
+"Thomas A Smith Energy Facility","GA",797737,4,83
+"Thomas Fitzhugh","AR",13074,0,15
+"Thomas Hill","MO",7691189,15062,14259
+"Thomson Reuters Campus Bldg A-D","MN",105,0,2
+"Thomson Reuters Data Center Bldg ES101","MN",12,0,0
+"Thomson Reuters Data Center Bldg H","MN",54,0,1
+"Thorne Bay Plant","AK",25,0,1
+"Thornridge High School","IL",46,0,1
+"Thornwood High School","IL",57,0,1
+"Threemile Digester","OR","--",0,822
+"Ticona Polymers Inc","TX",192213,1,523
+"Ticonderoga Mill","NY",82403,625,368
+"Tiger Bay","FL",435540,2,115
+"Tilton","IL",13998,0,12
+"Timberline Trail Gas Recovery","WI","--",0,242
+"Tipton","IA",48,0,1
+"Titus","PA",1435,2,8
+"Tiverton Power Plant","RI",565200,3,58
+"Togiak","AK",2176,4,45
+"Tok","AK",6327,11,126
+"Toksook Bay","AK",1862,4,39
+"Toledo Ref Power Recovery Train","OH",729431,20280,1966
+"Tolk","TX",6627812,15203,4198
+"Tolna","PA",4310,3,19
+"Torrance Refining Company, LLC","CA",72206,0,239
+"Torrington Terminal","CT",606,1,0
+"Total Energy Facilities","CA",1102,1,156
+"Tower","MI",288,0,2
+"Toyon Power Station","CA","--",0,197
+"Tracy","NV",1645942,8,466
+"Tracy Combined Cycle Power Plant","CA",276160,1,26
+"Traer East","IA",20,0,0
+"Traer Main","IA",28,0,1
+"Traer South","IA",11,0,0
+"Trail Ridge Landfill Gas Recovery","FL","--",0,849
+"Trans-Jordan Generating Station","UT","--",0,471
+"Transalta Centralia Generation","WA",7183734,2755,6831
+"Transamerica Pyramid","CA",1847,0,44
+"Treasure Coast Energy Center","FL",700108,3,32
+"Trenton Channel","MI",2658184,14073,2819
+"Trenton North","MO",113,0,2
+"Trenton South","MO",96,0,2
+"Tri Cities","AZ","--",0,354
+"Trigen St. Louis","MO",30612,0,72
+"Trimble County","KY",7478636,2612,3052
+"Trinidad (CO)","CO",18,0,0
+"Trinidad (TX)","TX",24280,0,43
+"Trinity Oaks Energy","TX","--",0,69
+"Triton East and West Cogen","IL",461,0,11
+"Tropicana Products Bradent","FL",103739,1,282
+"Troy Energy LLC","OH",180589,3,56
+"Truman","MN",19,0,0
+"Tullytown","PA","--",0,155
+"Tulsa","OK",156384,1,291
+"Tulsa LFG LLC","OK","--",0,205
+"Tunnel","CT",117,0,0
+"Turkey Point","FL",2482673,101,419
+"Turnkey Landfill Gas Recovery","NH","--",0,165
+"Tuscarora Geothermal Power Plant","NV",3614,"--","--"
+"Tuscola Station","IL",359143,8825,608
+"Twin Bridges LFGTE","IN","--",0,815
+"Twin Rivers Paper Co LLC","ME","--",0,0
+"Two Pine Landfill Gas Recovery","AR","--",0,428
+"Ty Cooke","TX",49611,0,63
+"U S Alliance Coosa Pines","AL",178692,2592,549
+"UCI Facilities Management Central Plant","CA",72736,0,158
+"UCLA So Campus Cogen Project","CA",203259,1,342
+"UCONN Cogen Facility","CT",79778,9,167
+"UCSD Fuel Cell Plant","CA",6386,0,0
+"UMCP CHP Plant","MD",111071,1,331
+"UNC-CH LFG Facility","NC","--",0,62
+"UNH 7.9 MW Plant","NH",12817,5,91
+"US Borax","CA",233321,1,630
+"US GSA Heating and Transmission","DC",48396,0,133
+"US Gypsum Oakfield","NY",13000,0,34
+"US Magnesium","UT",358019,4,947
+"UTS SJ1 LLC","CA",2868,0,0
+"Ubly","MI",0,0,0
+"Unalakleet","AK",2344,4,47
+"Unalaska Power Module","AK",51,0,1
+"Uncasville Mill","CT",40128,0,93
+"Union Carbide Seadrift Cogen","TX",403674,2,955
+"Union County Resource Recovery","NJ",215001,2,213
+"Union Power Station","AR",2462628,13,320
+"Unionville","MO",207,0,1
+"Unionville City of","MO",4,0,0
+"Unisea G 2","AK",27052,105,684
+"United Hospital","MN",40,0,1
+"Univ of Massachusetts Medical Center","MA",65491,1,120
+"Univ of NC Chapel Hill Cogen Facility","NC",210235,249,79
+"Univ of Oregon Central Power Station","OR",20442,0,49
+"Univ of San Francisco Cogen","CA",5581,0,130
+"University Park North","IL",95423,0,18
+"University Park South","IL",37954,0,32
+"University of Alaska Fairbanks","AK",108789,165,240
+"University of Arizona - Biosphere 2","AZ",58,0,2
+"University of California San Diego","CA",124856,0,290
+"University of Florida","FL",189436,1,108
+"University of Illinois Abbott Power Plt","IL",258664,880,604
+"University of Illinois Cogen Facility","IL",77469,0,361
+"University of Iowa Main Power Plant","IA",232217,1664,433
+"University of Michigan","MI",193312,2,457
+"University of Northern Iowa","IA",86567,2674,310
+"University of Notre Dame","IN",135195,429,269
+"University of Oklahoma","OK",90,0,2
+"University of Rochester","NY",116152,1,135
+"University of Tennessee Steam Plant","TN",24705,0,65
+"University of Texas at San Antonio","TX",53,0,1
+"University of Washington Power Plant","WA",78052,3,178
+"Upper Kalskag","AK",933,2,19
+"Upper Rock Energy Partners LLC","IL","--",0,313
+"Urquhart","SC",834353,11,238
+"Utility Plants Section","AK",389743,886,852
+"Uwharrie Mountain Renewable","NC","--",0,303
+"V H Braunig","TX",186161,4,395
+"VMEA 1 Credit Gen","VA",209,0,4
+"VMEA Peaking Gen","VA",98,0,2
+"Valdez","AK",2400,4,47
+"Valdez Cogen","AK",23948,58,95
+"Valencia","AZ",544,0,2
+"Valencia Energy Facility","NM",42311,0,12
+"Valenite","SC",67,0,1
+"Valero Refinery Cogeneration Unit 1","CA",168670,1,537
+"Valero Refinery Corpus Christi West","TX",436674,1406,1256
+"Valley (CA)","CA",617734,3,52
+"Valley (WI)","WI",826155,3081,1255
+"Valley Queen Cheese","SD",63,0,1
+"Valmont","CO",942241,807,1869
+"Valmont Combustion Turbine Project","CO",296,0,0
+"Van Sant Station","DE",1430,1,4
+"Vanderbilt University Power Plant","TN",118414,704,284
+"Vandolah Power Station","FL",182705,1,57
+"Venice","IL",20557,0,9
+"Venice Resources Gas Recovery","MI","--",0,159
+"Veolia ES Blackfoot Landfill Facility","IN","--",0,164
+"Veolia Energy Trenton L.P.","NJ",10367,0,231
+"Vergennes 9","VT",250,0,5
+"Verizon-Torrance","CA",2801,0,0
+"Vermillion Energy Facility","IN",16900,0,6
+"Vernon Boulevard","NY",27917,0,3
+"Vero Beach Municipal Power Plant","FL",11386,0,7
+"Versailles Mill","CT",1665,4,203
+"Versailles Peaking","OH",29,0,1
+"Verso Paper Quinnesec Mich Mill","MI",26371,2252,456
+"Vestaburg","MI",602,0,2
+"Victor J Daniel Jr","MS",6289156,13515,5347
+"Victoria","TX",273923,1,45
+"Victoria Texas Plant","TX",376614,2,1023
+"Vienna Operations","MD",17778,144,41
+"Viking","AK","--",0,0
+"Viking Energy of Lincoln","MI",24968,323,266
+"Viking Energy of McBain","MI",27392,329,246
+"Village Creek Water Reclamation Facility","TX",338,0,107
+"Villisca Municipal Power Plant","IA",9,0,0
+"Vinton","IA",457,0,9
+"Viola","WI",3,0,0
+"Virginia","MN",130625,424,265
+"Virginia Beach","VA",844,1,44
+"Virginia City Hybrid Energy Center","VA",3162624,136,1097
+"Virginia Tech Power Plant","VA",92817,794,205
+"Vitro Architectural Glass (PA)","PA",122,0,2
+"Vitro Flat Glass LLC","CA",40,0,1
+"Vulcan-BN Geothermal Power Company","CA",7130,"--","--"
+"W A Parish","TX",16273814,39902,4349
+"W H Hill","HI",178088,1636,319
+"W H Weatherspoon","NC",4192,19,45
+"W H Zimmer","OH",6591057,12246,10251
+"W Plant","CA",17584,0,49
+"W S Lee","SC",345016,2227,350
+"W.A. Parish Carbon Capture Plant","TX",8602,0,23
+"WC Landfill Energy LLC","NJ","--",0,72
+"WFEC GenCo LLC","OK",16939,0,46
+"WPPI Hartford DG","WI",8,0,0
+"WPS Power Niagara","NY",37993,221,97
+"WSACC Power Generation Facility","NC","--",4,8
+"WWTP Power Generation Station","CA",245,0,452
+"Wabash River","IN",1978477,24689,3041
+"Wabash Valley Power IGCC","IN",1234871,8,4151
+"Wabuska","NV",279,"--","--"
+"Wadham Energy LP","CA",299,7,57
+"Wading River","NY",28656,44,43
+"Wadsworth","OH",33,0,1
+"Wahoo","NE",117,0,3
+"Waiau","HI",909143,2553,1365
+"Waimea","HI",2478,4,50
+"Wake County LFG Facility","NC",1373,2,376
+"Wakefield","NE",56,0,1
+"Wallingford Energy","CT",29254,0,3
+"Walnut","CA",955,0,3
+"Walnut Creek Energy Park","CA",250871,1,49
+"Walnut Energy Center","CA",607612,3,35
+"Walter C Beckjord","OH",1592943,29600,3440
+"Walter Scott Jr Energy Center","IA",10792976,12473,6950
+"Walton Bainbridge Power Facility","GA",384,1,1
+"Walton County Power LLC","GA",136544,1,65
+"Walton Discover Power Facility","AL",2004,0,6
+"Walton Street Substation","MO",4,0,0
+"Wamego","KS",360,0,8
+"Wansley","GA",4517990,2216,1834
+"Wansley Combined Cycle","GA",2238315,11,205
+"Wansley Unit 9","GA",628932,3,64
+"Ward WTP","NC",5,0,0
+"Warm Springs Forest Products","OR","--",2,21
+"Warner Lambert","MI",19511,0,53
+"Warren","PA",50811,0,218
+"Warren F Sam Beasley Generation Station","DE",24398,0,5
+"Warrick","IN",5585171,4530,9779
+"Wasatch Energy Systems Energy Recovery","UT",50099,86,252
+"Washington","KS",19,0,0
+"Washington City Electric Generation","UT",317,0,6
+"Washington County Cogeneration Facility","AL",453708,2,199
+"Washington County Power LLC","GA",34793,0,12
+"Washington Energy Facility","OH",1686985,9,149
+"Washington Island","WI",51,0,1
+"Wasson CO2 Removal Plant","TX",101525,1,389
+"Waste Energy Services","MI","--",0,66
+"Waste Management Arden LFGTE","PA","--",0,405
+"Waste Management Bethel LFGTE","VA","--",0,484
+"Waste Management Columbia Ridge LFGTE","OR","--",1,1257
+"Waste Management Crossroads LFGTE","ME","--",0,285
+"Waste Management Eco Vista LFGTE","AR","--",0,427
+"Waste Management King George LFGTE","VA","--",1,182
+"Waste Management Lockwood LFGTE","NV","--",0,288
+"Waste Management Madison County LFGTE","NY","--",0,92
+"Waste Management Middle Peninsula LFGTE","VA","--",0,556
+"Waste Management Naples LFGTE Project","FL","--",0,357
+"Waste Management Northern Oaks LFGTE","MI","--",0,131
+"Waste Management Piedmont LFGTE Project","NC","--",0,250
+"Waste Management Rolling Meadows LFGTE","KS","--",0,575
+"Waste Management Simi Valley LFGTE","CA","--",0,193
+"Waste Water Plant Generator","KS",5,0,0
+"Water Filter Plant #2","NC",67,0,1
+"Water Reclamation Plant","MN",1,0,80
+"Water Street Station","MI",192,0,5
+"Water Treatment 1 & 2","CT",645,1,13
+"Water Treatment Plant Generators","VA",31,0,1
+"Waterbury Generation","CT",11566,0,3
+"Wateree","SC",3549688,5940,1693
+"Waterford 1 & 2","LA",773361,6,736
+"Waterford Power, LLC","OH",1503845,8,134
+"Waterloo","IL",565,0,4
+"Waterloo Lundquist","IA",295,1,6
+"Waters River","MA",7944,7,26
+"Waterside Power, LLC","CT",2982,5,1
+"Watertown Power Plant","SD",167,0,1
+"Watervliet","MI","--",0,302
+"Watkins Manufacturing Co.","CA",4601,0,107
+"Watson Cogeneration","CA",1648029,18,4221
+"Waukegan","IL",2883280,5255,1461
+"Waupun Correctional Central Heating Plt","WI",19411,64,44
+"Wausau Paper Middletown","OH",100225,583,231
+"Waverly Municipal Electric North Plant","IA",324,0,7
+"Waxdale","WI",14948,0,81
+"Wayne County","NC",68001,83,321
+"Wayne IC","NE",272,0,5
+"Waynoka Gas Processing Plant","OK",11294,0,259
+"Webb Forging","SC",50,0,1
+"Webster City","IA",36,0,0
+"Weleetka","OK",6591,0,19
+"Wellesley College Central Utility Plant","MA",11257,0,266
+"Wellford Renewable Energy Plant","SC","--",0,127
+"Wellington","OH",16,0,0
+"Wellington 1","KS",73,0,0
+"Wellington 2","KS",2929,0,7
+"Wells IC","MN",537,0,12
+"Welport Lease Project","CA",30695,0,83
+"Welsh","TX",8592095,16534,6816
+"Wentzville Assembly & Contiguous","MO",25874,92,65
+"Werner","NJ",2524,3,4
+"Wesleyan University Cogen 1","CT",6003,0,138
+"West 14th Street","KS",381,0,1
+"West 41st Street","OH",497,0,2
+"West Babylon","NY",2328,4,7
+"West Bend","IA",47,0,1
+"West Camden","TN","--",0,376
+"West Campus Cogeneration Facility","WI",50404,2,109
+"West Campus Steam Plant","PA",112948,936,244
+"West County Energy Center","FL",7329152,38,487
+"West Coxsackie","NY",254,0,1
+"West Deptford Energy Station","NJ",133218,1,18
+"West Diesel Generation Unit","IA",31,0,1
+"West Ford Flat Power Plant","CA",5451,"--","--"
+"West Gardner","KS",25615,0,5
+"West Group Data Center","MN",92,0,2
+"West Group Data Center F","MN",108,0,2
+"West Liberty","IA",328,1,2
+"West Marinette","WI",28896,0,46
+"West Marinette 34","WI",17721,0,49
+"West Phoenix","AZ",750840,3,100
+"West Point (PA)","PA",225874,1,69
+"West Point Municipal","NE",38,0,0
+"West Point Treatment Plant","WA","--",0,339
+"West Receiving","IA",6,0,0
+"West Spring Street","VA",44,0,1
+"West Station (DE)","DE",796,1,0
+"West Station (NJ)","NJ",2637,5,4
+"West Tisbury Generating Facility","MA",246,0,5
+"West Valley Generation Project","UT",63062,0,10
+"WestRock (IL)","IL",18,0,0
+"WestRock (TX)","TX",103204,4113,1081
+"WestRock (WA)","WA",6403,1721,544
+"WestRock Panama City Mill","FL",209663,4587,1530
+"WestRock Southeast, LLC.","GA",256290,1625,856
+"WestRock-West Point Mill","VA",311105,2462,91
+"Westbrook","MN",20,0,0
+"Westbrook Energy Center Power Plant","ME",695692,4,84
+"Westchester Gas Recovery","IL","--",0,27
+"Western 102 Power Plant","NV",114881,1,2646
+"Western Michigan University Power Plant","MI",52228,0,129
+"Western Power & Steam Inc","CA",109117,1,252
+"Western Sugar Coop - Scottsbluff","NE",224491,495,436
+"Western Sugar Coop - Torrington","WY",80759,115,166
+"Western Sugar Coop- Ft Morgan","CO",115679,245,225
+"Westervelt Moundville Cogen","AL","--",5,45
+"Westhollow Technology Center","TX",17051,0,46
+"Weston","WI",4869689,5008,1672
+"Westport","MD",5327,0,10
+"Westrock Hodge (LA)","LA",203884,5598,4167
+"Westside Landfill Gas Recovery","TX","--",0,378
+"Westside WWTP","NC",9,0,0
+"Westward Seafoods","AK",12570,21,250
+"Westwood Generation LLC","PA",339958,276,276
+"Wheatland Generating Facility","IN",30367,0,40
+"Wheaton","WI",14215,0,36
+"Wheelabrator Baltimore Refuse","MD",314926,86,906
+"Wheelabrator Bridgeport","CT",334591,42,963
+"Wheelabrator Concord Facility","NH",84459,34,243
+"Wheelabrator Falls","PA",224741,48,647
+"Wheelabrator Frackville Energy","PA",534911,468,355
+"Wheelabrator Gloucester LP","NJ",85116,29,245
+"Wheelabrator Hudson Falls","NY",65153,31,341
+"Wheelabrator Lisbon","CT",81765,6,235
+"Wheelabrator Millbury Facility","MA",210424,66,605
+"Wheelabrator North Andover","MA",199511,40,574
+"Wheelabrator North Broward","FL",167142,297,481
+"Wheelabrator Norwalk Energy","CA",20913,0,50
+"Wheelabrator Portsmouth","VA",271804,80,1582
+"Wheelabrator Ridge Energy","FL",58716,577,487
+"Wheelabrator Saugus","MA",190676,52,549
+"Wheelabrator Shasta","CA","--",52,208
+"Wheelabrator South Broward","FL",274506,108,790
+"Wheelabrator Westchester","NY",297352,36,855
+"Whelan Energy Center","NE",1706250,2630,912
+"White Bluff","AR",10472045,31047,16244
+"White Lake","NH",1308,3,8
+"White Pine Electric Power","MI",18569,0,44
+"Whitehead","UT",2625,0,59
+"Whitehorn","WA",29448,1,80
+"Whitemarsh Central Utility Plant","PA",473,0,11
+"Whitewater Valley","IN",54872,1051,83
+"Whiting Clean Energy","IN",1147421,7,91
+"Whiting Refinery","IN",205658,4,63
+"Wichita Plant","KS",12,0,0
+"Wicomico","MD",1257,2,194
+"Widows Creek","AL",3822352,5688,1538
+"Wilber","NE",44,0,1
+"Wilkes","TX",496600,2,443
+"Wilkins Station","MA",325,1,7
+"Will County","IL",4098208,8119,1934
+"William Beaumont Hospital","MI",101,0,2
+"William F Wyman","ME",233914,765,211
+"William Floyd School District","NY",41463,0,952
+"Williams","SC",3371985,1760,1789
+"Williams College - Campus CHP","MA",8214,2,17
+"Willmar","MN",57287,281,74
+"Willmar Municipal East Substation","MN",42,0,1
+"Willmar Municipal SW Substation","MN",43,0,1
+"Willow Glen","LA",618497,3,999
+"Wilmarth","MN",96188,8,428
+"Wilmot","MI",320,1,6
+"Wilson","GA",6502,21,50
+"Wilton","IA",46,0,1
+"Winchester Power Park","TX",51480,0,5
+"Windom","MN",27,0,0
+"Windy Ridge Generating Facility","IN","--",0,293
+"Winnebago County Landfill Gas","WI","--",0,432
+"Winnebago Energy Center LLC","IL","--",0,116
+"Winnetka","IL",2009,0,9
+"Winston","FL",415,1,8
+"Winter","WI",14,0,0
+"Winterset","IA",66,0,2
+"Winyah","SC",4634920,1070,1906
+"Wisconsin Rapids Paper Mill","WI","--",0,0
+"Wisconsin Rapids Pulp Mill","WI",302166,3219,1419
+"Wise County Power LLC","TX",1462529,7,222
+"Wisner","NE",12,0,0
+"Wolf Hills Energy","VA",29504,0,15
+"Wolf Hollow I LP","TX",1695772,8,314
+"Wolfskill Energy Center","CA",10550,0,1
+"Wood River","IL",3274961,6461,1979
+"Wood Road","MI","--",0,758
+"Woodall Gas Plant","TX",17160,0,383
+"Woodbine Landfill Plant","NJ","--",0,210
+"Woodland","CA",414658,0,9
+"Woodland Biomass Power Ltd","CA",1185,2,25
+"Woodland Landfill Gas Recovery","IL","--",0,399
+"Woodland Road","MA",126,0,0
+"Woodridge Greene Valley Treatment Plant","IL",107,0,2
+"Woodsdale","OH",19690,0,22
+"Woodville Renewable Power Project","TX","--",0,7
+"Wooster Renewable Energy","OH","--",0,94
+"Works 4","TX",74,0,1
+"Works 53","NC",38,0,1
+"Worthington","MN",49,0,1
+"Worthington Generation LLC","IN",4286,0,3
+"Wrangell","AK",681,1,14
+"Wyandotte","MI",154184,124,168
+"Wygen 1","WY",814869,315,535
+"Wygen 2","WY",812607,175,228
+"Wygen III","WY",935893,231,170
+"Wyodak","WY",3023187,2154,2875
+"Xilinx San Jose","CA",2516,0,0
+"YKK USA Chestney","GA",18,0,0
+"Yahoo! - HQ","CA",1526,0,0
+"Yakutat","AK",4501,7,84
+"Yankee Street","OH",268,0,1
+"Yankton","SD",117,0,2
+"Yates","GA",714356,7353,1127
+"Yates Gas Plant","TX",18772,0,58
+"Yazoo","MS",180,0,0
+"Yellowhammer Gas Plant","AL",16123,0,41
+"Yellowstone Energy LP","MT",717596,143,552
+"York County Resource Recovery","PA",179595,1,455
+"York Energy Center","PA",1067016,18,59
+"York Generation Company LLC","PA",6462,0,15
+"Yorktown","VA",1032666,8848,1715
+"Yuba City Cogen Partners","CA",14533,0,41
+"Yuba City Energy Center","CA",17661,0,45
+"Yucca","AZ",212593,1,99
+"Yuma Cogeneration Associates","AZ",29614,0,69
+"Zeeland","MI",144,0,3
+"Zeeland Farm Services","MI","--",0,132
+"Zeeland Generating Station","MI",831035,5,120
+"Zimmerman Energy","IN","--",0,39
+"Zion Energy Center","IL",39398,2,16
+"Zion Landfill Gas to Energy Facility","IL","--",0,547
+"Zorn","KY",167,0,0
+"Zuni","CO",33,0,44
+"eBay - South Jordan","UT",20310,0,0
+,"--",91122,0,246
