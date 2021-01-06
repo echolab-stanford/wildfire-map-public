@@ -18,12 +18,8 @@ data = readRDS("data/clean/gridded_pm_data.RDS")
 ###############################################################
 
 # fire and smoke variables
-d_fire = readRDS("data/model_inputs/fire_processed.RDS")
-d_fire = dplyr::select(d_fire, id, year, dist_large, mean_dist, wtd_dist)
-names(d_fire) = c("id", "year", "dist_largefire", "mean_dist", "weighted_mean_dist")
 d_smoke = readRDS("data/model_inputs/smoke_processed.RDS")
 d_smoke$year = as.numeric(as.character(d_smoke$year))
-d_smoke = merge(d_smoke, d_fire, by=c("id", "year"))
 
 # other yearly covariates
 d_pop = readRDS("data/model_inputs/pop_processed.RDS")

@@ -24,7 +24,6 @@ full_data$mean_pop_adj = rowMeans(full_data[, c("pop", "pop_adj1")])
 
 df = full_data[complete.cases(full_data %>% dplyr::select(-pm, -obs)), ]
 df0 = df 
-df0 = df0 %>% group_by(id) %>% mutate(weighted_mean_dist = max(weighted_mean_dist))
 df0[, unique(c(names(df0)[grepl("smoke", names(df0))], names(df0)[grepl("sfire", names(df0))], 
                names(df0)[grepl("mfire", names(df0))], names(df0)[grepl("lfire", names(df0))], 
        "f_count",  "mean_f_count"))] = 0
