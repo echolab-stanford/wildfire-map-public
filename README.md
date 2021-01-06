@@ -51,6 +51,8 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/traffic-darte: DARTE data requires [registration](https://urs.earthdata.nasa.gov/users/new?client_id=YQOhivHfMTau88rjbMOVyg&redirect_uri=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Furs%2Furs_logon_proc.pl&response_type=code&state=https%3A%2F%2Fdaac.ornl.gov%2Fcgi-bin%2Fdsviewer.pl%3Fds_id%3D1735) prior to [downloading](https://daac.ornl.gov/cgi-bin/dsviewer.pl?ds_id=1735) the files `onroad_[YYYY].tif` for years 2006-2017.
 
+* data/vanD/vanD-[Year].asc: Too large to include on Github, can be downloaded [here](http://fizz.phys.dal.ca/~atmos/martin/?page_id=140#V4.NA.03). Files have to be renamed as when downloaded they follow the naming convention `V4NA03_PM25_NA_[Year]01_[Year]12-RH35-NoNegs.asc.zip`
+
 
 ## Included in repo
 
@@ -164,6 +166,8 @@ data
  │	 └──  smoke_plumes.rds
  ├── traffic-darte
  │	 └── onroad_[Year].tif (2006 - 2017)
+ ├── vanD
+ │	 └── vanD-[Year].asc (2006 - 2018)
  └── WUI
  	 └── [Year]_combined_wui_hh_data.csv (2001, 2004, 2006, 2008, 2011, 2013, 2016)
 ```
