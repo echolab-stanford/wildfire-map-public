@@ -43,9 +43,9 @@ nei = rbindlist(list(nei2008, nei2011, nei2014, nei2017))
 nei$state_and_county_fips_code = stringr::str_pad(as.character(nei$state_and_county_fips_code), 
                                                   5,  "left", "0")
 nei$state = substr(nei$state_and_county_fips_code,  1, 2)
-nei = merge_verbose(nei, area, by.x="state_and_county_fips_code",  by.y="GEOID")
-nei = merge_verbose(nei, counties, by.x="state", by.y="fips")
-nei = merge_verbose(nei, regions, by.x="state.y", by.y="state", all.x=T)
+nei = merge(nei, area, by.x="state_and_county_fips_code",  by.y="GEOID")
+nei = merge(nei, counties, by.x="state", by.y="fips")
+nei = merge(nei, regions, by.x="state.y", by.y="state", all.x=T)
 names(nei)[4] = "PM25_fire"
 
 # get county level estimates of diff
