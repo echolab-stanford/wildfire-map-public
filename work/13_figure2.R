@@ -62,7 +62,7 @@ lim  = c(-0.04, max(diff))
 
 #this may not work every time due to known bug: https://github.com/tidyverse/ggplot2/issues/2252
 data = merge(data_ll_geo, p, by="id")
-pdf(file='images/Figure2a_percsmoke.pdf',width=10,height=10)
+pdf(file='images/Raw/Figure2a_percsmoke.pdf',width=10,height=10)
 ggplot(data, aes(long,lat,group=group, fill=diff)) + # the data
     geom_polygon() + # make polygons
     scale_fill_gradientn(limits=lim, colors=cols, values=scales::rescale(diff)) + 
@@ -74,7 +74,7 @@ ggplot(data, aes(long,lat,group=group, fill=diff)) + # the data
 dev.off()
 
 data = merge(data_ll_geo, p2, by="id")
-pdf('images/Figure2b_percsmoke.pdf',width=10,height=10)
+pdf('images/Raw/Figure2b_percsmoke.pdf',width=10,height=10)
 ggplot(data, aes(long,lat,group=group, fill=diff)) + # the data
     geom_polygon() + # make polygons
     scale_fill_gradientn(limits=lim, colors=cols, values=scales::rescale(diff)) + 
@@ -118,7 +118,7 @@ x = fortify(g, region="region")
 x = merge(x, smokehr[, c('region', 'total', 'pctoutside')], by.y="region", by.x="id")
 x$pct_cut = cut(x$pctoutside, seq(0, 1, .1))
 
-pdf('images/Figure2c_pctoutside.pdf',width=5,height=5)
+pdf('images/Raw/Figure2d_pctoutside.pdf',width=5,height=5)
 ggplot(x, aes(long, lat, group=group,fill=pct_cut)) + # the data
     geom_polygon(aes(long, lat, group=group), fill=NA, color="black", lwd=.5, data=x) +
     geom_polygon() + # make polygons
@@ -136,7 +136,7 @@ from_west = merge(x, smokehr[, c("region", "NorthWest", "SouthWest", "total")],
 from_west$west_perc = (from_west$NorthWest + from_west$SouthWest)/from_west$total.x
 from_west$west_perc = cut(from_west$west_perc, seq(0, 1, .1))
 
-pdf('images/Figure2c_crossboundaries.pdf',width=5,height=5)
+pdf('images/Raw/Figure2c_crossboundaries.pdf',width=5,height=5)
 ggplot(from_west, aes(long, lat, group=group,fill=west_perc)) + # the data
     geom_polygon(aes(long, lat, group=group), fill=NA, color="black", lwd=.5, data=x) +
     geom_polygon() + # make polygons
@@ -153,7 +153,7 @@ dev.off()
 ######################################################################################
 # D
 
-pdf('images/Figure2d_racesmoke.pdf',width=4,height=3.5)
+pdf('images/Raw/Figure2e_racepm.pdf',width=4,height=3.5)
 ggplot(c, aes(perc_white, diff)) + 
     stat_bin_2d(bins=30) +
     scale_fill_gradientn(colors = brewer.pal(9,'Greys')[3:9], guide=F) +
@@ -166,7 +166,7 @@ dev.off()
 ######################################################################################
 # E
 
-pdf('images/Figure2e_racesmoke.pdf',width=4,height=3.5)
+pdf('images/Raw/Figure2f_racesmoke.pdf',width=4,height=3.5)
 ggplot(c, aes(perc_white, preds)) + 
     stat_bin_2d(bins=30) +
     scale_fill_gradientn(colors = brewer.pal(9,'Greys')[3:9], guide=F) +

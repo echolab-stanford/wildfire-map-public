@@ -30,4 +30,4 @@ map = ggplot() + # the data
           panel.background = element_blank()) +
     coord_map("bonne", mean(data_ll_geo$lat)) + guides(fill=F)
 
-ggsave("images/Final/FigureS2.pdf", map, width=15, height=10, units="cm")
+ggsave("images/Raw/FigureS2.pdf", map, width=15, height=10, units="cm")

@@ -33,7 +33,7 @@ export_map = function(call_in, type, weights=T) {
               axis.title=element_blank(),
               panel.background = element_blank()) +
         coord_map("bonne", mean(results$lat))
-    ggsave(paste0("images/FigureS3_", type, ".pdf"), map, width=15, height=10, units="cm")
+    ggsave(paste0("images/Raw/FigureS3_", type, ".pdf"), map, width=15, height=10, units="cm")
     
     
     print(cor(p$pm, p$preds_kfold, use="c")^2)
@@ -130,7 +130,7 @@ results = merge(data_ll_geo,
                 p[p$year %in% 2016:2018, ] %>% dplyr::group_by(id) %>% 
                     dplyr::summarize(diff=mean(diff)), by="id")
 
-pdf(file=paste0("images/FigureS3_withlegend.pdf"), width=1500, height=1000)
+pdf(file=paste0("images/Raw/FigureS3_withlegend.pdf"), width=1500, height=1000)
 ggplot(results, aes(long,lat,group=group, fill=diff)) + # the data
     geom_polygon() + # make polygons
     scale_fill_gradientn(limits=lim, colors=cols, values=scales::rescale(diff)) + 
@@ -149,7 +149,7 @@ dev.off()
 percentages = rbindlist(percentages)
 percentages$year = as.numeric(as.character(percentages$year))
 
-png(file=paste0("images/FigureS3_overtime.png"), width=20, height=10, res=650, units="in")
+png(file=paste0("images/Raw/FigureS3a_overtime.png"), width=20, height=10, res=650, units="in")
 ggplot(percentages) + 
     geom_hline(yintercept=c(0, .1, .2, .3, .4, .5), color="grey", lwd=1, alpha=.7) +
     geom_line(aes(year, perc, group=type, color=type), lwd=3.5) + 

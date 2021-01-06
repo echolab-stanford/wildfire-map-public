@@ -157,7 +157,7 @@ toplot <- function(x,main,ylab,label,ylim,xaxis=NULL,col="red") {
 # MAKE THE PLOT
 ######################################################################################
 
-pdf(file="images/Final/Figure1.pdf",width=7,height=8,useDingbats = F)
+pdf(file="images/Raw/Figure1.pdf",width=7,height=8,useDingbats = F)
 #layout(matrix(1:8, ncol=2), width=scale(c(2018-1985, 2018-2000), center=F))
 par(mar=c(3,4,0,1),mfcol=c(4,2))
 

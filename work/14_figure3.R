@@ -97,7 +97,7 @@ rates = data.frame(x=X, di=di(X),  burnett=burnett(X), epa=epa(X))
 
 #####  PLOT THE FUNCTIONS
 
-pdf(file="images/Figure3-c.pdf",width=4,height=4,useDingbats = F)
+pdf(file="images/Raw/Figure3c.pdf",width=4,height=4,useDingbats = F)
 par(mar=c(3.5, 4, 0, 0))
 
 plot(rates[,c("x","di")],type="l",col="cyan",ylab="",axes=F,xlab="", 
@@ -203,7 +203,7 @@ clz = apply(sapply(c("grey"), col2rgb)/255, 2,
             function(x) rgb(x[1], x[2], x[3], alpha=0.85))
 
 
-pdf(file="images/Figure3-ab.pdf",width=8,height=6,useDingbats = F)
+pdf(file="images/Raw/Figure3ab.pdf",width=8,height=6,useDingbats = F)
 layout(matrix(c(1,2), ncol=2), width=c(1, 2))
 par(mar=c(4, 0, 0, 0))
 
