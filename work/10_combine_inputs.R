@@ -160,26 +160,26 @@ adj3 = readRDS("data/clean/grid_adjacency3.RDS")
 get_adj = function(x) {
     one = full_data[full_data$id %in% names(adj1[[x]]), ]
     one = one = one %>% group_by(year) %>% 
-        select(all_of(adjacency_vars)) %>% 
-        summarize_all(funs(mean_na))
+        dplyr::select(all_of(adjacency_vars)) %>% 
+        dplyr::summarize_all(funs(mean_na))
     names(one)[-1] = paste0(names(one)[-1], "_adj1")
     one$id = names(adj1)[x]
     
     two = full_data[full_data$id %in% names(adj2[[x]]), ]
     two = two = two %>% group_by(year) %>% 
-        select(all_of(adjacency_vars)) %>% 
-        summarize_all(funs(mean_na))
+        dplyr::select(all_of(adjacency_vars)) %>% 
+        dplyr::summarize_all(funs(mean_na))
     names(two)[-1] = paste0(names(two)[-1], "_adj2")
     two$id = names(adj2)[x]
     
     three = full_data[full_data$id %in% names(adj3[[x]]), ]
     three = three = three %>% group_by(year) %>% 
-        select(all_of(adjacency_vars)) %>% 
-        summarize_all(funs(mean_na))
+        dplyr::select(all_of(adjacency_vars)) %>% 
+        dplyr::summarize_all(funs(mean_na))
     names(three)[-1] = paste0(names(three)[-1], "_adj3")
     three$id = names(adj3)[x]
     
-    comb = cbind(one, two %>% select(-id, -year), three %>% select(-id, -year))
+    comb = cbind(one, two %>% dplyr::select(-id, -year), three %>% dplyr::select(-id, -year))
     return(comb)
 }
 
