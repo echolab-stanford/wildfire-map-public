@@ -601,3 +601,17 @@ interpolate_cases = function(data, column, dont_use=c("id", "pm", "physio_sectio
   # return the model
   return(m)
 }
+
+
+
+get_km_bounds = function(v, k, iter=15, n=3) {
+  v = v[!is.na(v)]
+  km = kmeans(v, 3, nstart=n, iter.max=iter)
+  bounds = rep(NA, k)
+  for (i in 1:k) {
+    bounds[i] = max(v[km$cluster==i])
+  }
+  bounds = sort(bounds)[1:(k-1)]
+  return(bounds)
+}
+

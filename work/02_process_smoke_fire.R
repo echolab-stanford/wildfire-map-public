@@ -9,21 +9,6 @@ library(BAMMtools)
 #   plume originated from
 ########################################################################################
 
-###############################################################
-# Functions
-###############################################################
-
-get_km_bounds = function(v, k, iter=15, n=3) {
-    v = v[!is.na(v)]
-    km = kmeans(v, 3, nstart=n, iter.max=iter)
-    bounds = rep(NA, k)
-    for (i in 1:k) {
-        bounds[i] = max(v[km$cluster==i])
-    }
-    bounds = sort(bounds)[1:(k-1)]
-    return(bounds)
-}
-
 #THIS IS A REALLY SLOW FILE, STUFF HASNT BEEN OPTIMIZED WELL
 #FOR NOW YOU JUST GOTTA SIT THROUGH IT. **RUN OVERNIGHT**
 
