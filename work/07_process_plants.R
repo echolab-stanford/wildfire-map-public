@@ -97,7 +97,7 @@ for (i in 1:length(years)) {
     emissions = dplyr::select(emissions, State, Plant.Code, Sector.Name, CO2.Emissions..tons.)
     names(emissions) = c("state", "id", "sector", "co2")
     emissions = emissions %>% group_by(state, id) %>% 
-        summarize(co2=sum(as.numeric(co2), na.rm=T))
+        dplyr::summarize(co2=sum(as.numeric(co2), na.rm=T))
     
     emissions = merge(plants, emissions, by=c("id", "state"))
     emissions = emissions[!is.na(emissions$co2), ]
