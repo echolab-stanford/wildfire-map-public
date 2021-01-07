@@ -65,7 +65,7 @@ results = results_all[results_all$year %in% plot_year, ] %>% dplyr::group_by(id)
 data = merge(data_ll_geo, results, by="id")
 at_diff = getJenksBreaks(data$diff, 9)
 
-png(filename=paste0("images/", plot_year, "_smoke_", Sys.Date(), ".png"), 
+png(filename=paste0("images/Raw/Results-Maps/", plot_year, "_smoke_", Sys.Date(), ".png"), 
     width=1500, height=1000)
 ggplot(data, aes(long,lat,group=group, fill=diff)) + # the data
     geom_polygon() + # make polygons

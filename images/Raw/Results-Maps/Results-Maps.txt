@@ -1,0 +1,1 @@
+Script 11_modeling.R writes maps of the model results to this directory.
