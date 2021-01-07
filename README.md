@@ -9,7 +9,7 @@ The main estimates generated in the paper are available at `clean/results_all.RD
 
 There are several settings that can be changed in the `work/00_functions.R`. 
 
-The entire repo is ~1.4Gb zipped and ~1.7Gb unzipped.
+The entire repo is ~1.4 GB zipped and ~1.7 GB unzipped.
 
 
 # Scripts
