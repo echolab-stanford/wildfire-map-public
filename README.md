@@ -9,6 +9,8 @@ The main estimates generated in the paper are available at `clean/results_all.RD
 
 There are several settings that can be changed in the `work/00_functions.R`. 
 
+The entire repo is ~1.4Gb zipped and ~1.7Gb unzipped.
+
 
 # Scripts
 
@@ -82,19 +84,19 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/EPA_trend: each region-time period combination downloaded from [here](https://www.epa.gov/air-trends/particulate-matter-pm25-trends).
 
-* data/fire/prescribed_burn_acres.csv: Manually annotated from Wildland Fire Summaries at https://www.nifc.gov/fireInfo/fireInfo_statistics.html
+* data/fire/prescribed_burn_acres.csv: Manually annotated from [Wildland Fire Summaries](https://www.nifc.gov/fireInfo/fireInfo_statistics.html).
 
-* data/natural_gas: field level natural gas estimates, need to be aggregated to county level. https://www.eia.gov/naturalgas/ngqs/#?report=RP7&year1=2005&year2=2019&company=Name
+* data/natural_gas: field level natural gas estimates, aggregated to county level, from the [EIA Natural Gas Annual Respondent Query System](https://www.eia.gov/naturalgas/ngqs/#?report=RP7&year1=2005&year2=2019&company=Name).
 
-* data/physio_shp: from https://water.usgs.gov/GIS/dsdl/physio_shp.zip
+* data/physio_shp: USGS shapefile of physio divisions can be downloaded [here](https://water.usgs.gov/GIS/dsdl/physio_shp.zip).
 
-* data/powerplants/emissions_[YYYY].csv: from the data browser, you need to manually select the year of interest and download from the button above the table https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2009&tab=annual_emissions
+* data/powerplants/emissions_[YYYY].csv: from the [EIA Electricity Data Browser](https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2009&tab=annual_emissions), you need to manually select the year of interest and download from the button above the table. 
 
-* data/powerplants/overview_[YYYY].csv: same as above https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2006&tab=overview&start=200101&end=201710 
+* data/powerplants/overview_[YYYY].csv: same process for emissions data above starting from [here](https://www.eia.gov/beta/electricity/data/browser/#/topic/1?agg=2,0,1&fuel=vtvv&sec=g&geo=g&freq=A&datecode=2006&tab=overview&start=200101&end=201710). 
 
-* data/powerplants/Plant_Y[YYYY].xlsx: https://www.eia.gov/electricity/data/eia860/
+* data/powerplants/Plant_Y[YYYY].xlsx: Plant level data from Form EIA-860 can be downloaded from the [here](https://www.eia.gov/electricity/data/eia860/).
 
-* data/smoke: adapted from data downloaded (individually by day) from https://www.ospo.noaa.gov/Products/land/hms.html. Processing file is provided in `work/supplemental` in case you would like to update the data in the future.
+* data/smoke: adapted from data downloaded (individually by day) from [NOAA's Hazard Mapping System](https://www.ospo.noaa.gov/Products/land/hms.html). Processing file is provided in `work/supplemental` in case you would like to update the data in the future.
 
 * data/WUI: state level estimates of number of homes in the wildland urban interface. Generated using National Land Cover Database and proprietary CoreLogic data including the locations of all homes in the US.
 
