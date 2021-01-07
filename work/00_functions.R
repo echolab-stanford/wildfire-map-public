@@ -535,3 +535,69 @@ unzip_rename = function(name) {
   return(T)
 }
 
+
+# get the mean of the variables in adjacent cells for each grid
+
+get_adj = function(x) {
+  one = full_data[full_data$id %in% names(adj1[[x]]), ]
+  one = one = one %>% group_by(year) %>% 
+    dplyr::select(all_of(adjacency_vars)) %>% 
+    dplyr::summarize_all(funs(mean_na))
+  names(one)[-1] = paste0(names(one)[-1], "_adj1")
+  one$id = names(adj1)[x]
+  
+  two = full_data[full_data$id %in% names(adj2[[x]]), ]
+  two = two = two %>% group_by(year) %>% 
+    dplyr::select(all_of(adjacency_vars)) %>% 
+    dplyr::summarize_all(funs(mean_na))
+  names(two)[-1] = paste0(names(two)[-1], "_adj2")
+  two$id = names(adj2)[x]
+  
+  three = full_data[full_data$id %in% names(adj3[[x]]), ]
+  three = three = three %>% group_by(year) %>% 
+    dplyr::select(all_of(adjacency_vars)) %>% 
+    dplyr::summarize_all(funs(mean_na))
+  names(three)[-1] = paste0(names(three)[-1], "_adj3")
+  three$id = names(adj3)[x]
+  
+  comb = cbind(one, two %>% dplyr::select(-id, -year), three %>% dplyr::select(-id, -year))
+  return(comb)
+}
+
+
+
+
+
+interpolate_cases = function(data, column, dont_use=c("id", "pm", "physio_section", "obs")) {
+  
+  cols = apply(data[is.na(data[,column]), ], 2, anyNA) #any na in cols
+  cols = unique(c(names(data)[!cols], column)) #cols with no na
+  cols = cols[!cols %in% dont_use] #remove cols in dont use
+  model_data = data[, cols] #select the cols not in dontuse and w no nas
+  model_data = model_data[complete.cases(model_data), ] #get complete cases
+  
+  not_model = data[is.na(data[,column]), ]
+  cols = cols[cols != column] #cols not equal to of interest
+  types = sapply(data[, cols], FUN=class) #get numeric cols
+  num_cols = cols[types != "character" & types  != "factor"]
+  fac_cols = cols[types == "character" | types  == "factor"]
+  
+  # check to see if there are any missing levels in the factor columns
+  for (i in fac_cols) {
+    if( any(!unique(not_model[, i]) %in% unique(model_data[, i])) ) {
+      
+      # if yes, don't use them to interpolate the column of interest
+      cols = cols[cols != i]
+    }
+  }
+  
+  # create a model to predict the col of interest, using all columns still passing 
+  # checks and additionally using the log for numeric columns
+  m = lm(paste0(column, "~", paste(cols, collapse="+"), "+", 
+                paste(paste0("log(", num_cols, "+1)"), collapse="+")), 
+         model_data)
+  print(summary(m)$r.squared)
+  
+  # return the model
+  return(m)
+}
