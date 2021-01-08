@@ -68,7 +68,7 @@ all$PM_scaled = all$PM_scaled*1000
 names(all) = c("state", "year", "PM2.5 from smoke (model)", 
                "PM2.5 from smoke (NEI)")
 
-pdf('images/FigureS5g_modeltoNEI.pdf',width=5, height=5, useDingbats=F)
+pdf('images/Raw/FigureS5g_modeltoNEI.pdf',width=5, height=5, useDingbats=F)
 options(scipen=0)
 panel(all[, 3:4], font="sans", size=26, a=0.8) 
 dev.off()
@@ -87,7 +87,7 @@ odell = rbind(odell[, c("year", "perc", "type")], r)
 odell$year = as.numeric(as.character(odell$year))
 odell$perc = as.numeric(as.character(odell$perc))
 
-pdf('images/FigureS5d_modeltoOdell.pdf',width=5,height=5, useDingbats=F)
+pdf('images/Raw/FigureS5d_modeltoOdell.pdf',width=5,height=5, useDingbats=F)
 ggplot(odell) + geom_line(aes(year, perc, group=type, color=type), size=3) + 
     theme_anne(font="sans", size=26) + xlab("Year") + 
     ylab("% PM2.5 from wildfire") + labs(color="") + ylim(0, 60) + 
@@ -120,7 +120,7 @@ r$jaffe_diff = c(1.84, 1.09, 0.61, 0.81, 1.21)
 #r$jaffe_diff = c(3.14, 2.26, 1.24, 1.28, 2.44)
 r = melt(r,  "jaffe_reg")
 
-pdf('images/FigureS5e_modeltoJaffe.pdf',width=5,height=5, useDingbats=F)
+pdf('images/Raw/FigureS5e_modeltoJaffe.pdf',width=5,height=5, useDingbats=F)
 ggplot(r, aes(x=jaffe_reg, y=value, fill=variable)) +
     geom_bar(stat="identity", width=.5, position = "dodge") + 
     xlab("Region") + ylab("PM2.5 from wildfires") + labs(fill="") + theme_anne(font="sans", size=26)  +  
@@ -136,7 +136,7 @@ r$type = "model"
 r = rbind(data.frame(year=2008:2012, mean=c(1.1, 0.56, 0.7, 0.8, 0.92), type="Fann"), r)
 r$type = factor(r$type, levels = c("model", "Fann"))
 
-pdf('images/FigureS5c_FannCompTime.pdf',width=5,height=5, useDingbats=F)
+pdf('images/Raw/FigureS5c_FannCompTime.pdf',width=5,height=5, useDingbats=F)
 ggplot(r) + geom_line(aes(year, mean, color=type, group=type), size=3) + 
     theme_anne(font="sans", size=26) + guides(color=F) + 
     ylab("Mean PM2.5 from wildfire") + xlab("Year")
@@ -220,27 +220,27 @@ twelve = ggplot(data, aes(long, lat, group=group, fill=diff_cat)) + # the data
     coord_map("bonne", mean(data$lat)) + guides(fill=F) +
     xlim(-124.83,-58.62) + ylim(24.17, 49.38)
 
-pdf("images/FigureS5b-ourmodel2008.pdf",width=300,height=90, useDingbats=F)
+pdf("images/Raw/FigureS5b-ourmodel2008.pdf",width=300,height=90, useDingbats=F)
 eight
 dev.off()
 
-pdf("images/FigureS5b-ourmodel2009.pdf",width=300,height=90, useDingbats=F)
+pdf("images/Raw/FigureS5b-ourmodel2009.pdf",width=300,height=90, useDingbats=F)
 nine
 dev.off()
 
-pdf("images/FigureS5b-ourmodel2010.pdf",width=300,height=90, useDingbats=F)
+pdf("images/Raw/FigureS5b-ourmodel2010.pdf",width=300,height=90, useDingbats=F)
 ten
 dev.off()
 
-pdf("images/FigureS5b-ourmodel2011.pdf",width=300,height=90, useDingbats=F)
+pdf("images/Raw/FigureS5b-ourmodel2011.pdf",width=300,height=90, useDingbats=F)
 eleven
 dev.off()
 
-pdf("images/FigureS5b-ourmodel2012.pdf",width=300,height=90, useDingbats=F)
+pdf("images/Raw/FigureS5b-ourmodel2012.pdf",width=300,height=90, useDingbats=F)
 twelve
 dev.off()
 
-pdf(file="images/FigureS5-map-legend.pdf")
+pdf(file="images/Raw/FigureS5-map-legend.pdf")
 ggplot(data, aes(long, lat, group=group, fill=diff_cat)) + # the data
     geom_polygon(aes(fill=diff_cat)) + # make polygons
     scale_fill_manual(values=colors) + 
@@ -269,7 +269,7 @@ w = results_all %>%
 perc = (w$preds - w$preds0)/w$preds
 df = data.frame(value=c(perc*100, 10.5), variable=c("Our model", "Wilkins et al., 2018"))
 
-pdf('images/FigureS5f-Wilkenscheck.pdf',width=5,height=5, useDingbats=F)
+pdf('images/Raw/FigureS5f-Wilkenscheck.pdf',width=5,height=5, useDingbats=F)
 ggplot(df, aes(y=value, x=variable, fill=variable)) +
     geom_bar(stat="identity", width=.5, position = "dodge") + 
     xlab("") + ylab("% of PM2.5 from wildfires") + labs(fill="") + 
