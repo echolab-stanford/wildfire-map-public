@@ -37,4 +37,5 @@ results$yhat = summary(lm(log(diff) ~ gacc*as.numeric(year),
 names(results)[5:6] = c("hectares burned (log deviation from trend)", 
                         "PM from smoke (log deviation from trend)")
 gg = panel(results[, 5:6], font="sans")
-ggsave("images/Final/FigureS6.pdf", gg)
+
+ggsave("images/Raw/FigureS6.pdf", gg)
