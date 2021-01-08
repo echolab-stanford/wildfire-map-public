@@ -1,3 +1,8 @@
+library(rworldmap)
+library(mapview)
+library(tidyverse)
+library(rnaturalearth)
+library(rnaturalearthdata)
 library(BAMMtools)
 library(caret)
 library(cleangeo)
