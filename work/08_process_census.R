@@ -85,7 +85,7 @@ tourism[, paste0("X", 2006:2017)] = lapply(tourism[, paste0("X", 2006:2017)],
 
 # aggregate over the different classes of tourism and entertainment
 tourism = tourism %>% group_by(GeoFIPS, type) %>% 
-    summarize(X2006 = sum_na(X2006), X2007 = sum_na(X2007), X2008 = sum_na(X2008), 
+    dplyr::summarize(X2006 = sum_na(X2006), X2007 = sum_na(X2007), X2008 = sum_na(X2008), 
               X2009 = sum_na(X2009), X2010 = sum_na(X2010), X2011 = sum_na(X2011), 
               X2012 = sum_na(X2012), X2013 = sum_na(X2013), X2014 = sum_na(X2014), 
               X2015 = sum_na(X2015), X2016 = sum_na(X2016), X2017 = sum_na(X2017))
