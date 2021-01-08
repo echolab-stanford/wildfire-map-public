@@ -34,7 +34,6 @@ y = ggplot(years, aes(year, value, fill=name))  +
     ylim(0, .8) + xlab("Year") + ylab("R^2")
 
 x = ggarrange(r, y, labels = c("a", "b"), ncol = 2, nrow = 1) 
-ggsave("images/Final/FigureS4.png", x, device="png", units="in",  width=12, height=6)
 
 
 ################################################################################
