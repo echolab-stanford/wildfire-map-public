@@ -61,7 +61,6 @@ names(d_gas)[3] = "gas"
 ###############################################################
 
 data$id = as.character(data$id)
-d_fire$id = as.character(d_fire$id)
 d_coal$id = as.character(d_coal$id)
 d_coal$year = as.character(d_coal$year)
 d_smoke$id = as.character(d_smoke$id)
