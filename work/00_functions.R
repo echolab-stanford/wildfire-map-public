@@ -60,6 +60,8 @@ rmse = function(obs, pred) {
 sum_na = function(x, ...) if (all(is.na(x))) NaN else sum(x, na.rm = TRUE)
 max_na = function(x, ...) if (all(is.na(x))) NaN else max(x, na.rm = TRUE)
 min_na = function(x, ...) if (all(is.na(x))) NaN else min(x, na.rm = TRUE)
+mean_na = function(x, ...) if (all(is.na(x))) NaN else mean(x, na.rm = TRUE)
+
 
 # function that takes input data with inconsistent years available and interpolates 
 #   between them using a linear model
