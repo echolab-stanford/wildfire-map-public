@@ -79,6 +79,7 @@ data_ll$county[data_ll$county == "St. Louis"] = "St Louis"
 
 # get state names and finalize column names
 fips = read_csv("data/boundaries/state_fips_codes.csv")[, 1:2]
+data_ll$state <- as.numeric(as.character(data_ll$state))
 data_ll = merge(data_ll, fips, by.x="state", by.y="fips", all.x=T)
 data_ll = data_ll[, c("id", "lon", "lat", "fips", "county", "state.y")]
 names(data_ll) = c("id", "lon", "lat", "fips", "county", "state")
