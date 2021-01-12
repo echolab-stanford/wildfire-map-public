@@ -1,6 +1,6 @@
 # wildfire-map-public
 
-Repo supporting "The changing risk and burden of wildfire in the United States"
+Repo supporting ["The changing risk and burden of wildfire in the United States"](https://www-pnas-org.stanford.idm.oclc.org/content/118/2/e2011048118).
 
 
 # Using results
