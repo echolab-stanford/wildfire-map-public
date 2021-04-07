@@ -9,8 +9,6 @@ library(BAMMtools)
 #   plume originated from
 ########################################################################################
 
-#THIS IS A REALLY SLOW FILE, STUFF HASNT BEEN OPTIMIZED WELL
-#FOR NOW YOU JUST GOTTA SIT THROUGH IT. **RUN OVERNIGHT**
 
 ###############################################################
 # Read in data
