@@ -48,7 +48,7 @@ for (i in 1:length(years)) {
     year_fire = fire[first:last]
     year_fire_sp = as.list(rep(NA, length(year_fire)))
     start_loop = ifelse(first == 1, 1, 4)
-    
+
     # loop through days in the year
     prog = txtProgressBar(min=0, max=length(year_fire), initial=0, char="-", style=3)
     for (k in start_loop:length(year_fire)) {
@@ -60,6 +60,9 @@ for (i in 1:length(years)) {
         # figure out which days to combine to get the correct set.
         if (k>4) {
             f = year_fire[(k-3):k]
+            for (z in 1:4) {
+              st_crs(f[[z]]) = "+proj=longlat +datum=WGS84 +no_defs +ellps=WGS84 +towgs84=0,0,0"
+            }
             f = rbind(f[[1]][, c("geometry")], 
                       f[[2]][, c("geometry")], 
                       f[[3]][, c("geometry")], 
