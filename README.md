@@ -43,7 +43,7 @@ Additionally, some input datasets are not included here in any form because they
 
 * data/boundaries/tl_2019_us_county: [county boundaries](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/) are TIGER line files and are too large for github but can be downloaded [here](https://www2.census.gov/geo/tiger/TIGER2019/COUNTY/tl_2019_us_county.zip)
 
-* data/fire/hms_fires.RDS: File too big for Github but can be downloaded [here](https://www.dropbox.com/s/66lcml7glcb707q/hms_fires.RDS?dl=0). Adapted from data downloaded (individually by day) from [here](https://www.ospo.noaa.gov/Products/land/hms.html).
+* data/fire/hms_fires.RDS: File too big for Github but can be downloaded [here](https://www.dropbox.com/s/hv9qb0l7no3ec19/hms_fires.RDS?dl=0). Adapted from data downloaded (individually by day) from [here](https://www.ospo.noaa.gov/Products/land/hms.html).
 
 * data/improve: Data requires [registration](http://views.cira.colostate.edu/fed/Auth/Register.aspx) prior to [downloading](http://vista.cira.colostate.edu/Improve/improve-data/). We use the OCf parameter from the IMPROVE Aerosol daily data set for all sites 1988-2018. Files were downloaded by year groups and the data component of the files were extracted to create the files referenced in the script: `IMPROVE_1988-2006.txt`, `IMPROVE_2007.txt`, `IMPROVE_2008-2016`, `IMPROVE_2017.txt`, and `IMPROVE_2018.txt`.
 
