@@ -105,51 +105,51 @@ Additionally, some input datasets are not included here in any form because they
 ```
 data
  ├── airport
- │	 ├── airport_locations.csv
- │	 ├── airport_ids.csv
- │	 ├── Q [Quarter]_[Year]_tickets.csv (for 'Q 1' to 'Q 4' 2006-2018)
- │   └── [Month]_[Year]_ontime.csv (for Jan-Dec 2006-2018)
+ │	  ├── airport_locations.csv
+ │	  ├── airport_ids.csv
+ │	  ├── Q [Quarter]_[Year]_tickets.csv (for 'Q 1' to 'Q 4' 2006-2018)
+ │	  └── [Month]_[Year]_ontime.csv (for Jan-Dec 2006-2018)
  ├── boundaries
  │   ├── GACC
  │   │	 └── National_GACC_Current_20200226.shp (and associated dbf, prj) 
- │	 ├── tl_2019_us_county
- │	 ├── tl_2010_us_state
- │	 ├── all_national_zips.rds
- │	 ├── counties.RDS
- │	 └── state_fips_codes.csv
+ │   ├── tl_2019_us_county
+ │   ├── tl_2010_us_state
+ │   ├── all_national_zips.rds
+ │   ├── counties.RDS
+ │   └── state_fips_codes.csv
  ├── Brey
- │	 ├── [Region]_smokeHourSummary_2007-2014_season=6-9_gdas1_2day+6day_daily_plume=TRUE.RData
- │	 └── BreyStatesRegions.csv
+ │	  ├── [Region]_smokeHourSummary_2007-2014_season=6-9_gdas1_2day+6day_daily_plume=TRUE.RData
+ │	  └── BreyStatesRegions.csv
  ├── census
- │	 ├── acres_conventional_tillage.csv 
- │	 ├── ACS_17_1YR_S0101.csv
- │	 ├── BP_[Year]_00A1_with_ann.csv (for 2006-2016)
- │	 ├── CAINC6N__ALL_STATES_2001_2017.csv
- │	 ├── cattle_number.csv
- │	 ├── county_ag_sales.csv
- │	 ├── fertilizer_totals.csv
- │	 └── us_county_average_pm25_income_race.rds
+ │	  ├── acres_conventional_tillage.csv 
+ │	  ├── ACS_17_1YR_S0101.csv
+ │	  ├── BP_[Year]_00A1_with_ann.csv (for 2006-2016)
+ │	  ├── CAINC6N__ALL_STATES_2001_2017.csv
+ │	  ├── cattle_number.csv
+ │	  ├── county_ag_sales.csv
+ │	  ├── fertilizer_totals.csv
+ │	  └── us_county_average_pm25_income_race.rds
  ├── clean
- │	 └── [Year]_by_county_with_wildfire.csv (for 2008, 2011, 2014, 2017)
+ │	  └── [Year]_by_county_with_wildfire.csv (for 2008, 2011, 2014, 2017)
  ├── coal
- │	 ├── existing_gen_units_2006.xls (2006 - 2014)
- │	 └── existing_gen_units_2015.xlsx (2015 - 2018)
+ │	  ├── existing_gen_units_2006.xls (2006 - 2014)
+ │	  └── existing_gen_units_2015.xlsx (2015 - 2018)
  ├── emissions
- │	 ├── abatzoglou_data.csv
- │	 ├── suppression_costs.csv 
- │	 └── USAGDPDEFAISMEI.csv
+ │	  ├── abatzoglou_data.csv
+ │	  ├── suppression_costs.csv 
+ │	  └── USAGDPDEFAISMEI.csv
  ├── EPA_trend
- │	 └── PM25[Region].csv (for Central, National, Northeast, NorthernRockies, Northwest, 
+ │	  └── PM25[Region].csv (for Central, National, Northeast, NorthernRockies, Northwest, 
  │						   South, Southeast, Southwest, UpperMidwest, West)
  ├── fire
- │	 ├── hms_fires.RDS
- │	 └── prescribed_burn_acres.csv
+ │	  ├── hms_fires.RDS
+ │	  └── prescribed_burn_acres.csv
  ├── improve
- │	 ├── IMPROVE_1998-2006.txt
- │	 ├── IMPROVE_2007.txt
- │	 ├── IMPROVE_2008-2016.txt
- │	 ├── IMPROVE_2017.txt
- │	 └── IMPROVE_2018.txt
+ │	  ├── IMPROVE_1998-2006.txt
+ │	  ├── IMPROVE_2007.txt
+ │	  ├── IMPROVE_2008-2016.txt
+ │	  ├── IMPROVE_2017.txt
+ │	  └── IMPROVE_2018.txt
  ├── model_inputs
  ├── natural_gas
  │ 	 └── county_level_natural_gas_estimates_2006_2016.rds
@@ -158,20 +158,20 @@ data
  ├── pm
  │ 	 └── epa_station_level_pm25_data.rds
  ├── pop
- │	 └── gpw_v4_population_count_rev11_[Year]_2pt5_min.tif (2005,  2010, 2015, 2020)
+ │	  └── gpw_v4_population_count_rev11_[Year]_2pt5_min.tif (2005,  2010, 2015, 2020)
  ├── powerplants
- │	 ├── Plant_Y[Year].xls (2006 - 2010)
- │	 ├── Plant_Y[Year].xlsx (2011 -  2018)
- │	 ├── overview_[Year].csv (2006 - 2018)
- │	 └── emissions_[Year].csv  (2006 - 2018)
+ │	  ├── Plant_Y[Year].xls (2006 - 2010)
+ │	  ├── Plant_Y[Year].xlsx (2011 -  2018)
+ │	  ├── overview_[Year].csv (2006 - 2018)
+ │	  └── emissions_[Year].csv  (2006 - 2018)
  ├── smoke
- │	 └──  smoke_plumes.rds
+ │	  └──  smoke_plumes.rds
  ├── traffic-darte
- │	 └── onroad_[Year].tif (2006 - 2017)
+ │	  └── onroad_[Year].tif (2006 - 2017)
  ├── vanD
- │	 └── vanD-[Year].asc (2006 - 2018)
+ │	  └── vanD-[Year].asc (2006 - 2018)
  └── WUI
- 	 └── [Year]_combined_wui_hh_data.csv (2001, 2004, 2006, 2008, 2011, 2013, 2016)
+ 	   └── [Year]_combined_wui_hh_data.csv (2001, 2004, 2006, 2008, 2011, 2013, 2016)
 ```
 # R Packages needed
 
